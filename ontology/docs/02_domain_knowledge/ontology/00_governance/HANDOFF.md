@@ -22,19 +22,32 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: DH-PONTUACAO-001-AUDIT
-  status: DH_PONTUACAO_001_AUDITADA_SEMANTICAMENTE_AGUARDANDO_MODELAGEM_MINIMA
+  id: CHECKPOINT-PONTUACAO-001-MODELO-MINIMO
+  status: CHECKPOINT_PONTUACAO_001_MODELO_MINIMO_VALIDADO_COM_LIMITES
   arquivos_criados:
-    - /docs/02_domain_knowledge/ontology/03_validation/DH-PONTUACAO-001_AUDIT_REPORT.md
+    - /docs/02_domain_knowledge/ontology/03_validation/PONTUACAO-001_MODELAGEM_MINIMA_VALIDATION_REPORT.md
+    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-PONTUACAO-001_MODELO_MINIMO_REPORT.md
 
 proximo_ponto_exato:
-  id: PONTUACAO-001-MODELAGEM-MINIMA
-  tarefa: "Criar modelagem mínima controlada de pontuação com base na decisão humana auditada, sem validação total."
+  id: ONTOLOGY-OWL-001-SCOPING
+  tarefa: "Definir escopo do MVP OWL/Protégé sem gerar ontologia ainda."
 ```
 
 ## Histórico de etapas concluídas
 
 ```yaml
+- id: CHECKPOINT-PONTUACAO-001-MODELO-MINIMO
+  status: CHECKPOINT_PONTUACAO_001_MODELO_MINIMO_VALIDADO_COM_LIMITES
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-PONTUACAO-001_MODELO_MINIMO_REPORT.md
+
+- id: PONTUACAO-001-MODELAGEM-MINIMA-VALIDATION
+  status: PONTUACAO_001_MODELO_MINIMO_VALIDADO_COM_LIMITES
+  criterios_aprovados: 15
+  criterios_reprovados: 0
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/PONTUACAO-001_MODELAGEM_MINIMA_VALIDATION_REPORT.md
+
 - id: DH-PONTUACAO-001-AUDIT
   status: DH_PONTUACAO_001_AUDITADA_SEMANTICAMENTE_AGUARDANDO_MODELAGEM_MINIMA
   arquivos_criados:

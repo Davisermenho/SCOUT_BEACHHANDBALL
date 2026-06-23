@@ -166,3 +166,8 @@ proximo_ponto_exato:
   id: HANDOFF-UPDATE-PONTUACAO-001-MODELO-MINIMO-VALIDADO
   tarefa: "Atualizar HANDOFF.md e criar checkpoint da modelagem mínima de pontuação validada com limites."
 ```
+
+## Fechamento documental pendente
+
+Este relatório depende de fechamento complementar em `HANDOFF.md` e em um
+checkpoint dedicado antes de abrir `ONTOLOGY-OWL-001-SCOPING`.
