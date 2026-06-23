@@ -22,20 +22,26 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: CHECKPOINT-PONTUACAO-001-MODELO-MINIMO
-  status: CHECKPOINT_PONTUACAO_001_MODELO_MINIMO_VALIDADO_COM_LIMITES
+  id: ONTOLOGY-OWL-001-SCOPING
+  status: ONTOLOGY_OWL_001_SCOPING_EXECUTADO_AGUARDANDO_VALIDACAO
   arquivos_criados:
-    - /docs/02_domain_knowledge/ontology/03_validation/PONTUACAO-001_MODELAGEM_MINIMA_VALIDATION_REPORT.md
-    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-PONTUACAO-001_MODELO_MINIMO_REPORT.md
+    - /docs/02_domain_knowledge/ontology/00_governance/ONTOLOGY-OWL-001_SCOPE.md
+    - /docs/02_domain_knowledge/ontology/03_validation/ONTOLOGY-OWL-001_SCOPING_REPORT.md
 
 proximo_ponto_exato:
-  id: ONTOLOGY-OWL-001-SCOPING
-  tarefa: "Definir escopo do MVP OWL/Protégé sem gerar ontologia ainda."
+  id: ONTOLOGY-OWL-001-SCOPING-VALIDATION
+  tarefa: "Validar o escopo do MVP OWL/Protégé sem gerar ontologia, classes OWL, propriedades OWL ou reasoner."
 ```
 
 ## Histórico de etapas concluídas
 
 ```yaml
+- id: ONTOLOGY-OWL-001-SCOPING
+  status: ONTOLOGY_OWL_001_SCOPING_EXECUTADO_AGUARDANDO_VALIDACAO
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/00_governance/ONTOLOGY-OWL-001_SCOPE.md
+    - /docs/02_domain_knowledge/ontology/03_validation/ONTOLOGY-OWL-001_SCOPING_REPORT.md
+
 - id: CHECKPOINT-PONTUACAO-001-MODELO-MINIMO
   status: CHECKPOINT_PONTUACAO_001_MODELO_MINIMO_VALIDADO_COM_LIMITES
   arquivos_criados:
