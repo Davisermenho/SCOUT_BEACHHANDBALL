@@ -22,20 +22,12 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: CONCEPT-DIMENSOES-001-TESTS-EXECUTION
-  status: CONCEPT_DIMENSOES_001_TESTES_EXECUTADOS_COM_SUCESSO_AGUARDANDO_VALIDACAO_HUMANA
-  resultado:
-    casos_executados: 15
-    casos_aprovados: 15
-    casos_reprovados: 0
-    tipo_execucao: logica_manual
-    pendencia:
-      - validacao_humana_semantica
-      - execucao_futura_contra_implementacao_real
+  id: DH-DIMENSOES-001-HUMAN-VALIDATION-AUDIT
+  status: DH_DIMENSOES_001_VALIDACAO_HUMANA_AUDITADA_AUTORIZANDO_CONSOLIDACAO_SEMANTICA
 
 proximo_ponto_exato:
-  id: CONCEPT-DIMENSOES-001-HUMAN-VALIDATION
-  tarefa: "Coletar validação humana final das quatro fichas e dos 15 resultados de teste."
+  id: CONCEPT-DIMENSOES-001-CONSOLIDATION
+  tarefa: "Aplicar CONSOLIDACAO_SEMANTICA_AUTORIZADA às quatro dimensões estruturais."
 ```
 
 ## Histórico de etapas concluídas

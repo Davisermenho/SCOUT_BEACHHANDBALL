@@ -3,9 +3,40 @@ ficha_conceitual:
   conceito: Papel_Regulamentar
   nome_canonico: Papel_Regulamentar
   escopo: CONCEPT-DIMENSOES-001
-  status: FICHA_MINIMA_REGISTRADA_AGUARDANDO_TESTE_E_VALIDACAO
+  status: CONSOLIDACAO_SEMANTICA_AUTORIZADA
   nao_herda_validacao_anterior: true
   fonte_de_autoridade: DH-PAPEIS-001
+
+  evidencias_de_consolidacao_semantica:
+    decisao_humana_base:
+      - DH-PAPEIS-001.md
+      - DH-PAPEIS-001_CLARIFICACAO_Q8.md
+      - DH-DIMENSOES-001_HUMAN_VALIDATION.md
+    auditorias:
+      - DH-PAPEIS-001_SEMANTIC_AUDIT_REPORT.md
+      - CONCEPT-DIMENSOES-001_VALIDATION_REPORT.md
+      - CONCEPT-DIMENSOES-001_TESTS_VALIDATION_REPORT.md
+      - CONCEPT-DIMENSOES-001_TESTS_EXECUTION_REPORT.md
+      - DH-DIMENSOES-001_HUMAN_VALIDATION_AUDIT_REPORT.md
+    resultado_testes_logicos:
+      casos_executados: 15
+      casos_aprovados: 15
+      casos_reprovados: 0
+      tipo_execucao: logica_manual
+    validacao_humana:
+      status: validada_literalmente
+      autorizacao: CONSOLIDACAO_SEMANTICA_AUTORIZADA
+
+  limites_da_consolidacao:
+    - Esta consolidação é semântica.
+    - Não é validação de implementação real.
+    - Não autoriza VALIDADO_TOTAL.
+    - Não autoriza CONSOLIDADO_VALIDO final.
+    - Não resolve Gol de giro / Gol aéreo.
+    - Não resolve cruzamento com R09-CAT-2026-06-18.
+    - Não altera categoria de pontuação.
+    - Não promove conceitos candidatos.
+    - Não gera ontologia principal.
 
   definicao_literal: >
     É o Estatuto Jurídico Fixo determinado pelo livro de regras da IHF:
