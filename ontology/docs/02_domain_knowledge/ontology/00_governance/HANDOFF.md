@@ -28,8 +28,8 @@ ultima_etapa_concluida:
     - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-DIMENSOES-001_REPORT.md
 
 proximo_ponto_exato:
-  id: AGUARDAR_AUTORIZACAO_HUMANA_PROXIMA_ETAPA
-  tarefa: "Aguardar autorização humana explícita antes de abrir novo bloco após o checkpoint das dimensões."
+  id: PONTUACAO-001-SCOPING
+  tarefa: "Mapear o escopo dos problemas de pontuação bloqueados e preparar decisão humana antes de modelar conceitos."
 ```
 
 ## Histórico de etapas concluídas
