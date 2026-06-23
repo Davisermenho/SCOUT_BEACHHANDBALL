@@ -22,20 +22,32 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: ONTOLOGY-OWL-001-SCOPING
-  status: ONTOLOGY_OWL_001_SCOPING_EXECUTADO_AGUARDANDO_VALIDACAO
+  id: CHECKPOINT-ONTOLOGY-OWL-001-SCOPING
+  status: CHECKPOINT_ONTOLOGY_OWL_001_SCOPING_VALIDADO_COM_LIMITES
   arquivos_criados:
-    - /docs/02_domain_knowledge/ontology/00_governance/ONTOLOGY-OWL-001_SCOPE.md
-    - /docs/02_domain_knowledge/ontology/03_validation/ONTOLOGY-OWL-001_SCOPING_REPORT.md
+    - /docs/02_domain_knowledge/ontology/03_validation/ONTOLOGY-OWL-001_SCOPING_VALIDATION_REPORT.md
+    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-ONTOLOGY-OWL-001_SCOPING_REPORT.md
 
 proximo_ponto_exato:
-  id: ONTOLOGY-OWL-001-SCOPING-VALIDATION
-  tarefa: "Validar o escopo do MVP OWL/Protégé sem gerar ontologia, classes OWL, propriedades OWL ou reasoner."
+  id: AUDITORIA-PYTHON-002-ACTIVE-SCOPE
+  tarefa: "Auditar o escopo ativo validado antes de criar especificação MVP OWL ou gerar qualquer artefato .owl/.ttl/.rdf."
 ```
 
 ## Histórico de etapas concluídas
 
 ```yaml
+- id: CHECKPOINT-ONTOLOGY-OWL-001-SCOPING
+  status: CHECKPOINT_ONTOLOGY_OWL_001_SCOPING_VALIDADO_COM_LIMITES
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-ONTOLOGY-OWL-001_SCOPING_REPORT.md
+
+- id: ONTOLOGY-OWL-001-SCOPING-VALIDATION
+  status: ONTOLOGY_OWL_001_SCOPING_VALIDADO_COM_LIMITES
+  criterios_aprovados: 16
+  criterios_reprovados: 0
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/ONTOLOGY-OWL-001_SCOPING_VALIDATION_REPORT.md
+
 - id: ONTOLOGY-OWL-001-SCOPING
   status: ONTOLOGY_OWL_001_SCOPING_EXECUTADO_AGUARDANDO_VALIDACAO
   arquivos_criados:
