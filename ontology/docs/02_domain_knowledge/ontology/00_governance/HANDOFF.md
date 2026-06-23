@@ -22,19 +22,24 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: CHECKPOINT-DIMENSOES-001
-  status: CHECKPOINT_DIMENSOES_001_REGISTRADO_COM_CONSOLIDACAO_REFLETIDA_NO_REMOTO
+  id: DH-PONTUACAO-001-AUDIT
+  status: DH_PONTUACAO_001_AUDITADA_SEMANTICAMENTE_AGUARDANDO_MODELAGEM_MINIMA
   arquivos_criados:
-    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-DIMENSOES-001_REPORT.md
+    - /docs/02_domain_knowledge/ontology/03_validation/DH-PONTUACAO-001_AUDIT_REPORT.md
 
 proximo_ponto_exato:
-  id: PONTUACAO-001-SCOPING
-  tarefa: "Mapear o escopo dos problemas de pontuação bloqueados e preparar decisão humana antes de modelar conceitos."
+  id: PONTUACAO-001-MODELAGEM-MINIMA
+  tarefa: "Criar modelagem mínima controlada de pontuação com base na decisão humana auditada, sem validação total."
 ```
 
 ## Histórico de etapas concluídas
 
 ```yaml
+- id: DH-PONTUACAO-001-AUDIT
+  status: DH_PONTUACAO_001_AUDITADA_SEMANTICAMENTE_AGUARDANDO_MODELAGEM_MINIMA
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/DH-PONTUACAO-001_AUDIT_REPORT.md
+
 - id: CHECKPOINT-DIMENSOES-001
   status: CHECKPOINT_DIMENSOES_001_REGISTRADO_COM_CONSOLIDACAO_REFLETIDA_NO_REMOTO
   arquivos_criados:
