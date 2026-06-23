@@ -22,17 +22,36 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: DH-DIMENSOES-001-HUMAN-VALIDATION-AUDIT
-  status: DH_DIMENSOES_001_VALIDACAO_HUMANA_AUDITADA_AUTORIZANDO_CONSOLIDACAO_SEMANTICA
+  id: CHECKPOINT-DIMENSOES-001
+  status: CHECKPOINT_DIMENSOES_001_REGISTRADO_COM_CONSOLIDACAO_REFLETIDA_NO_REMOTO
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-DIMENSOES-001_REPORT.md
 
 proximo_ponto_exato:
-  id: CONCEPT-DIMENSOES-001-CONSOLIDATION
-  tarefa: "Aplicar CONSOLIDACAO_SEMANTICA_AUTORIZADA às quatro dimensões estruturais."
+  id: AGUARDAR_AUTORIZACAO_HUMANA_PROXIMA_ETAPA
+  tarefa: "Aguardar autorização humana explícita antes de abrir novo bloco após o checkpoint das dimensões."
 ```
 
 ## Histórico de etapas concluídas
 
 ```yaml
+- id: CHECKPOINT-DIMENSOES-001
+  status: CHECKPOINT_DIMENSOES_001_REGISTRADO_COM_CONSOLIDACAO_REFLETIDA_NO_REMOTO
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-DIMENSOES-001_REPORT.md
+
+- id: CONCEPT-DIMENSOES-001-CONSOLIDATION-VALIDATION
+  status: CONCEPT_DIMENSOES_001_CONSOLIDACAO_SEMANTICA_VALIDADA_COM_LIMITES
+  criterios_aprovados: 15
+  criterios_reprovados: 0
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/CONCEPT-DIMENSOES-001_CONSOLIDATION_VALIDATION_REPORT.md
+
+- id: CONCEPT-DIMENSOES-001-CONSOLIDATION
+  status: CONCEPT_DIMENSOES_001_CONSOLIDACAO_SEMANTICA_AUTORIZADA
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/CONCEPT-DIMENSOES-001_CONSOLIDATION_REPORT.md
+
 - id: CONCEPT-DIMENSOES-001-TESTS-VALIDATION
   status: CONCEPT_DIMENSOES_001_TESTES_VALIDOS_AGUARDANDO_EXECUCAO
 
