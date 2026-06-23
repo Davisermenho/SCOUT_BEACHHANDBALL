@@ -1,0 +1,126 @@
+ficha_conceitual:
+  id: FC-POSICAO-ESPACIAL-001
+  conceito: Posição_Espacial
+  nome_canonico: Posição_Espacial
+  escopo: CONCEPT-DIMENSOES-001
+  status: FICHA_MINIMA_REGISTRADA_AGUARDANDO_TESTE_E_VALIDACAO
+  nao_herda_validacao_anterior: true
+  fonte_de_autoridade: DH-PAPEIS-001
+  fontes_complementares:
+    - DH-PAPEIS-001_CLARIFICACAO_Q8
+
+  definicao_literal: >
+    São as coordenadas de organização estrutural e geográfica na quadra. O
+    modelo mapeia isso através do posicionamento das atletas nos sistemas
+    táticos: no Ataque Posicionado (Sistema 3:1 ou 4:0): Setor Central
+    (Central), Corredores Laterais (Laterais) ou Entre as Defensoras
+    (Pivô); na Defesa Posicionada (Sistemas 3:0, 2:1 ou Individual): Linha
+    da área (Defensora Base) ou Zonas Avançadas (Defensora Solta); e o
+    Gatilho Geográfico: a linha lateral da quadra (cada equipe no seu lado
+    de troca), que serve como o portal exclusivo de substituição.
+  fonte_da_definicao: DH-PAPEIS-001 (resposta 4)
+
+  afirmacoes:
+    - id: FC-POSESP-001-01
+      sujeito: Posição_Espacial
+      predicado: é
+      objeto: coordenadas_de_organizacao_estrutural_e_geografica_na_quadra
+      fonte: DH-PAPEIS-001 (resposta 4)
+    - id: FC-POSESP-001-02
+      sujeito: Posição_Espacial
+      predicado: não_é
+      objeto: Função_Situacional
+      fonte: DH-PAPEIS-001 (resposta 6)
+    - id: FC-POSESP-001-03
+      sujeito: Posição_Espacial
+      predicado: isolada_não_altera
+      objeto: Papel_Tático
+      fonte: DH-PAPEIS-001_CLARIFICACAO_Q8
+    - id: FC-POSESP-001-04
+      sujeito: Linha_Lateral
+      predicado: altera
+      objeto: Status_Operacional_e_ou_Status_Regulamentar
+      fonte: DH-PAPEIS-001_CLARIFICACAO_Q8
+    - id: FC-POSESP-001-05
+      sujeito: Linha_Lateral
+      predicado: não_altera
+      objeto: Papel_Tático
+      fonte: DH-PAPEIS-001_CLARIFICACAO_Q8
+
+  escopo_da_definicao: >
+    Cobre exclusivamente o que está literalmente declarado em DH-PAPEIS-001
+    (respostas 4, 6, 9, 10) e na clarificação validada da pergunta 8
+    (DH-PAPEIS-001_CLARIFICACAO_Q8). Não é definição extensional completa de
+    cada sistema tático citado (Sistema 3:1, Sistema 4:0 etc.) — esses são
+    registrados apenas como exemplo.
+
+  relacoes_declaradas:
+    - "Função_Situacional e Posição_Espacial são sempre distintas (DH-PAPEIS-001, resposta 6)."
+    - "Posição_Espacial isolada não altera Papel_Tático: a posição geográfica (onde a jogadora pisa na areia) não tem o poder de mudar a missão tática dada pelo treinador (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "A Linha_Lateral funciona como gatilho operacional/regulamentar: ao ser cruzada, altera o Status_Operacional (de Em_Espera/Banco para Ativa_Em_Quadra) e o Status_da_Equipe (de Fase de Defesa para Fase de Ataque), mas não cria nem altera o Papel_Tático individual, que já foi determinado previamente pelo treinador (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+
+  nao_equivalencias:
+    - Posição_Espacial não é Papel_Tático (DH-ESP-001, separacoes_obrigatorias; reafirmado pela clarificação Q8).
+    - Posição_Espacial não é Função_Situacional (DH-PAPEIS-001, resposta 6).
+    - "Linha_Lateral (gatilho geográfico/regulamentar) não é Papel_Tático (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+
+  inferencias_proibidas:
+    - "Não inferir Papel_Tático a partir da Posição_Espacial (DH-ESP-001; DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não inferir que ocupar momentaneamente outra região da quadra altera o Papel_Tático (DH-PAPEIS-001_CLARIFICACAO_Q8, exemplo da Lateral Esquerda que ocupa o meio da quadra)."
+    - "Não inferir que cruzar a Linha_Lateral cria Papel_Tático (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não inferir que Linha_Lateral transforma Especialista em outro Papel_Tático (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não inferir que Linha_Lateral transforma Atacante Normal em Especialista (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não confundir Status_Operacional com Papel_Tático (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não apontar erro por ausência de pivô no Sistema_4:0, pois esse desenho abdica da figura do pivô fixo (DH-PAPEIS-001, resposta 9)."
+    - "Não validar substituição realizada pela linha lateral oposta à do lado de troca da equipe (DH-PAPEIS-001, resposta 10, Contraexemplo 2)."
+
+  exemplos:
+    - "Setor Central, Corredores Laterais, Entre as Defensoras (Pivô), no Ataque Posicionado (Sistema 3:1 ou 4:0) (DH-PAPEIS-001, resposta 4) — citados apenas como exemplo, sem ficha própria criada nesta etapa."
+    - "Linha da área (Defensora Base), Zonas Avançadas (Defensora Solta), na Defesa Posicionada (Sistemas 3:0, 2:1 ou Individual) (DH-PAPEIS-001, resposta 4) — idem."
+    - "Linha lateral como gatilho geográfico e portal exclusivo de substituição (DH-PAPEIS-001, resposta 4; DH-PAPEIS-001_CLARIFICACAO_Q8) — registrada como conceito candidato, não como ficha (ver bloco abaixo)."
+
+  contraexemplos:
+    - "Se a Lateral Esquerda entra correndo no contra-ataque e ocupa momentaneamente o meio da quadra (posição geográfica de Central), ela não vira a Especialista só por ter pisado ali — continua sob o Papel_Tático de Atacante Normal (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Se a Central Especialista corre e recebe bola na ponta esquerda, ela não deixa de ser a Especialista do time (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "O sistema validar o rastreamento de uma jogadora de linha realizando a substituição pela linha lateral oposta da quadra (área pertencente ao lado de troca da equipe adversária) é um erro (DH-PAPEIS-001, resposta 10, Contraexemplo 2)."
+
+  conceitos_relacionados:
+    - Papel_Tático
+    - Função_Situacional
+
+  conceitos_candidatos_nao_promovidos:
+    - Linha_Lateral
+    - Área_De_Substituição
+    - Status_Operacional
+    - Status_Regulamentar
+    - Status_da_Equipe
+    - Sistema_3:1
+    - Sistema_4:0
+    - Sistema_3:0
+    - Sistema_2:1
+    - Sistema_Individual
+    - Central (posição de ataque)
+    - Lateral_Esquerda (posição de ataque)
+    - Lateral_Direita (posição de ataque)
+    - Pivô (posição de ataque)
+    - Defensora_Base (zona de defesa)
+    - Defensora_Solta (zona de defesa)
+
+  pendencias_controladas:
+    - Definição extensional completa de cada sistema tático citado (Sistema_3:1, Sistema_4:0, Sistema_3:0, Sistema_2:1, Sistema_Individual) permanece pendente.
+    - Status_Operacional, Status_Regulamentar, Status_da_Equipe, Linha_Lateral e Área_De_Substituição permanecem bloqueados para ficha própria nesta etapa.
+    - validação humana desta ficha
+    - teste de competência (a ser criado em etapa futura)
+    - validação lógica ou estrutural
+
+  bloqueio_obrigatorio:
+    - Gol de giro (360º) e Gol aéreo permanecem bloqueados; não resolvidos nesta ficha.
+    - O cruzamento com R09-CAT-2026-06-18 não foi resolvido nesta etapa.
+    - Nenhuma categoria de pontuação foi alterada por esta ficha.
+    - Não foi criada ficha para Status_Operacional, Linha_Lateral ou Transição_Híbrida.
+
+  observacoes:
+    - Esta ficha cobre exclusivamente Posição_Espacial, conforme escopo de CONCEPT-DIMENSOES-001.
+    - Não altera Regras 1-18, Apêndices, DH-ESP-001, DH-PAPEIS-001.md ou DH-PAPEIS-001_CLARIFICACAO_Q8.md.
+    - Não reinterpreta DH-PAPEIS-001; reproduz literalmente as decisões nele registradas.
+    - Não constitui taxonomia ou ontologia.

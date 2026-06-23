@@ -1,0 +1,1745 @@
+﻿conceito_candidato,ocorrencias,esta_no_vocabulario
+Atleta,119,True
+Desqualificação,41,True
+Goleiro,23,True
+Equipe,20,True
+Cronometrista,19,True
+Suspensão,19,True
+Árbitros,19,False
+Conduta Extremamente Antidesportiva,18,False
+Árbitro,16,True
+Agressão,15,False
+Tiro Livre para a Equipe Adversária,13,False
+por escrito,13,False
+Conduta Antidesportiva,12,False
+Quadra de Jogo,11,True
+Tiro de Goleiro,11,True
+Rede da Baliza,10,False
+Oficial de Equipe,9,True
+Superfície de Jogo,8,False
+Linha da Quadra,8,False
+Baliza,8,True
+o,8,False
+Bola,8,True
+a Bola,8,False
+Tiro de 6 Metros,8,True
+Oficiais de Equipe,8,False
+Tiro Livre,7,True
+com Desqualificação,7,False
+fase de construção excessivamente longa,7,False
+Mesa,6,False
+Tiro de Árbitro,6,True
+Partida,6,True
+Adversário,6,False
+Secretário,6,True
+exatamente 2 pontos,6,False
+no local onde a Bola estava no momento da interrupção,6,False
+Métodos passivos,6,False
+Areia,6,False
+REGULAMENTAR,5,False
+Área de Substituição,5,True
+Jogador de Linha,5,True
+Cartão Verde,5,False
+Substituto,5,False
+Lateral,5,True
+a Bola com as mãos,5,False
+Relatório Escrito após a Partida,5,False
+Conduta Gravemente Antidesportiva,5,False
+Atletas,5,False
+Rede de Proteção,4,False
+Período,4,True
+Gol de Ouro,4,True
+Tempo de Jogo,4,False
+Tempo Técnico,4,False
+Desperdício de Tempo,4,False
+Bola Masculina,4,False
+Bola Feminina,4,False
+Participante autorizado,4,False
+um Atleta,4,False
+SEM_PENALIDADE,4,False
+a Bola com os braços,4,False
+Passo ocorre quando Atleta após salto,4,False
+"Após Drible, um Atleta",4,False
+contra Adversário,4,False
+Violação da Regra 8:2,4,False
+como critério decisório adicional,4,False
+Gol,4,True
+exatamente 1 ponto,4,False
+Gol espetacular,4,False
+na Área de Substituição,4,False
+Gestão da Competição,4,False
+Número do Atleta,4,False
+Areia usada,4,False
+Iluminação,4,False
+areia,3,False
+exatamente 3 metros,3,False
+REGULAMENTAR com a areia,3,False
+exatamente 15 metros,3,False
+Equipes,3,False
+o Reinício de Jogo correspondente,3,False
+Competição,3,False
+na Súmula,3,False
+Oficial Responsável,3,False
+"o REGIME_2026_07_01 está vigente, então um Número Visível",3,False
+Goleiro dentro da Área de Gol,3,False
+no máximo 3 passos,3,False
+progressivamente,3,False
+Delegado,3,False
+como Conduta Antidesportiva,3,False
+Goleiro com a Bola,3,False
+Regra 15:3b,3,False
+Executante do Lateral,3,False
+a Partida,3,False
+razão para conceder Tiro de 6 Metros,3,False
+Atleta suspenso,3,False
+Desqualificação por duas Suspensões,3,False
+ou autorizadas a entrar novamente na Quadra,3,False
+Árbitros no monitoramento da ocupação da Área de Substituição,3,False
+Delegados,3,False
+como se tivesse ocorrido na Quadra ou na Área de Substituição,3,False
+Uniforme de frio,3,False
+Areia de base granítica,3,False
+Turnover,3,False
+exatamente 12 metros,2,False
+BAIXA,2,False
+Linha da Área de Gol,2,False
+perigo para Participante,2,False
+alumínio tubular,2,False
+REGULAMENTAR com o fundo visual,2,False
+Suporte da Rede,2,False
+Malha da Rede,2,False
+no máximo 80 milímetros,2,False
+Goleiro Substituto,2,False
+Área de Gol,2,True
+exatamente 10 minutos,2,False
+o Cronometrista,2,False
+Influência Externa,2,False
+imediatamente,2,False
+exatamente uma Bola Reserva,2,False
+Quadra de Jogo pela própria Linha de Substituição,2,False
+Uniforme Masculino,2,False
+Regata,2,False
+Uniforme Feminino,2,False
+no mínimo 80 por cento,2,False
+Goleiro que,2,False
+Uniforme do Goleiro,2,False
+camisa do Oficial de Equipe,2,False
+igual,2,False
+Jogador de Linha entra_na Área de Gol quando qualquer parte do corpo,2,False
+dentro da Área de Gol,2,False
+Bola no ar sobre a Área de Gol,2,False
+um Atleta da Equipe Defensora,2,False
+Atleta parado,2,False
+a Bola uma vez e receber a Bola novamente com uma mão,2,False
+a Bola uma vez e receber a Bola novamente com duas mãos,2,False
+Atleta correndo,2,False
+a Bola novamente com uma mão,2,False
+a Bola novamente com duas mãos,2,False
+em até 3 segundos,2,False
+Falha de Controle ocorre quando Atleta,2,False
+EXCEÇÃO_PERMITIDA,2,False
+braços para bloquear a Bola,2,False
+mãos para bloquear a Bola,2,False
+Adversário com braços,2,False
+Adversário com mãos,2,False
+Adversário com pernas,2,False
+Adversário para longe com braços,2,False
+Adversário para longe com mãos,2,False
+Adversário para longe com pernas,2,False
+Ação Proibida,2,False
+Punição Progressiva,2,False
+dentro da Quadra de Jogo,2,False
+fora da Quadra de Jogo,2,False
+Conduta Seriamente Antidesportiva,2,False
+Tiro de 6 Metros para o Adversário,2,False
+relacionada à Situação de Jogo,2,False
+Desqualificação por Conduta Extremamente Antidesportiva,2,False
+Interferência de Oficial de Equipe a partir da Área de Substituição,2,False
+Gol marcado por Tiro de 6 Metros,2,False
+Gol espetacular exige alto padrão técnico,2,False
+em Gol criativo,2,False
+Gol que visa ridicularizar Adversário,2,False
+a areia,2,False
+Atleta que joga a Bola no Tiro de Árbitro,2,False
+a pelo menos 1 metro do ponto de interseção entre Linha da Área de Gol e Linha Lateral,2,False
+a pelo menos 1 metro do Executante,2,False
+sem Sinal de Apito do Árbitro,2,False
+Atletas da Equipe Adversária,2,False
+"Em princípio, Árbitros interrompem a Partida e",2,False
+pela Regra 13:1b,2,False
+"há decisão de Tiro Livre contra a Equipe em Posse da Bola no momento do apito, então o Atleta com a Bola",2,False
+após Sinal de Apito no local onde a Bola estava no momento da interrupção,2,False
+"Atleta da Equipe que recebeu Tiro Livre está na posição correta com a Bola na mão, então o Atleta",2,False
+"existe decisão potencial de Tiro de 6 Metros, Árbitros",2,False
+Executante do Tiro de 6 Metros,2,False
+a Linha de 6 Metros antes de a Bola sair de sua mão,2,False
+"Após execução do Tiro de 6 Metros, a Bola",2,False
+a pelo menos 1 metro do Executante até a Bola sair da mão do Executante,2,False
+Todos os Atletas,2,False
+outro pé do Executante,2,False
+Executante,2,False
+pelos Árbitros quando Atacantes não ficam em desvantagem ao executar imediatamente,2,False
+Oficial de Equipe suspenso,2,False
+Pessoa desqualificada,2,False
+com Advertência Verbal,2,False
+Sorteio por Moeda,2,False
+com Tiro Livre para os Adversários,2,False
+no local da infração,2,False
+usar Sistema Eletrônico para registrar Team Time-out,2,False
+na atribuição de 2 pontos,2,False
+"um Gol tem objetivo claro de ridicularizar o adversário, então o Gol",2,False
+circunstância externa relevante para uso de apenas uma Baliza no Shoot-out,2,False
+Regras de Jogo Passivo,2,False
+Sinal de Aviso Prévio,2,False
+por obstrução de trajetória com contato físico durante Shoot-out ou contra-ataque rápido,2,False
+em dispositivo fornecido pela organização do evento,2,False
+Oficial de Equipe em movimento,2,False
+"interferir com Árbitros por comportamento provocativo, protesto ou conduta antidesportiva",2,False
+"insultar Árbitros, Delegados, Cronometrista, Secretário, Atletas, Oficiais de Equipe ou espectadores",2,False
+sair da Área de Substituição para influenciar o jogo,2,False
+permanecer ou mover-se ao longo da linha lateral durante aquecimento,2,False
+especificações de uniformes e acessórios do APP-D,2,False
+aos padrões do APP-D,2,False
+Regata masculina,2,False
+sem mangas,2,False
+Top feminino ajustado ao corpo,2,False
+Logotipos de promotor ou patrocinador,2,False
+Logotipo do fabricante,2,False
+shorts conforme os gráficos do APP-D,2,False
+Shorts masculinos,2,False
+Atletas femininas,2,False
+Logotipos nos shorts,2,False
+Uniformes de frio,2,False
+Logotipos de patrocinadores,2,False
+Cascalho fino,2,False
+Areia muito grossa,2,False
+Areia grossa,2,False
+Areia média,2,False
+Areia fina,2,False
+Areia muito fina,2,False
+Silte e argila,2,False
+corretamente projetado sobre toda a Área de Jogo,2,False
+Iluminação artificial,2,False
+Retângulo,1,False
+exatamente 27 metros,1,False
+exatamente uma Área de Jogo,1,False
+exatamente duas Áreas de Gol,1,False
+medição da Quadra de Jogo utiliza a borda externa das Linhas Limítrofes,1,False
+pedra,1,False
+concha,1,False
+objeto classificado como Risco de Corte,1,False
+objeto classificado como Risco de Lesão,1,False
+camada de areia,1,False
+no mínimo 40 centímetros,1,False
+fina,1,False
+norte-sul,1,False
+Alteração da Quadra de Jogo,1,False
+vantagem para uma Equipe,1,False
+Zona de Segurança,1,False
+Zona de Segurança circunda a Quadra de Jogo,1,False
+Condição Meteorológica,1,False
+estado PERIGO_DE_LESÃO,1,False
+iluminação noturna da Área de Jogo,1,False
+no mínimo 400 lux,1,False
+Linha Limítrofe pertence à área delimitada pela Linha Limítrofe,1,False
+exatamente duas Linhas Laterais,1,False
+exatamente duas Linhas de Gol Externas,1,False
+espaço entre os Postes da Baliza,1,False
+Linha de Gol,1,False
+exatamente 6 metros da Linha de Gol Externa,1,False
+Linha de Gol Externa,1,False
+exatamente duas Linhas da Área de Gol,1,False
+Linha Central,1,False
+IMAGINÁRIA,1,False
+Linha Central divide a Área de Jogo em exatamente duas metades,1,False
+Ponto Central,1,False
+o centro da Linha Central,1,False
+Tiro de Árbitro utiliza o Ponto Central,1,False
+no mínimo 5 centímetros,1,False
+no máximo 8 centímetros,1,False
+fita de cor sólida,1,False
+"exatamente uma cor da enumeração azul, amarelo ou vermelho",1,False
+Risco de Lesão nos pés,1,False
+Âncora Enterrada fixa uma Linha da Quadra em cada canto,1,False
+Âncora Enterrada fixa uma Linha da Quadra em cada interseção entre Linha Lateral e Linha da Área de Gol,1,False
+Cordão Elástico conecta cada canto a uma Âncora Enterrada,1,False
+Âncora Enterrada,1,False
+borda afiada,1,False
+Anel de Borracha fixa uma Baliza às Linhas da Quadra,1,False
+Âncora,1,False
+exatamente duas Balizas,1,False
+o centro de uma Linha de Gol Externa,1,False
+exatamente dois Postes Verticais,1,False
+exatamente um Travessão Horizontal,1,False
+Travessão Horizontal conecta exatamente dois Postes Verticais,1,False
+exatamente 2 metros,1,False
+Poste da Baliza,1,False
+Travessão da Baliza,1,False
+Componente Tubular da Baliza,1,False
+exatamente 8 centímetros,1,False
+"exatamente uma cor da enumeração amarelo, azul ou vermelho",1,False
+duas Balizas possuem a mesma cor,1,False
+exatamente 80 centímetros,1,False
+exatamente 1 metro,1,False
+náilon resistente ou material sintético equivalente,1,False
+SEM_NÓ,1,False
+Fio da Rede,1,False
+exatamente 6 milímetros,1,False
+REGULAMENTAR nos Postes Verticais,1,False
+REGULAMENTAR no Travessão Horizontal,1,False
+entrada lateral da Bola entre Rede e Poste,1,False
+saída da Bola após entrada na Baliza,1,False
+parte inferior da Rede,1,False
+em tubo curvo ou suporte equivalente,1,False
+a mesma cor da Baliza,1,False
+base da Baliza,1,False
+exatamente uma Ancoragem sob a areia,1,False
+Ancoragem da Baliza,1,False
+uma posição exatamente 3 metros atrás da Área de Gol,1,False
+exatamente 7 metros,1,False
+Rede de Proteção alcança a areia,1,False
+no mínimo 3 pessoas,1,False
+no máximo 4 pessoas,1,False
+o centro de uma Linha Lateral,1,False
+no mínimo 3 metros da Linha Lateral,1,False
+das duas Áreas de Substituição,1,False
+Área de Substituição de Jogador de Linha,1,False
+aproximadamente 3 metros,1,False
+exatamente duas Áreas de Substituição,1,False
+o exterior de uma Linha Lateral,1,False
+Atleta com Papel Funcional Jogador de Linha,1,False
+Quadra de Jogo exclusivamente pela própria Área de Substituição,1,False
+Quadra de Jogo pelo caminho mais curto no lado da própria Área de Substituição,1,False
+Quadra de Jogo pela Linha Lateral da Área de Jogo no lado da própria Área de Substituição,1,False
+Quadra de Jogo pela Linha Lateral da Área de Gol no lado da própria Área de Substituição,1,False
+Atleta com Papel Funcional Goleiro,1,False
+Quadra de Jogo pela Linha Lateral da própria Área de Gol,1,False
+entrada do Goleiro ocorre no lado da própria Área de Substituição,1,False
+sentado junto à Linha Lateral entre a própria Linha de Gol e a Linha da Área de Gol,1,False
+ajoelhado junto à Linha Lateral entre a própria Linha de Gol e a Linha da Área de Gol,1,False
+"está vigente, então um Goleiro Substituto não_pode_aguardar nessa posição durante o Shoot-out",1,False
+Área de Jogo,1,True
+exatamente 6 metros,1,False
+Árbitros executam exatamente um Sorteio antes da Partida,1,False
+Sorteio determina a escolha de Lado da Quadra,1,False
+Sorteio determina a escolha de Lado da Área de Substituição,1,False
+Equipe Vencedora do Sorteio escolhe um Lado da Quadra ou um Lado da Área de Substituição,1,False
+Equipe Adversária escolhe a opção remanescente,1,False
+Equipes trocam o Lado da Quadra após o Intervalo,1,False
+o Lado da Área de Substituição após o Intervalo,1,False
+Tiro de Árbitro inicial exige Sinal de Apito,1,False
+qualquer posição da Área de Jogo antes do Tiro de Árbitro inicial,1,False
+exatamente dois Períodos,1,False
+independente,1,False
+Intervalo,1,False
+exatamente 5 minutos,1,False
+Sinal de Apito,1,False
+Cronômetro,1,False
+a execução do Tiro de Árbitro,1,False
+"um Período termina empatado, então o Período",1,False
+Equipe Vencedora do Período recebe exatamente 1 ponto de período,1,False
+"uma Equipe vence exatamente dois Períodos, então a Equipe vence a Partida",1,False
+"uma Equipe vence exatamente dois Períodos, então o resultado da Partida",1,False
+"cada Equipe vence exatamente um Período, então a Partida possui_resultado",1,False
+a Partida possui_resultado,1,False
+então o Shoot-out decide a Equipe Vencedora,1,False
+Sinal Final Automático do Cronômetro Público,1,False
+Sinal Final do Cronometrista,1,False
+"nenhum Sinal Final ocorre, então o Árbitro",1,False
+o término do Tempo de Jogo,1,False
+"está vigente, então o Cronometrista pode_assinalar o término do Tempo de Jogo na ausência de Sinal Final",1,False
+"está vigente, então o Delegado Técnico pode_assinalar o término do Tempo de Jogo na ausência de Sinal Final",1,False
+o Cronômetro Público não,1,False
+"Sinal Automático, então o Cronometrista utiliza Cronômetro de Mesa ou Cronômetro Manual",1,False
+"o Cronômetro Público não possui Sinal Automático, então o Cronometrista",1,False
+o Sinal Final,1,False
+Cronômetro Público,1,False
+de 0 minuto a 10 minutos,1,False
+Infração anterior ao Sinal Final,1,False
+Infração simultânea ao Sinal Final,1,False
+Conduta Antidesportiva anterior ao Sinal Final,1,False
+Conduta Antidesportiva simultânea ao Sinal Final,1,False
+"uma punição exige Tiro Livre após o Sinal Final, então a Partida termina após o resultado imediato do Tiro Livre",1,False
+"o Sinal Final ocorre durante a execução de Tiro Livre, então o Tiro Livre",1,False
+"o Sinal Final ocorre durante a execução de Tiro de 6 Metros, então o Tiro de 6 Metros",1,False
+"o Sinal Final ocorre enquanto a Bola está no ar após Tiro Livre, então o Tiro Livre",1,False
+"o Sinal Final ocorre enquanto a Bola está no ar após Tiro de 6 Metros, então o Tiro de 6 Metros",1,False
+Tiro repetido após o Sinal Final,1,False
+exatamente um Resultado Imediato,1,False
+Participante,1,True
+Punição Pessoal durante a execução de Tiro após o Sinal Final,1,False
+Infração da Equipe Executante durante o Tiro após o Sinal Final,1,False
+"Sinal Final Antecipado, então os Árbitros mantêm os Atletas na Quadra de Jogo",1,False
+"Sinal Final Antecipado, então os Árbitros executam o Tempo Remanescente",1,False
+uma Equipe,1,False
+"a Bola no Sinal Final Antecipado, então a Equipe mantém a Posse da Bola",1,False
+"a Bola está fora de jogo no Sinal Final Antecipado, então a Partida",1,False
+"a Bola está em jogo no Sinal Final Antecipado, então a Partida",1,False
+"o Primeiro Período termina atrasado, então o Segundo Período",1,False
+"o Segundo Período termina atrasado, então o Resultado da Partida",1,False
+por correção temporal posterior,1,False
+Árbitros determinam o início do Tempo Técnico,1,False
+Árbitros determinam a duração do Tempo Técnico,1,False
+Suspensão de Atleta exige Tempo Técnico,1,False
+Desqualificação de Atleta exige Tempo Técnico,1,False
+Tiro de 6 Metros exige Tempo Técnico,1,False
+Tempo Técnico de Equipe exige Tempo Técnico,1,False
+Sinal de Apito do Cronometrista exige Tempo Técnico,1,False
+Sinal de Apito do Delegado Técnico exige Tempo Técnico,1,False
+Consulta entre Árbitros exige Tempo Técnico,1,False
+Suspensão de Oficial de Equipe exige Tempo Técnico,1,False
+Desqualificação de Oficial de Equipe exige Tempo Técnico,1,False
+Lesão Aparente,1,False
+Sinal de Apito do Cronometrista interrompe imediatamente a Partida,1,False
+Sinal de Apito do Delegado Técnico interrompe imediatamente a Partida,1,False
+Ação de Jogo posterior ao Sinal de Apito da Mesa,1,False
+INVÁLIDA,1,False
+Gol posterior ao Sinal de Apito da Mesa,1,False
+ANULADO,1,False
+Reinício de Jogo assinalado após o Sinal de Apito da Mesa,1,False
+INVÁLIDO,1,False
+a situação existente no instante do Sinal de Apito da Mesa,1,False
+Punição Pessoal aplicada após o Sinal de Apito da Mesa,1,False
+VÁLIDA,1,False
+Infração durante Tempo Técnico produz a mesma consequência de uma Infração durante Tempo de Jogo,1,False
+Árbitro comunica a parada do Cronômetro ao Cronometrista,1,False
+exatamente três Sinais Curtos de Apito para iniciar Tempo Técnico,1,False
+o Sinal Manual 14 para iniciar Tempo Técnico,1,False
+Sinal de Apito para reiniciar a Partida após Tempo Técnico,1,False
+Cronometrista inicia o Cronômetro após o Sinal de Apito de reinício,1,False
+exatamente um Tempo Técnico de Equipe por Período,1,False
+Tempo Técnico de Equipe,1,False
+exatamente 1 minuto,1,False
+Oficial de Equipe solicita Tempo Técnico de Equipe,1,False
+Oficial de Equipe apresenta Cartão Verde para solicitar Tempo Técnico de Equipe,1,False
+o centro da Linha Lateral durante a solicitação,1,False
+aproximadamente 30 centímetros,1,False
+aproximadamente 20 centímetros,1,False
+exatamente uma letra T em cada face,1,False
+Tempo Técnico de Equipe somente durante Posse da Bola,1,False
+"uma Equipe perde a Posse da Bola antes do Sinal do Cronometrista, então o Tempo Técnico de Equipe",1,False
+"uma Equipe mantém a Posse da Bola até o Sinal do Cronometrista, então o Tempo Técnico de Equipe",1,False
+Cronometrista interrompe a Partida com Sinal de Apito,1,False
+o Sinal Manual 14,1,False
+Cronometrista aponta para a Equipe solicitante,1,False
+Oficial de Equipe coloca o Cartão Verde na areia,1,False
+o centro da Linha Lateral durante o Tempo Técnico de Equipe,1,False
+aproximadamente 1 metro da Linha Lateral,1,False
+Cartão Verde permanece nessa posição até o término do Período,1,False
+Árbitros concedem Tempo Técnico,1,False
+Cronometrista interrompe o Cronômetro,1,False
+Cronometrista inicia um Cronômetro Separado,1,False
+Cronômetro Separado,1,False
+a duração do Tempo Técnico de Equipe,1,False
+Secretário registra o instante do Tempo Técnico de Equipe,1,False
+Secretário registra o Período do Tempo Técnico de Equipe,1,False
+Atleta permanece na própria Área de Substituição ou na Quadra de Jogo durante Tempo Técnico de Equipe,1,False
+Oficial de Equipe permanece na própria Área de Substituição ou na Quadra de Jogo durante Tempo Técnico de Equipe,1,False
+Árbitros permanecem no centro da Quadra de Jogo durante Tempo Técnico de Equipe,1,False
+a Mesa durante Tempo Técnico de Equipe,1,False
+Infração durante Tempo Técnico de Equipe produz a mesma consequência de uma Infração durante Tempo de Jogo,1,False
+Conduta Antidesportiva durante Tempo Técnico de Equipe,1,False
+Sinal Acústico após exatamente 50 segundos,1,False
+Sinal Acústico informa reinício em exatamente 10 segundos,1,False
+estado PRONTA no término do Tempo Técnico de Equipe,1,False
+"a Bola estava fora de jogo, então a Partida",1,False
+"a Bola estava em jogo, então a Partida",1,False
+Tiro Livre para a Equipe solicitante,1,False
+Tiro Livre após Tempo Técnico de Equipe utiliza o local da Bola no instante da interrupção,1,False
+Sinal de Apito do Árbitro inicia o Cronômetro após Tempo Técnico de Equipe,1,False
+Posse da Bola inclui Tiro de Goleiro concedido,1,False
+Posse da Bola inclui Lateral concedido,1,False
+Posse da Bola inclui Tiro Livre concedido,1,False
+Posse da Bola inclui Tiro de 6 Metros concedido,1,False
+Bola em Jogo exige contato de um Atleta com a Bola,1,False
+Bola em Jogo inclui retenção da Bola,1,False
+Bola em Jogo inclui Arremesso da Bola,1,False
+Bola em Jogo inclui recepção da Bola,1,False
+Bola em Jogo inclui passe da Bola,1,False
+Bola em Jogo inclui Posse da Bola pela Equipe,1,False
+Atraso de Reinício,1,False
+Descarte da Bola após interrupção,1,False
+Retenção da Bola após interrupção,1,False
+Reposicionamento de Linha da Quadra,1,False
+ESFÉRICA,1,False
+borracha,1,False
+ANTIDERRAPANTE,1,False
+Partida utiliza exatamente uma Bola em jogo por instante,1,False
+no mínimo 350 gramas,1,False
+no máximo 370 gramas,1,False
+no mínimo 54 centímetros,1,False
+no máximo 56 centímetros,1,False
+no mínimo 280 gramas,1,False
+no máximo 300 gramas,1,False
+no mínimo 50 centímetros,1,False
+no máximo 52 centímetros,1,False
+Partida Infantil,1,False
+Bola Infantil,1,False
+Bola Infantil possui_tamanho,1,False
+de no mínimo 4 Bolas Regulamentares antes do início,1,False
+exatamente três Bolas Reservas,1,False
+Área Designada atrás de cada Baliza,1,False
+"a Bola em jogo sai da Quadra de Jogo, então o Árbitro indica um Goleiro",1,False
+"o Árbitro indica um Goleiro, então o Goleiro introduz uma Bola Reserva na Partida",1,False
+Goleiro introduz a Bola Reserva com Rapidez Máxima Possível,1,False
+Reposição da Bola,1,False
+de minimizar Interrupção do Tempo de Jogo,1,False
+categoria masculina,1,False
+categoria feminina,1,False
+categoria mista,1,False
+no máximo 10 Atletas,1,False
+no mínimo 6 Atletas presentes no início da Partida,1,False
+"uma Equipe possui menos de 4 Atletas elegíveis, então a Partida",1,False
+INTERROMPIDA,1,False
+uma Partida,1,False
+"INTERROMPIDA por insuficiência de Atletas, então a Equipe Adversária vence a Partida",1,False
+no máximo 4 Atletas na Quadra de Jogo,1,False
+no máximo 3 Atletas com Papel Funcional Jogador de Linha na Quadra de Jogo,1,False
+no máximo 1 Atleta com Papel Funcional Goleiro na Quadra de Jogo,1,False
+Atleta fora da Quadra de Jogo,1,False
+Papel de Substituto,1,False
+Substituto permanece na própria Área de Substituição,1,False
+Participante presente no início da Partida,1,False
+Participante inscrito na Súmula,1,False
+ELEGÍVEL,1,False
+Participante que chega após o início solicita Elegibilidade à Mesa,1,False
+Mesa registra na Súmula um Participante que recebe Elegibilidade tardia,1,False
+Atleta elegível,1,False
+Oficial Responsável garante a entrada exclusiva de Atleta elegível,1,False
+entrada de Atleta inelegível produz Conduta Antidesportiva do Oficial Responsável,1,False
+exatamente um Atleta com Papel Funcional Goleiro na Quadra de Jogo durante a Partida,1,False
+entre Papel Funcional Goleiro e Papel Funcional Jogador de Linha,1,False
+Alternância de Papel Funcional exige nova Atribuição de Papel Funcional,1,False
+no máximo 4 Oficiais de Equipe,1,False
+no máximo 2 Oficiais de Equipe,1,False
+Oficial de Equipe excedente permanece atrás da Área de Substituição,1,False
+Oficial de Equipe excedente permanece fora da Zona de Segurança,1,False
+durante a Partida,1,False
+exatamente um Oficial Responsável,1,False
+a Mesa,1,False
+os Árbitros nas situações autorizadas,1,False
+Quadra de Jogo sem autorização,1,False
+Entrada Não Autorizada de Oficial produz Conduta Antidesportiva,1,False
+Entrada Não Autorizada de Oficial reinicia a Partida com Tiro Livre para a Equipe Adversária,1,False
+exatamente 2 Participantes elegíveis para atendimento de lesão,1,False
+Autorização de Atendimento utiliza o Sinal Manual 15,1,False
+Atendimento de Lesão ocorre durante Tempo Técnico,1,False
+Quadra de Jogo exclusivamente para atender o Atleta lesionado,1,False
+terceira entrada para Atendimento de Lesão,1,False
+ENTRADA_ILEGAL,1,False
+instrução tática durante Atendimento de Lesão,1,False
+Adversário durante Atendimento de Lesão,1,False
+Árbitro durante Atendimento de Lesão,1,False
+violação da finalidade do Atendimento de Lesão produz Conduta Antidesportiva,1,False
+Jogador de Linha de uma Equipe usa Uniforme idêntico aos Uniformes dos demais Jogadores de Linha da mesma Equipe,1,False
+Uniforme de uma Equipe,1,False
+do Uniforme da Equipe Adversária,1,False
+Shorts,1,False
+Regata Ajustada ao Corpo,1,False
+Calça Curta Justa,1,False
+Uniforme,1,False
+Acessório,1,False
+Regata possui_cor da categoria,1,False
+Quadra de Jogo usa Uniforme com desenho idêntico ao Uniforme da própria Equipe,1,False
+Quadra de Jogo usa Uniforme com número idêntico ao próprio número de Atleta,1,False
+distinta da cor dos Jogadores de Linha de ambas as Equipes,1,False
+distinta da cor dos Goleiros da Equipe Adversária,1,False
+Oficial de Equipe usa camisa idêntica à camisa dos demais Oficiais da mesma Equipe,1,False
+distinta da cor dos Atletas da própria Equipe,1,False
+distinta da cor dos Atletas da Equipe Adversária,1,False
+Quatro Oficiais de Equipe presentes na Quadra usam exatamente o mesmo Uniforme,1,False
+"está vigente, então um Atleta usa Número Visível",1,False
+no mínimo 1,1,False
+no máximo 99,1,False
+"está vigente, então um Número Visível possui_contraste REGULAMENTAR com a Regata",1,False
+"está vigente, então o Regulamento de Uniformes dos Atletas integra as Regras de Jogo",1,False
+Atleta joga descalço,1,False
+Meia Esportiva de Tecido,1,False
+Bandagem de Suporte,1,False
+Calçado Sintético,1,False
+Calçado de Borracha,1,False
+"está vigente, então um Atleta não_pode_usar Meia de Areia",1,False
+"o REGIME_2026_07_01 está vigente, então uma Meia Esportiva de Tecido",1,False
+CURTO,1,False
+Objeto Perigoso,1,False
+Proteção de Cabeça,1,False
+Máscara Facial,1,False
+Pulseira,1,False
+Relógio,1,False
+Anel,1,False
+Colar,1,False
+Corrente,1,False
+Brinco,1,False
+Óculos sem Faixa de Retenção,1,False
+Óculos com Armação Rígida,1,False
+Auxílio Ortopédico com parte de plástico rígido,1,False
+Auxílio Ortopédico com parte de metal,1,False
+Boné,1,False
+Chapéu,1,False
+Faixa de Cabeça,1,False
+Bandana,1,False
+Óculos de Sol de Plástico com Faixa de Retenção,1,False
+Suporte Terapêutico de Joelho,1,False
+Suporte Terapêutico de Cotovelo,1,False
+Suporte Terapêutico de Pé,1,False
+Acessório de Cabeça dos Atletas da mesma Equipe,1,False
+Acessório de Cabeça dos Oficiais da mesma Equipe,1,False
+sobre o próprio Acessório,1,False
+Atleta com Acessório irregular,1,False
+da Partida até a correção da irregularidade,1,False
+Máscara Facial cobre a maior parte do rosto,1,False
+Protetor Nasal cobre somente a área do nariz,1,False
+Protetor Nasal,1,False
+"Sangramento, então o Atleta deve_sair_da Quadra de Jogo imediatamente",1,False
+"Sangue no Corpo, então o Atleta deve_sair_da Quadra de Jogo imediatamente",1,False
+"Sangue no Uniforme, então o Atleta deve_sair_da Quadra de Jogo imediatamente",1,False
+Atleta com Sangramento usa Substituição Normal para sair da Quadra de Jogo,1,False
+Atleta com Sangramento,1,False
+antes da interrupção do Sangramento,1,False
+Atleta com Ferida,1,False
+antes da cobertura da Ferida,1,False
+Atleta com Sangue no Corpo,1,False
+antes da limpeza do Corpo,1,False
+Atleta com Sangue no Uniforme,1,False
+antes da limpeza do Uniforme,1,False
+"um Atleta descumpre instrução dos Árbitros sobre Sangramento, então o Atleta comete Conduta Antidesportiva",1,False
+Partida a qualquer momento,1,False
+Partida repetidamente,1,False
+a Mesa antes da entrada,1,False
+Quadra de Jogo após a saída do Atleta substituído,1,False
+Substituição de Goleiro obedece aos requisitos gerais de Substituição,1,False
+Substituição durante Tempo Técnico obedece aos requisitos gerais de Substituição,1,False
+Substituição durante Tempo Técnico de Equipe,1,False
+aos requisitos gerais de Substituição,1,False
+"uma Substituição Irregular exige interrupção da Partida, então a Partida",1,False
+Tiro Livre ou Tiro de 6 Metros para a Equipe Adversária,1,False
+"uma Substituição Irregular não exige interrupção da Partida, então a Partida",1,False
+Atleta culpado por Substituição Irregular recebe Suspensão,1,False
+um Atleta adicional,1,False
+"Quadra de Jogo sem Substituição, então o Atleta recebe Suspensão",1,False
+"um Atleta interfere ilegalmente na Partida a partir da Área de Substituição, então o Atleta recebe Suspensão",1,False
+"um Atleta recebe Suspensão por entrada adicional, então a Equipe reduz exatamente um Atleta na Quadra de Jogo",1,False
+"Quadra de Jogo durante Suspensão, então o Atleta recebe Suspensão adicional",1,False
+Suspensão adicional por entrada durante Suspensão inicia imediatamente,1,False
+entrada durante Suspensão causa Desqualificação do Atleta,1,False
+a Equipe Adversária,1,False
+"Posse da Bola no instante da entrada durante Suspensão, então a Equipe do Atleta suspenso sofre Redução Adicional",1,False
+a Equipe do Atleta suspenso,1,False
+entrada durante Suspensão reinicia a Partida com Tiro Livre para a Equipe Adversária,1,False
+a Bola com qualquer parte do corpo durante Ato de Defesa dentro da Área de Gol,1,False
+com a Bola dentro da Área de Gol,1,False
+"às restrições de Jogador de Linha previstas nas Regras 7:2, 7:3, 7:4 e 7:7",1,False
+a execução do Tiro de Goleiro,1,False
+Área de Gol sem a Bola,1,False
+Goleiro sem a Bola,1,False
+do jogo na Área de Jogo,1,False
+"um Goleiro participa do jogo na Área de Jogo, então o Goleiro",1,False
+às regras aplicáveis aos Jogadores de Linha na Área de Jogo,1,False
+Goleiro é_considerado fora da Área de Gol quando qualquer parte do corpo,1,False
+a areia fora da Linha da Área de Gol,1,False
+Área de Gol com a Bola,1,False
+Goleiro que sai_da Área de Gol com a Bola pode_jogar a Bola novamente na Área de Jogo se o Goleiro,1,False
+Adversário em Perigo durante Ato de Defesa,1,False
+Área de Gol com a Bola sob Controle,1,False
+a Bola novamente fora da Área de Gol após Tiro de Goleiro antes de toque de outro Atleta,1,False
+a Bola parada na areia fora da Área de Gol,1,False
+a Bola rolando na areia fora da Área de Gol,1,False
+"um Goleiro dentro da Área de Gol toca a Bola parada na areia fora da Área de Gol, então a Partida",1,False
+"um Goleiro dentro da Área de Gol toca a Bola rolando na areia fora da Área de Gol, então a Partida",1,False
+para a Área de Gol a Bola parada na areia fora da Área de Gol,1,False
+para a Área de Gol a Bola rolando na areia fora da Área de Gol,1,False
+"um Goleiro leva para a Área de Gol a Bola parada na areia fora da Área de Gol, então a Partida",1,False
+"um Goleiro leva para a Área de Gol a Bola rolando na areia fora da Área de Gol, então a Partida",1,False
+Área de Gol a partir da Área de Jogo com a Bola,1,False
+"um Goleiro reentra_na Área de Gol a partir da Área de Jogo com a Bola, então a Partida",1,False
+com o pé a Bola parada na areia dentro da Área de Gol,1,False
+com a perna abaixo do joelho a Bola parada na areia dentro da Área de Gol,1,False
+com o pé a Bola que se move da Área de Gol para a Área de Jogo,1,False
+com a perna abaixo do joelho a Bola que se move da Área de Gol para a Área de Jogo,1,False
+"um Goleiro toca com o pé a Bola parada na areia dentro da Área de Gol, então a Partida",1,False
+"um Goleiro toca com a perna abaixo do joelho a Bola parada na areia dentro da Área de Gol, então a Partida",1,False
+"um Goleiro toca com o pé a Bola que se move da Área de Gol para a Área de Jogo, então a Partida",1,False
+"um Goleiro toca com a perna abaixo do joelho a Bola que se move da Área de Gol para a Área de Jogo, então a Partida",1,False
+Quadra de Jogo exclusivamente pela Linha Lateral da própria Área de Gol,1,False
+Quadra de Jogo exclusivamente pelo lado da própria Área de Substituição,1,False
+Área de Jogo pela Linha Lateral da própria Área de Substituição,1,False
+Área de Jogo pela Linha Lateral da própria Área de Gol,1,False
+Área de Jogo exclusivamente pelo lado da própria Área de Substituição,1,False
+Somente um Goleiro,1,False
+Área de Gol inclui a Linha da Área de Gol,1,False
+a Área de Gol,1,False
+a Linha da Área de Gol,1,False
+"um Jogador de Linha da Equipe Adversária entra_na Área de Gol em Posse da Bola, então a Partida",1,False
+"um Jogador de Linha da Equipe Adversária entra_na Área de Gol sem a Bola e ganha Vantagem, então a Partida",1,False
+"um Jogador de Linha da Equipe Defensora entra_na Área de Gol e destrói Chance Clara de Gol, então a Partida",1,False
+"um Atleta entra_na Área de Gol após jogar a Bola e não cria Desvantagem para a Equipe Adversária, então a entrada",1,False
+"um Atleta entra_na Área de Gol sem a Bola e não ganha Vantagem, então a entrada",1,False
+Goleiro quando a Bola está_na Área de Gol,1,False
+exceção da Regra 6:5 limita a regra geral de pertencimento da Bola ao Goleiro,1,False
+Bola parada,1,False
+Bola rolando,1,False
+Área de Gol para jogar a Bola parada,1,False
+Área de Gol para jogar a Bola rolando,1,False
+"um Jogador de Linha entra_na Área de Gol para jogar a Bola parada, então a Partida",1,False
+"um Jogador de Linha entra_na Área de Gol para jogar a Bola rolando, então a Partida",1,False
+durante Tiro de Goleiro,1,False
+"Área de Gol, então o Goleiro coloca a Bola em jogo por Tiro de Goleiro",1,False
+"a Bola durante Ato de Defesa e a Bola é segurada pelo Goleiro, então o jogo continua por Tiro de Goleiro",1,False
+"a Bola durante Ato de Defesa e a Bola fica parada na Área de Gol, então o jogo continua por Tiro de Goleiro",1,False
+um Atleta joga a Bola para a própria Área de Gol e a Bola,1,False
+"Baliza, então ocorre Gol",1,False
+"um Atleta joga a Bola para a própria Área de Gol e a Bola fica parada na Área de Gol, então a Partida",1,False
+"um Atleta joga a Bola para a própria Área de Gol e o Goleiro toca a Bola sem a Bola entrar_na Baliza, então a Partida",1,False
+"um Atleta joga a Bola para a própria Área de Gol e a Bola sai pela Linha de Gol Externa, então a Partida",1,False
+Bola que retorna da Área de Gol para a Área de Jogo,1,False
+a Bola com a cabeça,1,False
+a Bola com o tronco,1,False
+a Bola com as coxas,1,False
+a Bola com os joelhos,1,False
+para disputar Bola parada na areia,1,False
+para disputar Bola rolando na areia,1,False
+a Bola de uma mão para a outra mão,1,False
+a Bola ajoelhado na areia,1,False
+a Bola sentado na areia,1,False
+a Bola deitado na areia,1,False
+a Bola por no máximo 3 segundos,1,False
+a Bola parada na areia por no máximo 3 segundos,1,False
+"a Bola permanece na areia por mais de 3 segundos, então o Atleta que tocou a Bola por último",1,False
+a Bola novamente,1,False
+Atleta com a Bola,1,False
+Passo ocorre quando Atleta com dois pés na areia levanta um pé e coloca o mesmo pé novamente na areia,1,False
+Passo ocorre quando Atleta com dois pés na areia move um pé de um lugar para outro lugar,1,False
+Passo ocorre quando Atleta com um pé na areia recebe a Bola e,1,False
+a areia com o outro pé,1,False
+a areia com um pé e salta novamente sobre o mesmo pé,1,False
+a areia com um pé e toca a areia com o outro pé,1,False
+a areia com dois pés simultaneamente e levanta um pé,1,False
+a areia com dois pés simultaneamente e move um pé de um lugar para outro lugar,1,False
+movimento de um pé seguido de arrasto do outro pé,1,False
+exatamente 1 passo,1,False
+a Bola repetidamente com uma mão,1,False
+a Bola repetidamente na areia com uma mão,1,False
+"a Bola após Drible está segurada em uma mão, então a Bola",1,False
+"a Bola após Drible está segurada em duas mãos, então a Bola",1,False
+"a Bola após Drible está segurada em uma mão, então o Atleta",1,False
+"a Bola após Drible está segurada em duas mãos, então o Atleta",1,False
+Drible inicia quando Atleta,1,False
+a Bola com qualquer parte do corpo e direciona a Bola para a areia,1,False
+"outro Atleta, então o Atleta pode_tocar a Bola novamente",1,False
+"a Baliza, então o Atleta pode_tocar a Bola novamente",1,False
+"outro Atleta, então o Atleta pode_quicar a Bola novamente",1,False
+"a Baliza, então o Atleta pode_quicar a Bola novamente",1,False
+a Bola mais de uma vez sem toque intermediário da Bola na areia,1,False
+a Bola mais de uma vez sem toque intermediário da Bola em outro Atleta,1,False
+a Bola mais de uma vez sem toque intermediário da Bola na Baliza,1,False
+Falha de Controle da Bola,1,False
+a Bola durante tentativa de receber a Bola,1,False
+a Bola durante tentativa de parar a Bola,1,False
+"Atleta controla a Bola, então o Atleta",1,False
+a Bola mais de uma vez após toque leve ou quique,1,False
+a Bola com o pé,1,False
+a Bola com a perna abaixo do joelho,1,False
+"Adversário arremessa a Bola contra o Atleta, então o toque com o pé",1,False
+"Adversário arremessa a Bola contra o Atleta, então o toque com a perna abaixo do joelho",1,False
+"Árbitro na Quadra, então o jogo continua",1,False
+Posse da Bola sem tentativa reconhecível de atacar,1,False
+Posse da Bola sem tentativa reconhecível de arremessar à Baliza,1,False
+repetidamente a execução do Tiro Livre próprio,1,False
+repetidamente a execução do Lateral próprio,1,False
+repetidamente a execução do Tiro de Goleiro próprio,1,False
+manutenção proibida da Posse da Bola caracteriza Jogo Passivo,1,False
+atraso repetido de Reinício de Jogo próprio caracteriza Jogo Passivo,1,False
+Jogo Passivo produz Tiro Livre contra a Equipe em Posse da Bola,1,False
+Tiro Livre por Jogo Passivo utiliza o local da Bola no instante da interrupção,1,False
+"Árbitros reconhecem tendência possível de Jogo Passivo, então Árbitros mostram Sinal de Advertência",1,False
+Sinal de Advertência de Jogo Passivo utiliza o Sinal Manual 16,1,False
+Sinal de Advertência permite mudança da forma de ataque pela Equipe em Posse da Bola,1,False
+"a forma de ataque não muda após Sinal de Advertência, então Árbitros",1,False
+Jogo Passivo a qualquer momento,1,False
+Jogo Passivo sem Sinal de Advertência prévio em situação específica,1,False
+a Bola com mão aberta,1,False
+a Bola com mão fechada,1,False
+braços para ganhar posse da Bola,1,False
+mãos para ganhar posse da Bola,1,False
+mão aberta para jogar a Bola para longe do Adversário,1,False
+corpo para obstruir Adversário,1,False
+corpo para obstruir Adversário sem Posse da Bola,1,False
+contato corporal com Adversário quando está de frente para o Adversário,1,False
+contato corporal com Adversário com braços flexionados,1,False
+contato corporal regulamentar para monitorar Adversário,1,False
+contato corporal regulamentar para acompanhar Adversário,1,False
+a Bola das mãos de um Adversário,1,False
+a Bola para fora das mãos de um Adversário,1,False
+com Adversário em desacordo com as Regras,1,False
+Adversário em desacordo com as Regras,1,False
+Adversário em perigo em desacordo com as Regras,1,False
+contra Adversário com Bola,1,False
+contra Adversário sem Bola,1,False
+"uma Violação da Regra 8:2 dirige-se principalmente ao Adversário e não à Bola, então a Violação",1,False
+"uma Violação da Regra 8:2 dirige-se exclusivamente ao Adversário e não à Bola, então a Violação",1,False
+a Tiro Livre,1,False
+a Tiro de 6 Metros,1,False
+Infração que atende à definição de Punição Progressiva exige Punição Pessoal,1,False
+Expressão Física incompatível com o espírito de boa esportividade constitui Conduta Antidesportiva,1,False
+Expressão Verbal incompatível com o espírito de boa esportividade constitui Conduta Antidesportiva,1,False
+Conduta Antidesportiva aplica-se a Atleta,1,False
+Conduta Antidesportiva aplica-se a Oficial de Equipe,1,False
+Punição Progressiva aplica-se à Conduta Antidesportiva,1,False
+"um Atleta coloca a saúde do Adversário em perigo durante ataque ao Adversário, então o Atleta",1,False
+"um Atleta atinge o braço de arremesso do Adversário pelo lado durante arremesso ou passe, então o Atleta",1,False
+"um Atleta puxa para trás o braço de arremesso do Adversário pelo lado durante arremesso ou passe, então o Atleta",1,False
+"um Atleta atinge o braço de arremesso do Adversário por trás durante arremesso ou passe, então o Atleta",1,False
+"um Atleta puxa para trás o braço de arremesso do Adversário por trás durante arremesso ou passe, então o Atleta",1,False
+"uma Ação resulta em golpe na cabeça do Adversário, então o Atleta",1,False
+"uma Ação resulta em golpe no pescoço do Adversário, então o Atleta",1,False
+"um Atleta atinge deliberadamente o corpo do Adversário com o pé, então o Atleta",1,False
+"um Atleta atinge deliberadamente o corpo do Adversário com o joelho, então o Atleta",1,False
+"um Atleta derruba deliberadamente Adversário com tropeço, então o Atleta",1,False
+"um Atleta empurra Adversário em corrida e o Adversário perde controle do corpo, então o Atleta",1,False
+"um Atleta empurra Adversário em salto e o Adversário perde controle do corpo, então o Atleta",1,False
+"um Atleta ataca Adversário de modo que o Adversário perde controle do corpo, então o Atleta",1,False
+Regra 8:5d aplica-se ao Goleiro que deixa a Área de Gol durante Contra-Ataque adversário,1,False
+"um Atleta acerta a cabeça de Defensor com Tiro Livre direto ao Gol e o Defensor não estava em movimento, então o Atleta",1,False
+"um Atleta acerta a cabeça do Goleiro com Tiro de 6 Metros e o Goleiro não estava em movimento, então o Atleta",1,False
+risco ao Atleta orienta a decisão de Desqualificação,1,False
+pequena intensidade aparente do contato corporal,1,False
+Conduta Seriamente Antidesportiva de Atleta,1,False
+Conduta Seriamente Antidesportiva de Oficial de Equipe,1,False
+"um Atleta comete Agressão durante Tempo de Jogo, então o Atleta",1,False
+Agressão de Atleta durante Tempo de Jogo,1,False
+"um Atleta comete Agressão fora do Tempo de Jogo, então o Atleta",1,False
+"um Oficial de Equipe comete Agressão, então o Oficial de Equipe",1,False
+Ataque forte e deliberado contra o corpo de outra pessoa,1,False
+Espectador,1,False
+Reflexo Simples,1,False
+resultado de método descuidado e excessivo,1,False
+Cuspir em outra pessoa constitui Agressão,1,False
+"uma Violação das Regras 8:2 a 8:7 destrói diretamente Chance Clara de Gol do Adversário, então a Partida",1,False
+"uma Violação das Regras 8:2 a 8:7 não destrói Chance Clara de Gol do Adversário, então a Partida",1,False
+Tiro Livre para o Adversário,1,False
+Desqualificação por Ação Particularmente Imprudente,1,False
+Desqualificação por Ação Particularmente Perigosa,1,False
+Desqualificação por Ação Premeditada,1,False
+Desqualificação por Ação Maliciosa,1,False
+"Árbitros identificam Ação Particularmente Imprudente, então Árbitros",1,False
+"Árbitros identificam Ação Particularmente Perigosa, então Árbitros",1,False
+"Árbitros identificam Ação Premeditada, então Árbitros",1,False
+"Árbitros identificam Ação Maliciosa, então Árbitros",1,False
+Ação Premeditada,1,False
+Ação Maliciosa,1,False
+"Árbitros classificam uma Conduta como Extremamente Antidesportiva, então Árbitros",1,False
+Comportamento Insultante dirigido a outra pessoa,1,False
+Comportamento Ameaçador dirigido a outra pessoa,1,False
+Interferência de Oficial de Equipe na Quadra de Jogo,1,False
+"um Atleta destrói Chance Clara de Gol por Entrada Ilegal na Quadra, então a ação",1,False
+"um Atleta destrói Chance Clara de Gol a partir da Área de Substituição, então a ação",1,False
+braços para ganhar Posse da Bola,1,False
+mãos para ganhar Posse da Bola,1,False
+mão aberta para afastar a Bola do Adversário,1,False
+o corpo para obstruir Adversário,1,False
+Adversário sem Posse da Bola,1,False
+Contato Corporal com Adversário quando está de frente para o Adversário,1,False
+Contato Corporal com Adversário quando usa braços flexionados,1,False
+Contato Corporal para monitorar Adversário,1,False
+Contato Corporal para acompanhar Adversário,1,False
+a Bola das mãos do Adversário,1,False
+a Bola para fora das mãos do Adversário,1,False
+com Adversário em contravenção às regras,1,False
+Adversário em contravenção às regras,1,False
+Adversário em perigo em contravenção às regras,1,False
+proibição de interferir aplica-se a Adversário com Bola,1,False
+proibição de interferir aplica-se a Adversário sem Bola,1,False
+proibição de impedir aplica-se a Adversário com Bola,1,False
+proibição de impedir aplica-se a Adversário sem Bola,1,False
+proibição de colocar em perigo aplica-se a Adversário com Bola,1,False
+proibição de colocar em perigo aplica-se a Adversário sem Bola,1,False
+Punição Progressiva quando a ação é principalmente direcionada ao Adversário,1,False
+Punição Progressiva quando a ação é exclusivamente direcionada ao Adversário,1,False
+apenas Tiro Livre quando atende aos critérios de Punição Progressiva,1,False
+apenas Tiro de 6 Metros quando atende aos critérios de Punição Progressiva,1,False
+Infração com Punição Progressiva exige Punição Pessoal,1,False
+Expressão Física incompatível com o espírito de esportividade constitui Conduta Antidesportiva,1,False
+Expressão Verbal incompatível com o espírito de esportividade constitui Conduta Antidesportiva,1,False
+Conduta Antidesportiva aplica-se a Atleta dentro da Quadra de Jogo,1,False
+Conduta Antidesportiva aplica-se a Atleta fora da Quadra de Jogo,1,False
+Conduta Antidesportiva aplica-se a Oficial de Equipe dentro da Quadra de Jogo,1,False
+Conduta Antidesportiva aplica-se a Oficial de Equipe fora da Quadra de Jogo,1,False
+Conduta Antidesportiva recebe Punição Progressiva,1,False
+Atleta que coloca em perigo a saúde do Adversário durante ataque ao Adversário,1,False
+Atleta coloca em perigo a saúde do Adversário quando golpeia o braço de arremesso do Adversário pelo lado,1,False
+Atleta coloca em perigo a saúde do Adversário quando golpeia o braço de arremesso do Adversário por trás,1,False
+Atleta coloca em perigo a saúde do Adversário quando puxa para trás o braço de arremesso do Adversário pelo lado,1,False
+Atleta coloca em perigo a saúde do Adversário quando puxa para trás o braço de arremesso do Adversário por trás,1,False
+Atleta coloca em perigo a saúde do Adversário quando golpeia a cabeça do Adversário,1,False
+Atleta coloca em perigo a saúde do Adversário quando golpeia o pescoço do Adversário,1,False
+Atleta coloca em perigo a saúde do Adversário quando atinge deliberadamente o corpo do Adversário com o pé,1,False
+Atleta coloca em perigo a saúde do Adversário quando atinge deliberadamente o corpo do Adversário com o joelho,1,False
+Atleta coloca em perigo a saúde do Adversário quando derruba deliberadamente o Adversário,1,False
+Atleta coloca em perigo a saúde do Adversário quando empurra Adversário correndo e o Adversário perde controle do corpo,1,False
+Atleta coloca em perigo a saúde do Adversário quando empurra Adversário saltando e o Adversário perde controle do corpo,1,False
+Atleta coloca em perigo a saúde do Adversário quando ataca Adversário de forma que o Adversário perde controle do corpo,1,False
+Regra 8:5 aplica-se a Goleiro que sai da Área de Gol em Contra-Ataque adversário,1,False
+Atleta coloca em perigo a saúde do Adversário quando acerta a cabeça de Defensor imóvel com Tiro Livre direto à Baliza,1,False
+Atleta coloca em perigo a saúde do Adversário quando acerta a cabeça de Goleiro imóvel com Tiro de 6 Metros,1,False
+avaliação de Desqualificação considera o risco ao Atleta,1,False
+avaliação de Desqualificação,1,False
+apenas da intensidade aparente do Contato Corporal,1,False
+Falta de pequeno impacto físico,1,False
+perigosa,1,False
+Conduta Gravemente Antidesportiva de Atleta,1,False
+Conduta Gravemente Antidesportiva de Oficial de Equipe,1,False
+Conduta Gravemente Antidesportiva dentro da Quadra,1,False
+Conduta Gravemente Antidesportiva fora da Quadra,1,False
+Atleta culpado por Agressão durante o tempo de jogo,1,False
+Agressão durante o tempo de jogo,1,False
+Agressão fora do tempo de jogo causa Desqualificação,1,False
+Oficial de Equipe culpado por Agressão,1,False
+Ataque forte e deliberado contra o corpo de outra Pessoa,1,False
+simplesmente uma Ação Reflexa,1,False
+simplesmente resultado de método descuidado,1,False
+simplesmente resultado de método excessivo,1,False
+Cuspir em outra Pessoa,1,False
+Violação das Regras 8:2 a 8:7 causa Tiro de 6 Metros quando destrói diretamente Chance Clara de Gol da Equipe Adversária,1,False
+Violação das Regras 8:2 a 8:7 causa Tiro Livre quando não destrói Chance Clara de Gol,1,False
+Desqualificação por ação particularmente imprudente,1,False
+Desqualificação por ação particularmente perigosa,1,False
+Desqualificação por ação premeditada,1,False
+Desqualificação por ação maliciosa,1,False
+"Árbitros identificam ação particularmente imprudente, então Árbitros submetem Relatório Escrito após a Partida",1,False
+"Árbitros identificam ação particularmente perigosa, então Árbitros submetem Relatório Escrito após a Partida",1,False
+"Árbitros identificam ação premeditada, então Árbitros submetem Relatório Escrito após a Partida",1,False
+"Árbitros identificam ação maliciosa, então Árbitros submetem Relatório Escrito após a Partida",1,False
+ação particularmente imprudente,1,False
+ação particularmente perigosa,1,False
+ação premeditada sem relação com a situação de jogo,1,False
+ação maliciosa sem relação com a situação de jogo,1,False
+comportamento insultuoso dirigido a outra Pessoa,1,False
+comportamento ameaçador dirigido a outra Pessoa,1,False
+comportamento verbal,1,False
+comportamento não verbal,1,False
+expressão facial,1,False
+gesto,1,False
+linguagem corporal,1,False
+contato corporal,1,False
+Interferência de Oficial de Equipe na Quadra,1,False
+Atleta que destrói Chance Clara de Gol por entrada ilegal na Quadra,1,False
+Atleta que destrói Chance Clara de Gol a partir da Área de Substituição,1,False
+quando a Bola inteira cruza toda a largura da Linha de Gol,1,False
+Gol exige ausência de Violação de Regra pelo Arremessador antes do Arremesso,1,False
+Gol exige ausência de Violação de Regra pelo Arremessador durante o Arremesso,1,False
+Gol exige ausência de Violação de Regra por Companheiro de Equipe do Arremessador antes do Arremesso,1,False
+Gol exige ausência de Violação de Regra por Companheiro de Equipe do Arremessador durante o Arremesso,1,False
+"Defensor comete Violação de Regra e a Bola entra_na Baliza, então o Gol",1,False
+se Árbitro interrompe a Partida antes da Bola cruzar completamente a Linha de Gol,1,False
+se Cronometrista interrompe a Partida antes da Bola cruzar completamente a Linha de Gol,1,False
+"Atleta joga a Bola para a própria Baliza, então o Gol",1,False
+à Equipe Adversária,1,False
+Gol Contra marcado por qualquer Atleta,1,False
+regra de Gol Contra possui_exceção quando o Goleiro,1,False
+Tiro de Goleiro e a Bola não cruza a Linha da Área de Gol,1,False
+"Tiro de Goleiro e a Bola não cruza a Linha da Área de Gol, então Gol Contra não_é_concedido",1,False
+Gol comum,1,False
+Gol criativo,1,False
+Gol marcado em aérea,1,False
+Gol marcado pelo Goleiro,1,False
+Gol em aérea exige que o Atleta controle a Bola no ar,1,False
+Gol em aérea exige que o Atleta arremesse à Baliza enquanto está no ar,1,False
+toque tipo tapa na Bola para dentro da Baliza,1,False
+empurrão simples da Bola para dentro da Baliza,1,False
+um Gol de 1 ponto baseado apenas em habilidade técnica fundamental,1,False
+ação final notável e dramática,1,False
+valor de 2 pontos,1,False
+"Após Gol, a Partida",1,False
+Tiro de Goleiro a partir da Área de Gol,1,False
+Gol concedido,1,False
+após Árbitro validar o Gol e Tiro de Goleiro ser executado,1,False
+"o Sinal Final de Período ocorre imediatamente após Gol e antes do Tiro de Goleiro, então Árbitros",1,False
+que o Gol foi validado,1,False
+validação de Gol imediatamente antes do Sinal Final,1,False
+execução de Tiro de Goleiro,1,False
+"o placar está empatado ao final de um Período, então aplica-se o método Gol de Ouro",1,False
+"Gol de Ouro, a Equipe que marca o primeiro Gol vence o Período",1,False
+"uma Equipe vence os dois Períodos, então essa Equipe vence a Partida",1,False
+"cada Equipe vence um Período, então a Partida",1,False
+por Shoot-out,1,False
+sempre uma Equipe vencedora,1,False
+"Shoot-out, cinco Atletas elegíveis de cada Equipe executam tentativas alternadas",1,False
+"Goleiro é um dos Arremessadores do Shoot-out, então o Goleiro",1,False
+Jogador de Linha durante sua tentativa,1,False
+Equipe vencedora do Shoot-out é a Equipe que marca mais pontos após cinco tentativas,1,False
+"o resultado não está decidido após a primeira rodada do Shoot-out, então o Shoot-out continua",1,False
+"Antes de rodada adicional do Shoot-out, as Equipes trocam os lados da quadra",1,False
+"Antes de rodada adicional do Shoot-out, as Equipes",1,False
+a Área de Substituição,1,False
+"Em rodada adicional do Shoot-out, cinco Atletas elegíveis de cada Equipe executam tentativas alternadas",1,False
+"Em rodada adicional do Shoot-out, a outra Equipe inicia a rodada",1,False
+"Em rodada adicional ou subsequente do Shoot-out, a Partida",1,False
+assim que uma Equipe assume vantagem após número igual de tentativas,1,False
+"número de Atletas de uma Equipe cai abaixo de cinco em uma rodada, então essa Equipe",1,False
+menos oportunidades de tentativa,1,False
+"Shoot-out, nenhum Atleta",1,False
+segunda tentativa na mesma rodada,1,False
+"Shoot-out, Árbitros realizam sorteio para determinar escolha de lados e Equipe que inicia",1,False
+"a Equipe vencedora do sorteio escolhe iniciar o Shoot-out, então a Equipe Adversária escolhe o lado",1,False
+"a Equipe vencedora do sorteio escolhe o lado, então a Equipe Adversária inicia o Shoot-out",1,False
+Circunstâncias externas,1,False
+que Árbitros decidam usar apenas uma Baliza no Shoot-out,1,False
+"Durante Shoot-out, todos os arremessos",1,False
+com a mesma Bola para ambas as Equipes,1,False
+Equipe Atacante posiciona primeiro o Goleiro e o Jogador de Linha Arremessador,1,False
+Ambos os Goleiros iniciam a tentativa sobre a Linha de Gol com pelo menos um pé,1,False
+tentativa do Shoot-out inicia com apito do Árbitro,1,False
+"Após o apito, o Jogador de Linha joga a Bola de volta para o próprio Goleiro na Linha de Gol",1,False
+"Durante o passe inicial do Shoot-out, a Bola",1,False
+"Após a Bola sair da mão do Jogador de Linha, ambos os Goleiros",1,False
+na própria Área de Gol,1,False
+à Baliza adversária em até 3 segundos,1,False
+a Bola ao Companheiro que corre em direção à Baliza adversária em até 3 segundos,1,False
+"Durante o passe do Goleiro ao Companheiro no Shoot-out, a Bola",1,False
+marcar Gol sem Violação de Regra,1,False
+"o Goleiro atacante comete Violação de Regra no Shoot-out, então o ataque termina",1,False
+"o Jogador de Linha atacante comete Violação de Regra no Shoot-out, então o ataque termina",1,False
+"Goleiro defensor sai_da Área de Gol no Shoot-out, então o Goleiro defensor",1,False
+à Área de Gol a qualquer momento,1,False
+"Goleiro defensor salva Gol no Shoot-out por Violação de Regra, então",1,False
+Qualquer Atleta elegível,1,False
+Tiro de 6 Metros concedido no Shoot-out,1,False
+"Durante Shoot-out, todos os Atletas envolvidos",1,False
+na própria Área de Substituição,1,False
+Atleta que executou tentativa de Shoot-out,1,False
+à própria Área de Substituição,1,False
+no centro da Quadra de Jogo,1,False
+o Tiro de Árbitro lançando a Bola verticalmente,1,False
+lançamento vertical da Bola ocorre após Sinal de Apito do segundo Árbitro,1,False
+segundo Árbitro posiciona-se fora da Linha Lateral oposta à Mesa de Cronometragem,1,False
+"Durante o Tiro de Árbitro, um Atleta de cada Equipe",1,False
+a menos de 3 metros do Árbitro executante,1,False
+"Durante o Tiro de Árbitro, todos os demais Atletas",1,False
+a pelo menos 3 metros do Árbitro executante,1,False
+"Durante o Tiro de Árbitro, os Atletas que não disputam a Bola",1,False
+em qualquer outro local da Quadra de Jogo,1,False
+dois Atletas que saltam para disputar a Bola,1,False
+próximos ao Árbitro executante,1,False
+Atleta que salta para disputar a Bola,1,False
+no lado mais próximo da própria Baliza,1,False
+somente após atingir seu ponto mais alto,1,False
+dois Atletas obrigados a saltar para disputar a Bola,1,False
+a Bola durante o Tiro de Árbitro,1,False
+a Bola novamente de forma intencional antes de toque de outro Atleta,1,False
+a Bola novamente de forma intencional antes de toque da Bola na areia,1,False
+quando a Bola cruza completamente a Linha Lateral,1,False
+pela Equipe Adversária da Equipe cujo Atleta tocou por último a Bola antes de a Bola cruzar a linha,1,False
+sem Sinal de Apito dos Árbitros,1,False
+à execução sem Sinal de Apito do Lateral,1,False
+"a Bola cruza a Linha Lateral, então o Lateral",1,False
+no local onde a Bola cruzou a Linha Lateral,1,False
+"a Bola cruza a Linha de Gol Externa, então o Lateral",1,False
+"a Bola cruza a Linha Lateral dentro da Área de Gol, então o Lateral",1,False
+um pé sobre a Linha Lateral até a Bola sair da mão,1,False
+a Bola na areia e pegá-la novamente por si mesmo,1,False
+a Bola e recebê-la novamente por si mesmo,1,False
+violação de autopasse no Lateral remete à Regra 13:1a,1,False
+"Durante o Lateral, Defensores",1,False
+quando Atleta da Equipe Adversária entra_na Área de Gol em violação da Regra 6:2a,1,False
+quando a Equipe Adversária marca Gol,1,False
+Tiro de Goleiro é_concedido quando o Goleiro,1,False
+a Bola na própria Área de Gol,1,False
+quando a Bola cruza a Linha de Gol Externa após último toque do Goleiro,1,False
+quando a Bola cruza a Linha de Gol Externa após último toque de Atleta da Equipe Adversária,1,False
+"Após concessão de Tiro de Goleiro, a Bola",1,False
+fora de jogo,1,False
+"ocorre Violação de Regra após concessão do Tiro de Goleiro e antes de sua execução, então a Partida",1,False
+pelo Goleiro,1,False
+à execução sem Sinal de Apito do Tiro de Goleiro,1,False
+da Área de Gol para fora da Área de Gol sobre a Linha da Área de Gol,1,False
+executado quando a Bola arremessada pelo Goleiro cruza a Linha da Área de Gol,1,False
+imediatamente fora da Linha da Área de Gol,1,False
+a Bola antes de a Bola cruzar a Linha da Área de Gol,1,False
+"Durante substituição do Goleiro, o Tiro de Goleiro",1,False
+pelo Goleiro que está saindo,1,False
+Goleiro que está saindo,1,False
+Quadra após executar o Tiro de Goleiro,1,False
+a Bola novamente após Tiro de Goleiro antes de a Bola tocar outro Atleta,1,False
+continuidade no jogo evitando interrupção prematura por decisão de Tiro Livre,1,False
+"Equipe Defensora ganha Posse da Bola imediatamente após Violação da Equipe Atacante, então Árbitros",1,False
+Tiro Livre pela Regra 13:1a,1,False
+"Equipe Atacante não perde a Posse da Bola após Violação da Equipe Defensora, então Árbitros",1,False
+"Equipe Atacante consegue continuar o Ataque após Violação da Equipe Defensora, então Árbitros",1,False
+"Punição Pessoal deve_ser_dada por Violação de Regra, então Árbitros",1,False
+a Partida imediatamente quando a interrupção não causa Desvantagem para os Adversários da Equipe infratora,1,False
+até o fim da situação existente,1,False
+"a Violação exige intervenção imediata do Cronometrista, então a Partida",1,False
+"Violação que normalmente levaria a Tiro Livre ocorre com a Bola fora de jogo, então a Partida",1,False
+o Tiro correspondente ao motivo da interrupção existente,1,False
+"com a Bola em jogo sem Violação de Regra e uma Equipe estava em Posse da Bola, então essa Equipe mantém a Posse da Bola",1,False
+Regra da Vantagem da Regra 13:2,1,False
+às situações da Regra 13:4,1,False
+imediatamente a Bola no local onde está,1,False
+imediatamente a Bola na areia no local onde está,1,False
+"Antes da execução do Tiro Livre, Atletas da Equipe Atacante",1,False
+a menos de 1 metro da Linha da Área de Gol adversária,1,False
+"Durante a execução do Tiro Livre, Adversários",1,False
+Tiro Livre normalmente,1,False
+à execução sem Sinal de Apito do Tiro Livre,1,False
+"Em princípio, o Tiro Livre",1,False
+no local onde ocorreu a Infração,1,False
+"Nas situações da Regra 13:4a, o Tiro Livre",1,False
+"Nas situações da Regra 13:4b, o Tiro Livre",1,False
+"Nas situações da Regra 13:4c, o Tiro Livre",1,False
+após Sinal de Apito no local abaixo de onde a Bola tocou o Equipamento Fixo,1,False
+"Cronometrista interrompe a Partida por substituição irregular, então aplica-se a mesma exceção de local mais favorável",1,False
+"Cronometrista interrompe a Partida por entrada ilegal, então aplica-se a mesma exceção de local mais favorável",1,False
+Tiro Livre por Jogo Passivo,1,False
+no local onde a Bola estava quando a Partida foi interrompida,1,False
+dentro da Área de Gol da própria Equipe executante,1,False
+"o local indicado para o Tiro Livre está dentro da Área de Gol da própria Equipe executante, então o local de execução",1,False
+para o ponto mais próximo imediatamente fora da Área de Gol,1,False
+"a posição correta do Tiro Livre está a menos de 1 metro da Linha da Área de Gol da Equipe Defensora, então o Tiro Livre",1,False
+a pelo menos 1 metro da Linha da Área de Gol,1,False
+a Bola na areia e pegá-la novamente,1,False
+a Bola e recebê-la novamente,1,False
+quando uma Clara Chance de Gol é_destruída em qualquer local da Quadra por Atleta da Equipe Adversária,1,False
+quando uma Clara Chance de Gol é_destruída em qualquer local da Quadra por Oficial de Equipe da Equipe Adversária,1,False
+quando ocorre Sinal de Apito injustificado no momento de uma Clara Chance de Gol,1,False
+quando uma Clara Chance de Gol é_destruída por interferência de Pessoa não Participante,1,False
+concessão de Tiro de 6 Metros por Pessoa não Participante,1,False
+quando se aplica o Comentário da Regra 9:1,1,False
+Clara Chance de Gol,1,False
+Esclarecimento 7,1,False
+"Atleta Atacante mantém controle total da Bola apesar de Violação da Regra 14:1a, então",1,False
+"Atleta Atacante mantém controle total do Corpo apesar de Violação da Regra 14:1a, então",1,False
+a intervenção até determinar claramente se a decisão é justificada,1,False
+a intervenção até determinar claramente se a decisão é necessária,1,False
+"Atleta Atacante marca Gol apesar de interferência ilegal dos Defensores, então",1,False
+"Ao conceder Tiro de 6 Metros, Árbitros",1,False
+Tempo Técnico ao conceder Tiro de 6 Metros referencia a Regra 2:14b,1,False
+valor do Gol marcado por Tiro de 6 Metros referencia a Regra 9:3,1,False
+como Arremesso à Baliza,1,False
+em até 3 segundos após Sinal de Apito do Árbitro de Quadra,1,False
+execução em até 3 segundos referencia a Regra 13:1a,1,False
+infração de tocar ou cruzar a Linha de 6 Metros referencia a Regra 6:2a,1,False
+novamente pelo Executante até tocar Adversário ou Baliza,1,False
+por Companheiro de Equipe até tocar Adversário ou Baliza,1,False
+restrição de novo toque após Tiro de 6 Metros referencia a Regra 13:1a,1,False
+"Durante execução de Tiro de 6 Metros, Goleiro",1,False
+"Durante execução de Tiro de 6 Metros, demais Adversários do Executante",1,False
+"Adversário não respeita a distância de 1 metro e o Tiro de 6 Metros não resulta em Gol, então o Tiro de 6 Metros",1,False
+trocar Goleiro quando o Executante está pronto para executar Tiro de 6 Metros,1,False
+Executante está pronto quando está parado na posição correta com a Bola na mão,1,False
+Tentativa de substituição de Goleiro quando o Executante está pronto,1,False
+"punição por tentativa de substituição de Goleiro referencia as Regras 8:4, 16:1d e 16:2c",1,False
+"Por Fair Play, Atletas próximos ao Executante",1,False
+o Executante,1,False
+Obstrução do Executante inclui movimentos de braço,1,False
+Obstrução do Executante inclui sons,1,False
+na mão do Executante antes de um Tiro ser executado,1,False
+nas posições prescritas para o Tiro em questão,1,False
+em suas posições corretas até a Bola sair da mão do Executante,1,False
+Posição inicial incorreta,1,False
+obrigação de corrigir posição inicial incorreta,1,False
+na Regra 15:7,1,False
+"Exceto no Tiro de Goleiro, o Executante",1,False
+uma parte de um pé em contato constante com a areia quando o Tiro é executado,1,False
+exigência de contato constante com a areia referencia a Regra 13:1a,1,False
+repetidamente,1,False
+na areia repetidamente,1,False
+para reinício sempre em caso de Tiro de 6 Metros,1,False
+para reinício em Lateral após Tempo Técnico,1,False
+para reinício em Tiro de Goleiro após Tempo Técnico,1,False
+para reinício em Tiro Livre após Tempo Técnico,1,False
+para reinício com Tiro Livre sob a Regra 13:4,1,False
+para reinício quando houve atraso na execução,1,False
+para reinício após correção das posições dos Atletas,1,False
+para reinício após Advertência Verbal,1,False
+"Após Sinal de Apito, o Executante",1,False
+a Bola em até 3 segundos,1,False
+limite de 3 segundos após Sinal de Apito referencia a Regra 13:1a,1,False
+Tiro,1,False
+executado quando a Bola sai da mão do Executante,1,False
+definição de Tiro considerado executado,1,False
+na Regra 12:2,1,False
+a Companheiro de Equipe do Executante quando o Tiro está sendo executado,1,False
+por Companheiro de Equipe do Executante quando o Tiro está sendo executado,1,False
+proibição de entrega ou toque por Companheiro de Equipe referencia a Regra 13:1a,1,False
+a Bola novamente até a Bola tocar outro Atleta,1,False
+a Bola novamente até a Bola tocar a Baliza,1,False
+restrição de novo toque do Executante,1,False
+no Tiro de Goleiro conforme Regra 12:3,1,False
+diretamente de qualquer Tiro,1,False
+Gol direto a partir de Tiro de Goleiro,1,False
+Gol contra não é possível,1,False
+Gol direto a partir de Tiro de Árbitro não é possível porque o Tiro de Árbitro é executado pelo Árbitro,1,False
+Posições incorretas de Defensores em Lateral,1,False
+Posições incorretas de Defensores em Tiro Livre,1,False
+"Atacantes ficam em desvantagem pela execução imediata, então posições incorretas de Defensores",1,False
+"Árbitro apita para execução apesar de posições incorretas dos Defensores, então esses Defensores",1,False
+a intervir,1,False
+se atrasa a execução de Tiro pelos Adversários por ficar muito perto,1,False
+se interfere na execução de Tiro pelos Adversários por ficar muito perto,1,False
+se atrasa ou interfere na execução de Tiro pelos Adversários por outras infrações,1,False
+Suspensão por atraso ou interferência na execução de Tiro referencia a Regra 16:2e,1,False
+por Faltas e Infrações similares contra Adversário que não entram na categoria de punição progressiva,1,False
+Suspensão pode_ser_dada por Faltas que,1,False
+por Infrações quando Adversários executam Tiro formal,1,False
+por Conduta Antidesportiva de Atleta,1,False
+por Conduta Antidesportiva de Oficial de Equipe,1,False
+por Substituição Irregular,1,False
+por Entrada Ilegal na Quadra,1,False
+por Faltas repetidas do tipo punido progressivamente,1,False
+por Conduta Antidesportiva repetida de Atleta na Quadra,1,False
+por Conduta Antidesportiva repetida de Atleta fora da Quadra,1,False
+por Conduta Antidesportiva repetida de Oficial de Equipe,1,False
+por falha em largar ou colocar a Bola na areia quando Tiro Livre é marcado contra a Equipe em Posse da Bola,1,False
+por Infrações repetidas durante execução de Tiro formal pelos Adversários,1,False
+como consequência de Desqualificação de Atleta durante o Tempo de Jogo,1,False
+como consequência de Desqualificação de Oficial de Equipe durante o Tempo de Jogo,1,False
+ao Oficial Responsável quando Atleta não habilitado entra na Quadra,1,False
+quando Oficial de Equipe entra na Quadra como pessoa adicional em caso de lesão de Atleta,1,False
+Oficiais de uma Equipe,1,False
+mais de uma Suspensão total,1,False
+suas funções,1,False
+Suspensão de Oficial de Equipe reduz a força da Equipe na Quadra até o próximo Turnover entre as Equipes,1,False
+claramente a Suspensão ao Atleta culpado,1,False
+claramente a Suspensão ao Cronometrista e ao Secretário por sinal manual prescrito,1,False
+da Partida durante a Suspensão,1,False
+na Quadra o Atleta suspenso durante a Suspensão,1,False
+Suspensão começa quando o jogo,1,False
+por Sinal de Apito,1,False
+após Turnover entre as Equipes,1,False
+na Quadra após Turnover entre as Equipes,1,False
+Segunda Suspensão de Atleta,1,False
+somente pelo restante do Tempo de Jogo,1,False
+factual dos Árbitros,1,False
+por Conduta Gravemente Antidesportiva,1,False
+por segunda ou subsequente Conduta Antidesportiva de qualquer Atleta ou Oficial da Equipe,1,False
+por Falta que coloca em perigo a saúde do Adversário,1,False
+por Falta da Goleira que sai da Área de Gol durante Shoot-out e coloca em perigo a saúde do Adversário,1,False
+por Conduta Gravemente Antidesportiva de Atleta na Quadra,1,False
+por Conduta Gravemente Antidesportiva de Atleta fora da Quadra,1,False
+por Conduta Gravemente Antidesportiva de Oficial de Equipe,1,False
+por Agressão de Atleta fora do Tempo de Jogo,1,False
+por Agressão de Oficial de Equipe,1,False
+por segunda Suspensão da mesma Atleta,1,False
+por Conduta Antidesportiva repetida de Atleta durante Intervalo,1,False
+por Conduta Antidesportiva repetida de Oficial de Equipe durante Intervalo,1,False
+Conduta Antidesportiva durante Shoot-out que atrasa repetidamente a entrada da Goleira e da Arremessadora,1,False
+Desqualificação direta do Oficial Responsável,1,False
+"Após Tempo Técnico, Árbitros",1,False
+claramente Desqualificação à pessoa culpada e ao Cronometrista e Secretário com Cartão Vermelho,1,False
+Cartão Vermelho,1,False
+aproximadamente 9 por 12 centímetros,1,False
+pelo restante inteiro do Tempo de Jogo,1,False
+imediatamente da Quadra e da Área de Substituição,1,False
+contato com a Equipe após sair,1,False
+Desqualificação reduz o número de Atletas ou Oficiais disponíveis para a Equipe,1,False
+novamente o número de Atletas na Quadra após Turnover entre as Equipes,1,False
+Desqualificação exceto por segunda Suspensão,1,False
+pelos Árbitros na Súmula às autoridades relevantes,1,False
+Desqualificação exceto por segunda Suspensão leva a Suspensão mínima de uma Partida para a pessoa culpada,1,False
+Goleira ou Jogadora de Linha durante Shoot-out,1,False
+"por Conduta Antidesportiva ou Conduta Gravemente Antidesportiva, então isso leva à Desqualificação da Atleta",1,False
+"uma das Violações é Agressão, a punição mais severa sempre",1,False
+Conduta Antidesportiva antes da Partida,1,False
+Conduta Gravemente Antidesportiva antes da Partida,1,False
+Agressão antes da Partida,1,False
+"Após Desqualificação antes da Partida, a Equipe",1,False
+com 10 Atletas e 4 Oficiais,1,False
+Conduta Antidesportiva durante Intervalo,1,False
+Conduta Antidesportiva repetida durante Intervalo,1,False
+Conduta Gravemente Antidesportiva durante Intervalo,1,False
+Agressão durante Intervalo,1,False
+"Após Desqualificação durante Intervalo, a Equipe",1,False
+na Quadra com força completa,1,False
+"Após a Partida, Conduta Antidesportiva, Conduta Gravemente Antidesportiva ou Agressão",1,False
+Relatório Escrito,1,False
+Tempo de Jogo inclui Time-outs,1,False
+Tempo de Jogo inclui Gol de Ouro,1,False
+Tempo de Jogo inclui Shoot-out,1,False
+Intervalos,1,False
+Turnover significa que a Posse da Bola passou de uma Equipe para a outra,1,False
+"começo do segundo Período, Atletas suspensas",1,False
+"começo do Gol de Ouro, Atletas suspensas",1,False
+"começo do Shoot-out, Atletas suspensas",1,False
+Suspensão atrasada em situação de vantagem começa no momento em que a sanção é imposta,1,False
+Restante da Partida inclui Gol de Ouro,1,False
+Restante da Partida inclui Shoot-out,1,False
+Goleira,1,False
+por qualquer contato com Adversário fora de sua Área de Gol,1,False
+"Atacante não tem chance de ver ou evitar a Goleira fora da Área de Gol, então",1,False
+Tiro correspondente e Punição Progressiva,1,False
+"incidente de Goleira fora da Área de Gol ocorre durante Shoot-out, então",1,False
+Tiro de 6 Metros e Desqualificação da Goleira,1,False
+"Atacante tem tempo e espaço suficientes para ver e evitar a Goleira fora da Área de Gol, então Tiro Livre ofensivo",1,False
+para a Equipe da Goleira,1,False
+"Goleira causa contato físico contra Adversário dentro da Área de Gol, então Tiro de 6 Metros e Desqualificação",1,False
+Goleira defensora sempre assume responsabilidade por esse tipo de ação,1,False
+por dois Árbitros,1,False
+dois Árbitros possuem autoridade igual,1,False
+por Cronometrista,1,False
+por Secretário,1,False
+Árbitros monitoram a conduta dos Atletas desde o momento em que entram no local da Partida até o momento em que saem,1,False
+por inspecionar a Quadra de Jogo antes do início da Partida,1,False
+por inspecionar as Balizas antes do início da Partida,1,False
+por inspecionar as Bolas antes do início da Partida,1,False
+Árbitros decidem quais Bolas serão usadas,1,False
+Árbitros verificam a presença das duas Equipes com uniformes apropriados,1,False
+Árbitros verificam a Súmula,1,False
+Árbitros verificam o equipamento dos Atletas,1,False
+Árbitros asseguram que o número de Atletas e Oficiais de Equipe na Área de Substituição está dentro dos limites,1,False
+Árbitros verificam a presença do Oficial Responsável de cada Equipe,1,False
+Árbitros verificam a identidade do Oficial Responsável de cada Equipe,1,False
+Qualquer discrepância,1,False
+Árbitro realiza o Sorteio por Moeda,1,False
+Sorteio por Moeda ocorre na presença do segundo Árbitro,1,False
+Sorteio por Moeda ocorre na presença do Oficial Responsável de cada Equipe,1,False
+na presença de Oficial de Equipe em nome do Oficial Responsável,1,False
+na presença de Atleta em nome do Oficial Responsável,1,False
+"início da Partida, um Árbitro posiciona-se fora da Linha Lateral no lado oposto à Mesa de Cronometragem",1,False
+Relógio Oficial começa no Sinal de Apito do Árbitro posicionado fora da Linha Lateral,1,False
+segundo Árbitro posiciona-se no centro da Quadra de Jogo,1,False
+"Após o Sinal de Apito, o segundo Árbitro inicia a Partida com Tiro de Árbitro",1,False
+de lado entre si de tempos em tempos durante a Partida,1,False
+de modo que possam observar as Áreas de Substituição das duas Equipes,1,False
+"Em princípio, a Partida inteira",1,False
+pelos mesmos Árbitros,1,False
+por assegurar que a Partida seja jogada de acordo com as Regras,1,False
+Infrações,1,False
+"um Árbitro torna-se incapaz de terminar a Partida, então o segundo Árbitro continua a Partida sozinho",1,False
+"Em Eventos IHF e Continentais, a incapacidade de um Árbitro terminar a Partida",1,False
+conforme regulamentos aplicáveis,1,False
+"os dois Árbitros têm opiniões diferentes sobre a atribuição de pontos após Gol, então aplica-se decisão conjunta",1,False
+"Em divergência decisória da Regra 17:9, Tempo Técnico",1,False
+"Após consulta entre Árbitros, os Árbitros",1,False
+sinais manuais claros,1,False
+"Após consulta entre Árbitros, a Partida",1,False
+após Sinal de Apito,1,False
+Árbitros alcançam decisão conjunta por breve consulta entre si,1,False
+"os Árbitros não conseguem alcançar decisão conjunta, então prevalece a opinião do Árbitro de Quadra",1,False
+dois Árbitros observam o Placar,1,False
+dois Árbitros controlam o Placar,1,False
+dois Árbitros observam o Tempo de Jogo,1,False
+dois Árbitros controlam o Tempo de Jogo,1,False
+dois Árbitros observam o Resultado da Partida,1,False
+dois Árbitros controlam o Resultado da Partida,1,False
+"há dúvida sobre a precisão da cronometragem, então os Árbitros alcançam decisão conjunta",1,False
+"Árbitros controlam, com apoio do Cronometrista e do Secretário, a entrada de Substitutos",1,False
+"Árbitros controlam, com apoio do Cronometrista e do Secretário, a saída de Substitutos",1,False
+por assegurar que a Súmula seja completada corretamente após a Partida,1,False
+Desqualificações indicadas na Regra 16:8,1,False
+Decisões dos Árbitros com base em observações de fatos,1,False
+Decisões dos Árbitros com base em julgamentos,1,False
+Decisões dos Árbitros baseadas em recomendações de Delegados,1,False
+quando derivadas de observações de fatos ou julgamentos,1,False
+Recursos,1,False
+apenas contra decisões que não estão em conformidade com as Regras,1,False
+"Durante a Partida, apenas os respectivos Oficiais Responsáveis têm direito de dirigir-se aos Árbitros",1,False
+Árbitros têm o direito de suspender temporariamente uma Partida,1,False
+Árbitros têm o direito de suspender permanentemente uma Partida,1,False
+Todo esforço,1,False
+para continuar a Partida antes de uma decisão de suspensão permanente,1,False
+pelo Tempo de Jogo,1,False
+pelos Time-outs,1,False
+pelo Tempo de Suspensão de Atletas suspensos,1,False
+pela Súmula,1,False
+pela lista de Atletas,1,False
+pela entrada de Atletas que chegam após início da Partida,1,False
+pela entrada de Atletas que não estão autorizados a participar,1,False
+Outras tarefas,1,False
+conjuntamente pelo Cronometrista e pelo Secretário,1,False
+Outras tarefas incluem controlar número de Atletas,1,False
+Outras tarefas incluem controlar número de Oficiais de Equipe na Área de Substituição,1,False
+Outras tarefas incluem controlar saída e entrada de Atletas substitutos,1,False
+"Em geral, somente o Cronometrista",1,False
+a Partida quando necessário,1,False
+"o Cronometrista interrompe a Partida por Substituição Irregular, então a Partida",1,False
+Tiro Livre por Substituição Irregular,1,False
+"o local onde a Bola estava no momento da interrupção é mais favorável à Equipe infratora, então o Tiro Livre",1,False
+"o Cronometrista interrompe a Partida por Entrada Ilegal, então a Partida",1,False
+Tiro Livre por Entrada Ilegal,1,False
+a Partida imediatamente em caso de Substituição Irregular,1,False
+a Partida imediatamente em caso de Entrada Ilegal,1,False
+os Árbitros sobre a Violação,1,False
+"Após interrupção por outras razões, Cronometrista",1,False
+confirmação dos Árbitros antes de parar o Relógio Oficial,1,False
+"o Cronometrista não consegue interromper a Partida em situação necessária, então Árbitros",1,False
+a situação,1,False
+por verificar o direito da Equipe a Team Time-out,1,False
+a Partida imediatamente quando Team Time-out é solicitado corretamente,1,False
+o Relógio Oficial quando Team Time-out é solicitado corretamente,1,False
+aos Árbitros que Team Time-out foi concedido,1,False
+a duração do Team Time-out,1,False
+o fim do Team Time-out,1,False
+Em Eventos IHF,1,False
+Em Eventos Continentais,1,False
+Sistema Eletrônico,1,False
+pelo Cronometrista,1,False
+"Em caso de uso de Sistema Eletrônico, Team Time-out",1,False
+por Oficial de Equipe autorizado,1,False
+pausa obrigatória de 20 segundos,1,False
+em cada Período quando o Relógio Oficial mostra 05:00,1,False
+"Durante pausa obrigatória de 20 segundos, a Bola",1,False
+"Durante pausa obrigatória de 20 segundos, substituições",1,False
+o início da pausa obrigatória de 20 segundos,1,False
+o fim da pausa obrigatória de 20 segundos,1,False
+Apêndice A lista os Sinais Manuais dos Árbitros,1,False
+Sinal Manual 1 representa Vantagem e continuidade do jogo,1,False
+Sinal Manual 2 representa Duplo Drible,1,False
+Sinal Manual 3 representa Andada ou segurar a Bola por mais de 3 segundos,1,False
+"Sinal Manual 4 representa restringir, segurar ou empurrar",1,False
+Sinal Manual 5 representa Golpear,1,False
+Sinal Manual 6 representa Falta de Ataque,1,False
+Sinal Manual 7 representa direção do Lateral,1,False
+Sinal Manual 8 representa Tiro de Goleiro,1,False
+Sinal Manual 9 representa direção do Tiro Livre,1,False
+Sinal Manual 10 representa manter distância de 1 metro,1,False
+Sinal Manual 11.1 representa obtenção de 1 ponto,1,False
+Sinal Manual 11.2 representa obtenção de 2 pontos,1,False
+Sinal Manual 12 representa Suspensão,1,False
+Sinal Manual 13 representa Desqualificação,1,False
+Sinal Manual 14 representa Time-out,1,False
+Sinal Manual 15 representa permissão para duas pessoas autorizadas entrarem na Quadra durante Time-out,1,False
+Sinal Manual 16 representa sinal de aviso prévio para Jogo Passivo,1,False
+um balanço vertical completo do braço,1,False
+"Sinal Manual 12, o Árbitro indica a violação da regra",1,False
+"Sinal Manual 12, o Árbitro aponta para o Atleta infrator",1,False
+braço dobrado segurado no punho pelo outro braço indica Suspensão,1,False
+Árbitro usa Cartão Vermelho para indicar Desqualificação imediata,1,False
+claramente pelo Secretário segurando Cartão Vermelho no ar,1,False
+"Tiro Livre é assinalado, Árbitros",1,False
+imediatamente a direção do Tiro Livre,1,False
+"Lateral é assinalado, Árbitros",1,False
+imediatamente a direção do Lateral,1,False
+"Punição Pessoal é aplicável, o Sinal Manual obrigatório apropriado",1,False
+Sinais Manuais 12 e 13 indicam Punição Pessoal,1,False
+"explicação do motivo de Tiro Livre ou Tiro de 6 Metros parece útil, então Sinal Manual 1 a 6",1,False
+para informação,1,False
+"Sinais Manuais 11, 14 e 15 são obrigatórios nas situações em que se aplicam",1,False
+"Sinais Manuais 8, 10 e 16 são usados conforme necessário pelos Árbitros",1,False
+APP-B lista Esclarecimentos das Regras de Jogo,1,False
+Esclarecimento 1 trata da atribuição de pontos relacionada à Regra 9,1,False
+Esclarecimento 2 trata de circunstâncias especiais do Shoot-out,1,False
+Esclarecimento 3 trata da execução de Tiro Livre após o sinal final,1,False
+Esclarecimento 4 trata de Jogo Passivo,1,False
+Esclarecimento 5 trata de Conduta Antidesportiva,1,False
+Esclarecimento 6 trata de Conduta Gravemente Antidesportiva,1,False
+Esclarecimento 7 trata de Chance Clara de Gol,1,False
+Esclarecimento 8 trata de interrupção pelo Cronometrista,1,False
+Esclarecimento 9 trata de Shoot-out e contra-ataque rápido,1,False
+Gol marcado em jogada aérea,1,False
+Atleta em jogada aérea,1,False
+"a Bola e arremessa ao Gol enquanto está no ar, então o Gol pode_receber 2 pontos",1,False
+Atleta apenas,1,False
+"ou empurra a Bola para dentro do Gol em jogada aérea, então o Gol vale 1 ponto",1,False
+Espírito do Jogo de Handebol de Areia,1,False
+Filosofia Específica do Handebol de Areia,1,False
+Gols criativos,1,False
+Gols espetaculares,1,False
+apenas Gol de 1 ponto baseado em habilidade técnica fundamental,1,False
+ação final marcante e dramática,1,False
+"circunstâncias externas exigem, então os Árbitros",1,False
+usar apenas uma Baliza para o Shoot-out,1,False
+Vento,1,False
+Posição do sol,1,False
+"o tempo de jogo expirou e Equipe tem oportunidade de executar Tiro Livre, então o Tiro Livre tecnicamente",1,False
+"Atleta em posição aproximadamente correta deixa a Bola cair ou entrega a Bola aos Árbitros, então os Árbitros",1,False
+o Tiro Livre executado,1,False
+"a Equipe quer tentar marcar Gol após o sinal final, então os Árbitros",1,False
+oportunidade de arremesso e controle da situação,1,False
+Atletas de ambas as Equipes em posições corretas com firmeza e rapidez,1,False
+Tiro Livre após sinal final,1,False
+sem atraso,1,False
+Apenas um Atleta da Equipe executante,1,False
+a Bola durante a execução,1,False
+"Atletas querem sair da Quadra para substituição, então fazem isso por risco próprio",1,False
+de esperar substitutos alcançarem posições corretas antes do sinal de execução,1,False
+invasão persistente dos defensores,1,False
+Gols marcados ilegalmente,1,False
+impedir métodos de jogo pouco atrativos,1,False
+impedir atrasos intencionais no jogo,1,False
+métodos passivos durante toda a Partida,1,False
+métodos passivos de forma consistente,1,False
+quando a Bola é movida pela Quadra,1,False
+durante a fase de construção,1,False
+durante a fase de finalização,1,False
+quando Equipe lidera por pouca diferença no fim da Partida,1,False
+quando Equipe tem Atleta suspenso,1,False
+"quando Equipe tem superioridade numérica, especialmente na defesa",1,False
+especialmente durante fase de construção excessivamente longa,1,False
+fase de construção com jogo preparatório de passes antes de iniciar situação ofensiva direcionada,1,False
+Ataque sem ação ofensiva direcionada,1,False
+Recebimento repetido da Bola parado,1,False
+Recebimento repetido da Bola afastando-se do Gol,1,False
+Quique repetido da Bola parado,1,False
+"atacante confrontado por adversário vira-se prematuramente para longe, então isso",1,False
+"atacante espera interrupção dos Árbitros, então isso",1,False
+"atacante não ganha vantagem espacial sobre defensor, então isso",1,False
+Ações defensivas ativas,1,False
+aumento de ritmo do ataque,1,False
+Equipe atacante sem aumento claro de ritmo da construção para finalização,1,False
+Jogo Passivo,1,False
+"Árbitro reconhece surgimento de Jogo Passivo, então Árbitro levanta o braço com Sinal Manual 16",1,False
+Segundo Árbitro,1,False
+Sinal de Aviso Prévio indica que Equipe em posse não tenta criar oportunidade de arremesso ao Gol,1,False
+Sinal de Aviso Prévio indica atraso repetido no reinício do jogo,1,False
+Sinal de Aviso Prévio permanece até fim do ataque,1,False
+Sinal de Aviso Prévio permanece até deixar de ser válido,1,False
+Ataque começa quando Equipe entra em posse da Bola,1,False
+Ataque termina quando Equipe marca Gol ou perde posse da Bola,1,False
+"Equipe em posse arremessa ao Gol e Bola retorna diretamente para a Equipe atacante, então julgamento de Jogo Passivo",1,False
+"Equipe em posse arremessa ao Gol e resultado é Lateral para a mesma Equipe, então julgamento de Jogo Passivo",1,False
+"julgamento de Jogo Passivo deixa de ser válido, então Equipe em posse",1,False
+nova fase de construção,1,False
+"Após Sinal de Aviso Prévio, Árbitros",1,False
+algum tempo para Equipe em posse mudar ação,1,False
+tabela de exemplos de Jogo Passivo,1,False
+EXTRAÇÃO_TABULAR_AMBÍGUA_AGUARDANDO_REVISÃO_HUMANA,1,False
+Gritar com Atleta que,1,False
+Tiro de 6 Metros é_exemplo_de Conduta Antidesportiva,1,False
+Chutar a Bola para longe durante interrupção para impedir execução imediata do adversário,1,False
+Abusar verbalmente de adversário,1,False
+Abusar verbalmente de companheiro de Equipe,1,False
+Não entregar a Bola quando ela saiu pela linha lateral,1,False
+Atrasar execução de lançamento formal,1,False
+Segurar adversário pelo uniforme,1,False
+Goleiro não entregar a Bola após Tiro de 6 Metros concedido ao adversário,1,False
+Jogador de Linha bloquear repetidamente arremessos com pé ou perna inferior,1,False
+Defensores entrarem repetidamente na própria Área de Gol,1,False
+Atleta tentar criar impressão incorreta de infração adversária,1,False
+Comportamento insultante por fala dirigido a outra pessoa,1,False
+Comportamento insultante por expressão facial dirigido a outra pessoa,1,False
+Comportamento insultante por gesto dirigido a outra pessoa,1,False
+Comportamento insultante por contato corporal dirigido a outra pessoa,1,False
+Arremessar ou empurrar a Bola para longe após decisão dos Árbitros,1,False
+Conduta Gravemente Antidesportiva quando a ação ultrapassa Conduta Antidesportiva,1,False
+Goleiro demonstrar atitude passiva em Tiro de 6 Metros,1,False
+Conduta Gravemente Antidesportiva quando Árbitro assume que Goleiro não tenta defender o arremesso,1,False
+Revidar após sofrer Falta,1,False
+como agressão,1,False
+"defensores estão entre Atleta arremessador e Gol vazio, então Árbitros",1,False
+possibilidade de intervenção legal desses defensores,1,False
+Tiro Livre após substituição irregular normalmente ocorre no local da infração,1,False
+"a Bola estava em posição mais favorável para adversários no momento da interrupção, então Tiro Livre",1,False
+nesse local,1,False
+jogo imediatamente em substituição irregular ou entrada ilegal,1,False
+Interrupção imediata por substituição irregular,1,False
+regras gerais de vantagem,1,False
+"Chance Clara de Gol é destruída por interrupção causada por infração da defesa, então Tiro de 6 Metros",1,False
+"Em outros tipos de infração a relatar, Cronometrista geralmente",1,False
+próxima interrupção do jogo,1,False
+Intervenção prematura do Cronometrista,1,False
+perda de posse,1,False
+"Cronometrista interrompe prematuramente, então jogo reinicia com Tiro Livre para Equipe que possuía a Bola",1,False
+"interrupção prematura foi causada por infração da defesa e destruiu Chance Clara de Gol, então Tiro de 6 Metros",1,False
+Infrações observadas e relatadas por Cronometrista ou Secretário geralmente,1,False
+"punições pessoais, salvo exceções indicadas na fonte",1,False
+Goleiro defensor sempre,1,False
+Atleta defensor sempre,1,False
+Área de Substituição para Jogadores de Linha,1,False
+Áreas de Substituição são posicionadas nos dois lados da Quadra de Jogo fora da linha lateral,1,False
+Nenhum objeto,1,False
+Garrafas de água,1,False
+Toalhas,1,False
+Apenas Atletas registrados na súmula,1,False
+Apenas Oficiais de Equipe registrados na súmula,1,False
+Oficiais de Equipe na Área de Substituição,1,False
+vestimenta esportiva completa,1,False
+"intérprete é necessário, então intérprete",1,False
+posição atrás da Área de Substituição,1,False
+Equipe permanece na Área de Substituição do respectivo lado,1,False
+"há infração antes da Partida relativa à Área de Substituição, então Partida",1,False
+até correção,1,False
+"há infração durante a Partida relativa à Área de Substituição, então Partida",1,False
+após próxima interrupção até resolução,1,False
+de orientar e administrar a Equipe durante a Partida,1,False
+de orientar e administrar a Equipe durante a Partida em espírito justo e esportivo,1,False
+na Área de Substituição em princípio,1,False
+dentro da Área de Substituição para administrar substituição de Atletas,1,False
+dentro da Área de Substituição para dar orientação tática,1,False
+dentro da Área de Substituição para prestar atendimento médico,1,False
+dentro da Área de Substituição para solicitar Time-out de Equipe,1,False
+com Cronometrista ou Secretário somente em situações incomuns,1,False
+"Em qualquer instante, apenas um Oficial de Equipe por Equipe",1,False
+de movimentar-se,1,False
+limites da Área de Substituição,1,False
+"necessidade de visão irrestrita do Cronometrista, Secretário e Delegado",1,False
+Atletas na Área de Substituição,1,False
+em princípio,1,False
+Atletas substitutos,1,False
+na Área de Substituição quando em breve entrarão na Quadra,1,False
+Movimento de Atletas substitutos,1,False
+perturbador,1,False
+Oficiais de Equipe e Atletas,1,False
+em geral na Área de Substituição de sua Equipe,1,False
+"Oficial de Equipe deixa Área de Substituição para outra posição, então perde direito de orientar e administrar a Equipe",1,False
+à Área de Substituição para recuperar direito de orientar e administrar a Equipe,1,False
+Atletas permanecem sob jurisdição dos Árbitros e Delegados durante toda a Partida,1,False
+Oficiais de Equipe permanecem sob jurisdição dos Árbitros e Delegados durante toda a Partida,1,False
+Conduta Antidesportiva fora da Quadra e fora da Área de Substituição,1,False
+Conduta Gravemente Antidesportiva fora da Quadra e fora da Área de Substituição,1,False
+Conduta Extremamente Antidesportiva fora da Quadra e fora da Área de Substituição,1,False
+"Regulamento da Área de Substituição é infringido, então Árbitros",1,False
+"conforme Regras 16:1d, 16:2c-d ou 16:6b,e,h",1,False
+"Árbitros não percebem infração do Regulamento da Área de Substituição, então Cronometrista, Secretário ou Delegado",1,False
+Árbitros na próxima interrupção,1,False
+de informar Árbitros sobre possível decisão em violação das Regras,1,False
+de informar Árbitros sobre violação do Regulamento da Área de Substituição,1,False
+intervir em decisão dos Árbitros baseada em observação de fatos,1,False
+a Partida imediatamente,1,False
+"Delegado interrompe a Partida, então jogo reinicia com Tiro Livre para Equipe que não cometeu a violação",1,False
+"interrupção causada por violação da defesa destrói Chance Clara de Gol, então Tiro de 6 Metros",1,False
+punições pessoais conforme instruções do Delegado,1,False
+Fatos relacionados a Desqualificação,1,False
+Uniformes e acessórios dos Atletas contribuem para aumento de desempenho dos Atletas,1,False
+Uniformes e acessórios dos Atletas contribuem para imagem esportiva e atrativa da modalidade,1,False
+APP-D define especificações de uniformes e acessórios quanto à cor,1,False
+APP-D define especificações de uniformes e acessórios quanto ao estilo,1,False
+APP-D define especificações de uniformes e acessórios quanto à quantidade,1,False
+APP-D define especificações de uniformes e acessórios quanto ao tecido,1,False
+APP-D define especificações de uniformes e acessórios quanto às marcas,1,False
+Organizadores,1,False
+uniformes das Equipes participantes durante Reunião Técnica,1,False
+uniformes das Equipes participantes durante o evento,1,False
+Uniformes masculinos,1,False
+Uniformes femininos,1,False
+Mensagens religiosas são estritamente proibidas nos uniformes dos Atletas,1,False
+Mensagens políticas são estritamente proibidas nos uniformes dos Atletas,1,False
+Mensagens raciais são estritamente proibidas nos uniformes dos Atletas,1,False
+justa ao corpo,1,False
+justo ao corpo,1,False
+Regata ou top,1,False
+espaço para marcas obrigatórias,1,False
+Camisetas usadas por baixo da regata oficial da Equipe,1,False
+Regatas e tops,1,False
+cores brilhantes e claras,1,False
+"Cores como vermelho, azul, amarelo, verde, laranja e branco",1,False
+de cores normalmente usadas em ambiente de praia,1,False
+impressos na frente das regatas masculinas e tops femininos,1,False
+impressos nas costas das regatas masculinas e tops femininos,1,False
+impresso na frente das regatas masculinas e tops femininos,1,False
+colocado na frente da regata masculina ou top feminino,1,False
+colocado nas costas da regata masculina ou top feminino,1,False
+impresso em cor contrastante com a cor da regata ou top,1,False
+Integrantes da mesma Equipe,1,False
+shorts idênticos,1,False
+Atletas masculinos,1,False
+mais longos se não forem largos demais,1,False
+no mínimo 10 centímetros acima da patela,1,False
+shorts justos e curtos com ajuste próximo ao corpo,1,False
+a possuir logotipos de patrocinadores nos shorts,1,False
+Logotipos de fabricantes,1,False
+incluídos nos shorts,1,False
+localizados em qualquer posição,1,False
+qualquer tamanho,1,False
+Não há limite para quantidade de patrocinadores exibidos nos shorts,1,False
+nome ou apelido nos shorts,1,False
+uniformes da Equipe para aprovação durante Reunião Técnica pré-competição,1,False
+"Em condições climáticas severas, Atletas",1,False
+uniforme de frio,1,False
+composto por camisa justa,1,False
+composto por calça longa justa até o tornozelo,1,False
+calça até o joelho,1,False
+consistentes em estilo e cor,1,False
+as mesmas regras de marketing aplicadas aos shorts dos Atletas,1,False
+para permitir uso de uniforme especial de frio,1,False
+equipe médica oficial antes de permitir uniforme especial de frio,1,False
+em regatas ou tops de frio masculinos e femininos,1,False
+em calças de frio masculinas e femininas conforme regra geral,1,False
+Seleção da Areia é fator importante na construção da Quadra,1,False
+peneirada até tamanho aceitável,1,False
+excessivamente grossa,1,False
+livre de pedras,1,False
+livre de partículas perigosas,1,False
+excessivamente fina a ponto de causar poeira,1,False
+excessivamente fina a ponto de aderir à pele,1,False
+lavada,1,False
+duplamente lavada,1,False
+livre de silte,1,False
+livre de argila,1,False
+Ausência de silte e argila previne compactação,1,False
+Partículas de Areia,1,False
+"tamanho entre 0,5 e 1 milímetro",1,False
+"Tamanho de partículas entre 0,5 e 1 milímetro permite drenagem adequada",1,False
+"Tamanho de partículas entre 0,5 e 1 milímetro maximiza segurança",1,False
+Forma subangular das partículas resiste à compactação,1,False
+Forma subangular das partículas auxilia a drenagem,1,False
+Areia de cor bege absorve menos calor,1,False
+Areia de cor bege gera brilho mínimo,1,False
+Areia de base granítica permanece estável sob todas as condições climáticas,1,False
+por chuva ácida,1,False
+Areia de base granítica é,1,False
+cálcio,1,False
+calcário,1,False
+exatamente 0 por cento,1,False
+"entre 1,0 e 2,0 milímetros",1,False
+entre 0 e 6 por cento,1,False
+"entre 0,5 e 1,0 milímetro",1,False
+"entre 0,25 e 0,5 milímetro",1,False
+no máximo 92 por cento,1,False
+"entre 0,15 e 0,25 milímetro",1,False
+entre 7 e 18 por cento,1,False
+"entre 0,05 e 0,15 milímetro",1,False
+"não maior que 2,0 por cento",1,False
+"abaixo de 0,05 milímetro",1,False
+"não maior que 0,15 por cento",1,False
+"o jogo ocorre à noite, então Área da Quadra",1,False
+iluminada,1,False
+que Atletas vejam claramente a ação,1,False
+que Oficiais vejam claramente a ação,1,False
+que espectadores no local vejam claramente a ação,1,False
+que espectadores por televisão vejam claramente a ação,1,False
+Níveis de brilho,1,False
+corretamente projetados sobre toda a Área de Jogo,1,False
+Contraste,1,False
+Ofuscamento,1,False
+Níveis de iluminação dependem do tamanho do local,1,False
+"Em competição internacional noturna, iluminação artificial",1,False
+entre 1000 e 1500 lux no mínimo,1,False
+medida a 1 metro acima da superfície de jogo,1,False
+durante o dia por solicitação da televisão,1,False
+Iluminação artificial durante o dia,1,False
+impacto da sombra,1,False
+Treinamento,1,False
+Competição local,1,False
+até 400 lux,1,False
+Competição internacional,1,False
+entre 1000 e 1500 lux,1,False
+Regra da Vantagem é cláusula das Regras do Jogo,1,False
+Regra da Vantagem dá aos Árbitros discricionariedade para permitir continuidade do jogo após falta cometida,1,False
+Regra da Vantagem aplica-se quando parar o jogo puniria injustamente a Equipe que sofreu a falta,1,False
+Contra-ataque é ataque de retorno,1,False
+Arremesso criativo é caracterizado por originalidade,1,False
+Ação criativa é caracterizada por originalidade,1,False
+Arremesso criativo é caracterizado por expressividade,1,False
+Ação criativa é caracterizada por expressividade,1,False
+Arremesso criativo é imaginativo,1,False
+Ação criativa é imaginativa,1,False
+Fair Play é conformidade com as regras do esporte,1,False
+Fair Play é conformidade com o espírito do esporte,1,False
+Fair Play é conformidade com a etiqueta do esporte,1,False
+Fair Play constitui ethos do esporte,1,False
+Golden Goal é regra que permite declarar vencedora a Equipe que marca o primeiro gol,1,False
+Aérea corresponde a deslocamento pelo ar conforme termo-fonte In-flight,1,False
+Gol contra ocorre quando Atleta marca gol registrado contra sua própria Equipe,1,False
+Shoot-out é meio de resolver empate,1,False
+Shoot-out ocorre com número igual de Atletas de cada lado alternando arremessos ao gol defendido pelo Goleiro,1,False
+Andada é violação das Regras,1,False
+Andada ocorre quando Atleta dá passos demais sem quicar a bola,1,False
+Turnover ocorre quando uma Equipe concede posse à Equipe adversária ao perder a bola por qualquer meio,1,False
+por passe interceptado,1,False
+por arremesso errado,1,False
+por infração às Regras,1,False
+Contra-ataque rápido é tentativa da Equipe de mover a bola rapidamente pela Quadra até posição de finalização,1,False
+Contra-ataque rápido busca criar situação em que defesa fica em inferioridade numérica,1,False
+Contra-ataque rápido busca criar situação em que defesa não tem tempo para se organizar,1,False
+Fumble ocorre quando Atleta em posse da bola solta a bola em jogo,1,False
+Fumble ocorre quando Atleta em posse da bola maneja incorretamente a bola em jogo,1,False
+natureza de espetáculo,1,False
+Gol espetacular é impressionante,1,False
+Gol espetacular é sensacional,1,False
+Gol espetacular é emocionante em efeito,1,False
+Gol espetacular é performance produzida de modo elaborado,1,False
+Gol espetacular vale 2 pontos,1,False
+Arremesso com Giro é arremesso realizado com volta completa do corpo no ar,1,False
+Roubo de bola consiste em tomar a bola de adversário que,1,False
+a bola,1,False
+Interceptação consiste em interceptar um passe,1,False

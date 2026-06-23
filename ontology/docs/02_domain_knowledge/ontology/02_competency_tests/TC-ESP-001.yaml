@@ -1,0 +1,20 @@
+teste_de_competencia:
+  id: TC-ESP-001
+  conceito_testado: Especialista
+  escopo: VOCAB-MIN-001
+  fonte: DH-ESP-001
+  origem: teste_de_competencia_obrigatorio (DH-ESP-001)
+  status: REGISTRADO_AGUARDANDO_EXECUCAO
+
+  entrada:
+    papel_tatico: Especialista
+    posicao_espacial: Area_De_Gol
+    funcao_situacional: Defender_O_Gol
+    evento: Gol
+
+  esperado:
+    papel_tatico_final: Especialista
+    valor_do_gol: 2
+    inferencia_proibida:
+      - Reclassificar como Goleiro
+      - Atribuir 1 ponto

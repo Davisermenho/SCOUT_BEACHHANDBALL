@@ -1,0 +1,98 @@
+ficha_conceitual:
+  id: FC-FUNCAO-SITUACIONAL-001
+  conceito: Função_Situacional
+  nome_canonico: Função_Situacional
+  escopo: CONCEPT-DIMENSOES-001
+  status: FICHA_MINIMA_REGISTRADA_AGUARDANDO_TESTE_E_VALIDACAO
+  nao_herda_validacao_anterior: true
+  fonte_de_autoridade: DH-PAPEIS-001
+
+  definicao_literal: >
+    É a microação baseada na leitura de resultados factuais do exato
+    milissegundo. Na antecipação das trocas, a jogadora lê um fato real
+    (arremesso adversário bloqueado, defesa da goleira, erro de passe ou
+    gol) e sua função muda instantaneamente para Antecipadora de Saída ou
+    Gatilho de Entrada, iniciando a substituição antes mesmo do término
+    oficial do lance adversário. No jogo jogado, o texto também traz três
+    funções situacionais defensivas claras: Defensora Base (ponto de
+    ancoragem junto à linha), Defensora Solta (liberdade para pressionar e
+    antecipar) e Defensora Cobertura (suporte e compensação de espaços).
+  fonte_da_definicao: DH-PAPEIS-001 (resposta 3)
+
+  afirmacoes:
+    - id: FC-FUNSIT-001-01
+      sujeito: Função_Situacional
+      predicado: baseada_em
+      objeto: leitura_de_resultados_factuais_do_milissegundo
+      fonte: DH-PAPEIS-001 (resposta 3)
+    - id: FC-FUNSIT-001-02
+      sujeito: Função_Situacional
+      predicado: não_é
+      objeto: Posição_Espacial
+      fonte: DH-PAPEIS-001 (resposta 6)
+    - id: FC-FUNSIT-001-03
+      sujeito: Função_Situacional
+      predicado: não_altera
+      objeto: Papel_Tático
+      fonte: DH-PAPEIS-001 (resposta 7)
+    - id: FC-FUNSIT-001-04
+      sujeito: Função_Situacional
+      predicado: não_altera
+      objeto: Papel_Regulamentar
+      fonte: DH-PAPEIS-001 (resposta 7)
+
+  escopo_da_definicao: >
+    Cobre exclusivamente o que está literalmente declarado em DH-PAPEIS-001
+    (respostas 3, 6, 7). Não é definição extensional completa de todas as
+    funções situacionais possíveis do domínio — apenas os exemplos citados
+    estão cobertos.
+
+  relacoes_declaradas:
+    - "Função_Situacional e Posição_Espacial são sempre distintas (DH-PAPEIS-001, resposta 6: 'Sim, sempre... A posição descreve o local estrutural; a função descreve a ação imediata em resposta ao ambiente')."
+    - "A função exercida em um momento não altera o Papel_Tático nem o Papel_Regulamentar do atleta (DH-PAPEIS-001, resposta 7)."
+
+  nao_equivalencias:
+    - Função_Situacional não é Papel_Tático (DH-ESP-001, separacoes_obrigatorias; reforçado por DH-PAPEIS-001 resposta 7).
+    - Função_Situacional não é Posição_Espacial (DH-PAPEIS-001, resposta 6).
+
+  inferencias_proibidas:
+    - "Não inferir Papel_Tático a partir da Função_Situacional (CONCEPT_PAPEIS_SEPARACAO_MINIMA.yaml, INF-PROIB-PAPEIS-002; reforçado por DH-PAPEIS-001 resposta 7)."
+    - Não confundir Função_Situacional com Posição_Espacial.
+
+  exemplos:
+    - "Antecipadora de Saída e Gatilho de Entrada: funções situacionais acionadas pela leitura de um fato real (arremesso bloqueado, defesa da goleira, erro de passe ou gol) (DH-PAPEIS-001, resposta 3) — citadas apenas como exemplo, sem ficha própria criada nesta etapa."
+    - "Defensora Base, Defensora Solta, Defensora Cobertura: funções situacionais defensivas citadas (DH-PAPEIS-001, resposta 3) — idem."
+    - "Gatilho de Transição Ofensiva: função situacional acionada por erro de passe do ataque adversário (DH-PAPEIS-001, resposta 6) — idem."
+
+  contraexemplos:
+    - "Uma jogadora com Papel_Tático de Jogadora Comum que realiza um gol de giro (360º) ou gol aéreo executa uma ação/função momentânea, mas isso não altera seu Papel_Tático (continua jogadora comum) nem seu Papel_Regulamentar (jogador de linha) (DH-PAPEIS-001, resposta 7). O valor de pontuação desse gol permanece bloqueado nesta ficha — ver 'Bloqueio obrigatório'."
+    - "A mudança de Defensora Cobertura para Gatilho de Transição Ofensiva, por si só, não transforma o Papel_Tático da atleta (DH-PAPEIS-001, resposta 6)."
+
+  conceitos_relacionados:
+    - Papel_Tático
+    - Posição_Espacial
+
+  conceitos_candidatos_nao_promovidos:
+    - Antecipadora_de_Saída
+    - Gatilho_de_Entrada
+    - Defensora_Base
+    - Defensora_Solta
+    - Defensora_Cobertura
+    - Gatilho_de_Transição_Ofensiva
+
+  pendencias_controladas:
+    - Definição extensional completa de todas as funções situacionais do domínio (apenas as citadas nas respostas estão registradas como exemplo).
+    - validação humana desta ficha
+    - teste de competência (a ser criado em etapa futura)
+    - validação lógica ou estrutural
+
+  bloqueio_obrigatorio:
+    - Gol de giro (360º) e Gol aéreo permanecem bloqueados; não resolvidos nesta ficha.
+    - O cruzamento com R09-CAT-2026-06-18 não foi resolvido nesta etapa.
+    - Nenhuma categoria de pontuação foi alterada por esta ficha.
+
+  observacoes:
+    - Esta ficha cobre exclusivamente Função_Situacional, conforme escopo de CONCEPT-DIMENSOES-001.
+    - Não altera Regras 1-18, Apêndices, DH-ESP-001, DH-PAPEIS-001.md ou DH-PAPEIS-001_CLARIFICACAO_Q8.md.
+    - Não reinterpreta DH-PAPEIS-001; reproduz literalmente as decisões nele registradas.
+    - Não constitui taxonomia ou ontologia.

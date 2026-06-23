@@ -1,0 +1,74 @@
+ficha_conceitual:
+  conceito: Goleiro
+  escopo: CONCEPT-GOLEIRO-001
+  status: REGISTRADA_LITERALMENTE_AGUARDANDO_GATES_RESTANTES
+  nao_herda_validacao_anterior: true
+  fonte_de_autoridade: DH-ESP-001
+
+  afirmacoes:
+    - id: FC-GOL-001-01
+      sujeito: Goleiro
+      predicado: não_é
+      objeto: Especialista
+      fonte: DH-ESP-001
+
+    - id: FC-GOL-001-02
+      sujeito: Goleiro
+      predicado: permanece_como
+      objeto: Goleiro
+      condicao: ao_sair_da_area_de_gol
+      fonte: DH-ESP-001
+
+    - id: FC-GOL-001-03
+      sujeito: Goleiro
+      predicado: permanece_como
+      objeto: Goleiro
+      condicao: cobrar_falta_fora_da_area_de_gol
+      fonte: DH-ESP-001
+
+    - id: FC-GOL-001-04
+      sujeito: Goleiro
+      predicado: não_se_transforma_em
+      objeto: Especialista
+      condicao: atuar_fora_da_area_de_gol
+      fonte: DH-ESP-001
+
+    - id: FC-GOL-001-05
+      sujeito: Goleiro_Atuando_No_Ataque
+      predicado: não_é
+      objeto: Especialista
+      fonte: DH-ESP-001
+
+  termos_pendentes:
+    - termo: Definição_Regulamentar_Completa_De_Goleiro
+      status: PENDENTE_DEFINICAO_LITERAL
+      motivo: depende de regras oficiais IHF ainda não reprocessadas nesta tarefa
+    - termo: Papel_Regulamentar
+      status: PENDENTE_DEFINICAO_LITERAL
+      motivo: sem decisão humana literal própria; já pendente desde VOCAB-MIN-001
+    - termo: Função_Situacional
+      status: PENDENTE_DEFINICAO_LITERAL
+      motivo: sem definição literal própria; já pendente desde VOCAB-MIN-001
+    - termo: Posição_Espacial
+      status: PENDENTE_DEFINICAO_LITERAL
+      motivo: sem definição literal própria; já pendente desde VOCAB-MIN-001
+    - termo: Regras_Oficiais_IHF_Sobre_Goleiro
+      status: PENDENTE_DEFINICAO_LITERAL
+      motivo: ainda não reprocessadas; fora do escopo de CONCEPT-GOLEIRO-001
+
+  inferencias_proibidas:
+    - Não inferir que sair da área transforma Goleiro em Especialista.
+    - Não inferir que cobrar falta fora da área transforma Goleiro em Especialista.
+    - Não substituir o conceito de Goleiro por Especialista.
+    - Não completar a definição regulamentar completa de Goleiro por inferência.
+
+  gates_pendentes:
+    - validação humana da transformação desta ficha
+    - teste de competência (ver TC-GOL-001.yaml)
+    - validação lógica ou estrutural
+
+  observacoes:
+    - Esta ficha cobre exclusivamente o que já está seguro a partir de DH-ESP-001 sobre Goleiro, conforme escopo de CONCEPT-GOLEIRO-001.
+    - Não reconstrói a definição regulamentar completa de Goleiro pela regra oficial IHF.
+    - Não altera Regras 1-18, Apêndices, DH-ESP-001 ou a ontologia principal.
+    - Não reinterpreta DH-ESP-001; reproduz literalmente as decisões e separações nele registradas.

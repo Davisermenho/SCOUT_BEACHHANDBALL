@@ -1,0 +1,141 @@
+---
+doc_type: governance_log
+derived: false
+should_be_derived: true
+status: current
+governed_by: null
+generated_by: null
+script_version_documented_against: "2.0.0"
+metrics_source_of_truth: results_auditoria_python/07_blockers_report.md
+superseded_by: null
+last_reviewed: "2026-06-22"
+---
+
+<!--
+NOTA PARA AGENTES: should_be_derived: true porque a seção de métricas de
+cada entrada é digitada à mão a partir de 07_blockers_report.md — e isso já
+causou um erro de transcrição real (ver entrada abaixo, que originalmente
+tinha "398" em vez de "99" IDs duplicados, corrigido na mesma sessão).
+Futuras entradas devem copiar a seção "Rastreabilidade desta execução" de
+07_blockers_report.md em vez de digitar números de memória.
+-->
+
+# CHANGELOG
+
+## 2026-06-22 — audit_ontology_pipeline.py v2.0.0 — correção do script de auditoria
+
+Motivo: o script em `auditoria_python_ontologia/audit_ontology_pipeline.py` não
+era capaz de reproduzir os relatórios já existentes em `results_auditoria_python/`
+(colunas e categorias presentes nos CSVs antigos não correspondiam a nenhum
+trecho do código então em disco), e havia evidência concreta de uma execução
+anterior com working directory incorreto (pasta vazia
+`auditoria_python_ontologia/auditoria_python_ontologia/`). Os 8 relatórios
+foram regenerados a partir do script corrigido.
+
+Correções aplicadas:
+- Paths agora são resolvidos a partir de `Path(__file__)`, não do cwd de quem
+  chama o script; arquivo de entrada ausente faz o script abortar com erro
+  claro (antes: tratado como string vazia, silenciosamente).
+- `parse_spo`: predicado no final da frase (sem espaço depois) agora é
+  reconhecido; predicados canônicos passaram a ser testados antes de outros
+  candidatos, evitando que um objeto/sujeito com underscore mais longo que o
+  predicado real fosse escolhido por engano.
+- Frases sem nenhum candidato a predicado (fora da linguagem controlada) agora
+  são marcadas explicitamente como tal, em vez de usar a 2ª palavra da frase
+  como predicado adivinhado (isso fazia substantivos comuns, ex. "Cartão",
+  "Adversário", aparecerem disfarçados de predicado inválido).
+- Extração de vocabulário passou a reconhecer a relação `é_subclasse_de`
+  (faltava, deixando superclasses como "Penalidade" fora do vocabulário
+  válido) e a normalizar espaço/underscore ao checar os 9 conceitos centrais
+  obrigatórios.
+- Verificação de decisões humanas por bloco (pergunta + resposta literal +
+  decisões extraídas) implementada de fato no código — antes só existia como
+  artefato de uma execução anterior, sem código correspondente.
+- Relatório final passou a incluir timestamp, versão do script e hash/tamanho/
+  mtime de cada arquivo de entrada lido.
+- A decisão humana literal `DH-ESP-001` (Especialista vs. Goleiro), que estava
+  em `results_auditoria_python/01.md` — pasta de saída, não lida pelo script —
+  foi movida para o final de `files/Decisões Humanas.md`.
+
+Métricas antes (2026-06-19) → depois (2026-06-22):
+- Afirmações com ID extraídas: 1512 → 1512
+- IDs únicos: 1413 → 1413
+- IDs duplicados: 99 → 99
+- Predicados não canônicos: 505 → 380
+- Afirmações sem predicado detectável: (métrica inexistente) → 373
+- Conceitos candidatos extraídos: 1781 → 1746
+- Conceitos ausentes/obrigatórios ausentes: 247 → 207
+- Gaps de decisão humana: 25 → 23
+
+A queda em "predicados não canônicos" e "conceitos ausentes" reflete remoção
+de ruído de parsing (falsos positivos), não melhoria da ontologia em si — os
+99 BH-IDs duplicados e os pontos já listados em `00_ESTADO_REAL_AUDITADO.md`
+continuam exigindo decisão humana.
+
+## 2026-06-22 (2) — correção de não-determinismo em parse_spo
+
+Motivo: ao verificar a documentação, notei que executar o pipeline duas
+vezes seguidas, sem nenhuma mudança de conteúdo, produzia números
+diferentes (ex: "predicados não canônicos" oscilando entre 378-380). Causa:
+`canonical_predicates` e os candidatos não-canônicos são `set`s, e a ordem
+de iteração de sets de strings em Python varia entre execuções do processo
+(hash seed aleatório). O critério de desempate em `parse_spo`
+(`sorted(..., key=len, reverse=True)`) não tinha desempate estável para
+candidatos de mesmo comprimento, então a escolha do predicado em frases
+ambíguas dependia dessa ordem instável.
+
+Correção: desempate alfabético adicionado (`key=lambda p: (-len(p), p))`)
+nas duas listas de candidatos. Validado executando o pipeline 3 vezes
+seguidas sem alteração de input — mesmo resultado nas 3 (378 predicados não
+canônicos, 1744 conceitos candidatos, 206 conceitos ausentes). Métricas após
+este fix substituem as da entrada anterior deste CHANGELOG (379-380 era a
+faixa observada antes do desempate estável; 378 é o valor agora reprodutível).
+
+## 2026-06-22 (3) — HANDOFF-UPDATE-001: fechamento de VOCAB-MIN-001
+
+Motivo: registrar o fechamento da etapa VOCAB-MIN-001 (vocabulário canônico
+mínimo + ficha conceitual + teste de competência do conceito `Especialista`)
+e apontar o próximo ponto exato autorizado, conforme `prompt.md`.
+
+Criado `docs/02_domain_knowledge/ontology/00_governance/HANDOFF.md` como
+marcador mestre de continuidade do novo fluxo de governança. Este arquivo
+substitui, para fins de "próximo ponto exato", os blocos de handoff legados
+em `files/Operacional.md` e `results_auditoria_python/12345.md` (ambos já
+classificados como histórico/não executável em `00_ESTADO_REAL_AUDITADO.md`).
+
+Estado registrado no novo handoff:
+- `ultima_etapa_concluida`: VOCAB-MIN-001,
+  status `VOCAB_MIN_001_APROVADA_COM_PENDENCIAS_CONTROLADAS`
+  (11 critérios aprovados, 0 reprovados; pendências controladas:
+  `Papel_Regulamentar`, `Função_Situacional`, `Posição_Espacial`,
+  `Jogador_De_Linha`, `Autor_Do_Gol`, `Fundamento_Da_Pontuação`).
+- `proximo_ponto_exato`: `CONCEPT-GOLEIRO-001` — reconstruir ficha
+  conceitual mínima do `Goleiro`, limitada ao que já está registrado em
+  `DH-ESP-001`, sem inferir definição regulamentar completa.
+
+## 2026-06-22 (4) — HANDOFF-UPDATE-002: fechamento de CONCEPT-GOLEIRO-001
+
+Motivo: registrar o fechamento da etapa CONCEPT-GOLEIRO-001 (ficha conceitual
+mínima + teste de competência do conceito `Goleiro`) e abrir a etapa de
+preparação para separar `Papel_Tático`, `Papel_Regulamentar`,
+`Função_Situacional` e `Posição_Espacial`, conforme `prompt.md`.
+
+`docs/02_domain_knowledge/ontology/00_governance/HANDOFF.md` atualizado: o
+bloco `ultima_etapa_concluida` anterior (VOCAB-MIN-001) move para uma seção
+de histórico; o estado atual passa a refletir CONCEPT-GOLEIRO-001.
+
+Estado registrado no handoff:
+- `ultima_etapa_concluida`: CONCEPT-GOLEIRO-001,
+  status `CONCEPT_GOLEIRO_001_APROVADA_COM_PENDENCIAS_CONTROLADAS`
+  (11 critérios aprovados, 0 reprovados; pendências controladas: definição
+  regulamentar completa de Goleiro, `Papel_Regulamentar`,
+  `Função_Situacional`, `Posição_Espacial`, regras IHF ainda não
+  reprocessadas).
+- `proximo_ponto_exato`: `CONCEPT-PAPEIS-001` — criar estrutura mínima que
+  declare `Papel_Tático`, `Papel_Regulamentar`, `Função_Situacional` e
+  `Posição_Espacial` como dimensões distintas, sem inferir definição
+  completa de nenhuma delas.
+
+Criado `docs/02_domain_knowledge/ontology/01_concepts/CONCEPT_PAPEIS_SEPARACAO_MINIMA.yaml`
+como artefato de preparação de CONCEPT-PAPEIS-001 (não é decisão humana
+literal nova nem definição completa de nenhum dos quatro termos).

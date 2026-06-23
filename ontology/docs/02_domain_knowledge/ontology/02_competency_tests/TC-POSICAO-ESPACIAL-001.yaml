@@ -1,0 +1,79 @@
+teste_de_competencia:
+  id: TC-POSICAO-ESPACIAL-001
+  conceito_testado: Posição_Espacial
+  escopo: CONCEPT-DIMENSOES-001-TESTS
+  fonte_de_autoridade: FICHA_CONCEITUAL_POSICAO_ESPACIAL.yaml
+  fontes_complementares:
+    - DH-PAPEIS-001 (respostas 4, 9, 10)
+    - DH-PAPEIS-001_CLARIFICACAO_Q8
+  status: TESTE_DE_COMPETENCIA_CRIADO_AGUARDANDO_EXECUCAO_E_VALIDACAO
+
+  casos:
+    - id: TC-POSESP-001-C1
+      descricao: "Posição_Espacial isolada não altera Papel_Tático, mesmo ao ocupar momentaneamente outra região da quadra."
+      entrada:
+        papel_tatico_definido_pelo_treinador: Atacante_Normal
+        atleta: Lateral_Esquerda
+        evento: ocupa_momentaneamente_posicao_espacial_Central_no_contra_ataque
+      esperado:
+        papel_tatico_final: Atacante_Normal
+        inferencia_proibida:
+          - Reclassificar a atleta como Especialista por ocupar a posição de Central
+          - Inferir Papel_Tático a partir da Posição_Espacial
+      fonte: DH-PAPEIS-001_CLARIFICACAO_Q8
+
+    - id: TC-POSESP-001-C2
+      descricao: "A Linha_Lateral funciona como gatilho operacional/regulamentar (altera Status_Operacional), mas não cria nem altera Papel_Tático, que já foi definido previamente pelo treinador."
+      entrada:
+        papel_tatico_definido_pelo_treinador_no_banco: Especialista
+        evento: atleta_cruza_a_Linha_Lateral_na_Área_De_Substituição
+      esperado:
+        status_operacional_final: Ativa_Em_Quadra
+        papel_tatico_final: Especialista
+        inferencia_proibida:
+          - Inferir que cruzar a Linha_Lateral cria o Papel_Tático
+          - Confundir Status_Operacional com Papel_Tático
+          - Inferir que Linha_Lateral transforma Especialista em outro Papel_Tático
+          - Inferir que Linha_Lateral transforma Atacante_Normal em Especialista
+      fonte: DH-PAPEIS-001_CLARIFICACAO_Q8
+
+    - id: TC-POSESP-001-C3
+      descricao: "Substituição pela linha lateral oposta ao lado de troca da equipe é inválida."
+      entrada:
+        substituicao:
+          lado_de_troca_da_equipe: Lado_A
+          linha_lateral_cruzada: Lado_B
+      esperado:
+        substituicao_valida: false
+        inferencia_proibida:
+          - Validar substituição realizada pela linha lateral oposta ao lado de troca da equipe
+      fonte: DH-PAPEIS-001 (resposta 10, Contraexemplo 2)
+
+    - id: TC-POSESP-001-C4
+      descricao: "Ausência de Pivô no Sistema_4:0 não constitui erro, pois esse desenho tático abdica da figura do pivô fixo."
+      entrada:
+        sistema_tatico: Sistema_4:0
+        presenca_de_pivo: false
+      esperado:
+        erro_apontado: false
+        inferencia_proibida:
+          - Apontar erro por ausência de pivô no Sistema_4:0
+      fonte: DH-PAPEIS-001 (resposta 9)
+
+  bloqueios_obrigatorios:
+    - "Gol de giro (360º) e Gol aéreo não são resolvidos por este teste."
+    - "O cruzamento com R09-CAT-2026-06-18 permanece bloqueado; não avaliado por este teste."
+    - "Nenhuma categoria de pontuação é alterada por este teste."
+    - "Linha_Lateral, Área_De_Substituição, Status_Operacional e Status_da_Equipe são usados apenas como valores de exemplo nos casos acima; permanecem conceitos candidatos não promovidos, sem ficha conceitual própria criada por este teste."
+    - "Sistema_4:0 e demais sistemas táticos citados não são definidos extensionalmente por este teste."
+
+  gates_pendentes:
+    - execução efetiva dos 4 casos de teste
+    - validação humana dos resultados
+    - validação lógica ou estrutural
+
+  observacoes:
+    - Este teste cobre exclusivamente Posição_Espacial, conforme escopo de CONCEPT-DIMENSOES-001-TESTS.
+    - Não altera FICHA_CONCEITUAL_POSICAO_ESPACIAL.yaml, DH-PAPEIS-001.md ou DH-PAPEIS-001_CLARIFICACAO_Q8.md.
+    - Não altera Regras 1-18, Apêndices, DH-ESP-001 ou a ontologia principal.
+    - Os casos descrevem entrada/esperado; a execução efetiva (rodar o teste contra uma implementação) não é realizada por este registro.

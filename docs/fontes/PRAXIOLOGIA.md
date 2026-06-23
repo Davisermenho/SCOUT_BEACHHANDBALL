@@ -1,0 +1,58 @@
+# Praxiologia Motriz no Handebol de Areia
+
+Base exclusiva: artigo `Dialnet-EstrategiaMotrizEnElBalonmanoPlayaUnAnalisisPraxio-6324721.pdf`.
+
+## 1. Definicao precisa de Logica Interna aplicavel a este contexto
+
+No texto, a Praxiologia Motriz parte da ideia de que as praticas corporais e as acoes que nelas ocorrem sao portadoras de uma logica interna que rege seu funcionamento. Em termos operacionais, essa logica interna e aquilo que o conhecimento praxiologico busca revelar por meio da distincao e identificacao dos elementos que determinam a forma de funcionamento da atividade, isto e, a "gramatica do jogo".
+
+Aplicado ao handebol de areia, isso significa que o jogo nao e tratado como simples soma de tecnicas isoladas, mas como um sistema organizado de interacoes. O texto afirma que a comunicacao praxica e um dos instrumentos mais importantes e definidores dessa logica interna, porque permite compreender os comportamentos dos participantes como parte de uma unidade global de sentido. Assim, a logica interna do handebol de areia, no artigo, aparece como o modo pelo qual regras, organizacao do jogo, comunicacoes, contracomunicacoes, gestemas, praxemas e decisoes situadas estruturam o funcionamento efetivo da acao motriz.
+
+O texto tambem preserva uma distincao importante entre dois planos:
+
+- No plano estrutural-regulamentar, aparecem as peculiaridades formais da modalidade: dimensoes do espaco, divisao do campo, numero de jogadoras, composicao da equipe, possibilidade de a goleira tornar-se especialista quando ha posse de bola e sistema de pontuacao.
+- No plano dinamico-situacional, aparecem as leituras de jogo, os sinais emitidos e interpretados, as fintas, os deslocamentos, as inducoes corporais, as cooperacoes, as oposicoes e a adaptacao tatica das acoes a cada situacao motriz.
+
+Portanto, a logica interna, neste texto, e o principio organizador que articula esses dois planos sem reduzi-los um ao outro.
+
+## 2. Como o texto conceitua e diferencia os termos solicitados
+
+## a) Posicao Espacial
+
+Definicao explicita: "O texto de referencia nao fornece essa definicao".
+
+Uso textual no artigo: o termo aparece como disposicao espacial dos participantes no campo e como ocupacao de espacos no desenrolar da jogada. O texto descreve, por exemplo, jogadoras "dispostas em sua posicao", bem como situacoes em que ha "troca de posicao" e ocupacao de "novo espaco". Assim, sem formular uma definicao teorica autonoma, o artigo usa "posicao" para indicar onde a jogadora se encontra ou passa a se encontrar no espaco de jogo.
+
+## b) Papel Regulamentar
+
+Definicao explicita: "O texto de referencia nao fornece essa definicao".
+
+Uso textual no artigo: embora nao defina o conceito, o texto descreve elementos de ordem regulamentar que distribuem lugares e possibilidades de atuacao no jogo. Nesse plano, a equipe e apresentada com duas ponteiras, uma pivo e a especialista/goleira; alem disso, quando a equipe tem a posse de bola, a goleira torna-se jogadora de linha, denominada especialista. Tambem pertencem a esse plano as acoes permitidas pelas regras e o sistema de pontuacao. Assim, o artigo nao teoriza "papel regulamentar" como categoria formal, mas mostra que existem determinacoes do regulamento que enquadram quem pode atuar, de que modo e com quais efeitos no jogo.
+
+## c) Papel Tatico
+
+Definicao explicita: "O texto de referencia nao fornece essa definicao".
+
+Uso textual no artigo: o termo "papel" aparece ligado ao trabalho de interpretacao e ao funcionamento tatico da jogada. O texto afirma que os participantes do jogo tem o papel de interpretar o significado tatico das movimentacoes dos outros jogadores, isto e, decifrar praxemas. Em outra passagem, mostra "trocas de papeis" durante a jogada. Desse modo, sem oferecer uma definicao teorica isolada, o artigo usa "papel" como funcao assumida no encadeamento tatico e comunicativo da acao.
+
+## d) Funcao Situacional
+
+Definicao explicita: "O texto de referencia nao fornece essa definicao".
+
+Uso textual no artigo: o termo "funcao" aparece associado ao que uma jogadora passa a realizar em uma situacao concreta de jogo. A especialista e comparada a levantadora do voleibol por "organizar os ataques e ditar o ritmo do jogo"; em outra passagem, o ataque e descrito como atribuindo "funcoes especificas" de atrair marcacoes nas pontas para gerar vantagem numerica no meio; em outra ainda, uma acao e dita realizada "em funcao do companheiro", para deixa-lo em melhor condicao de finalizacao. Assim, o texto usa "funcao" para designar uma incumbencia emergente e situada na acao motriz, nao uma categoria definida abstratamente.
+
+## 3. O que o texto afirma sobre a sobreposicao desses conceitos
+
+O texto nao apresenta uma tipologia formal, nem uma definicao sistematica de sobreposicao entre "posicao espacial", "papel regulamentar", "papel tatico" e "funcao situacional". Por isso, no nivel estritamente definicional, "O texto de referencia nao fornece essa definicao".
+
+Ainda assim, o proprio artigo permite afirmar, descritivamente, tres pontos rigorosos.
+
+Primeiro, esses planos podem coincidir na mesma jogadora, mas nao pelo mesmo motivo. A especialista e o melhor exemplo. No plano regulamentar, ela existe porque a regra permite que a goleira se torne jogadora de linha quando sua equipe tem a posse de bola. No plano dinamico-situacional, essa mesma jogadora aparece como centro operante da organizacao tatica, desencadeando sinais, atraindo marcacoes e estruturando a jogada ofensiva. Ha, portanto, coincidencia pratica sobre a mesma atleta, mas nao identidade conceitual entre regra e tatica.
+
+Segundo, esses planos podem e, em certas jogadas, devem permanecer distintos. O texto descreve situacoes de "trocas de papeis" e de "troca de posicao", mostrando que a posicao ocupada no espaco nao fixa definitivamente o que a jogadora fara na acao. A jogadora pode mudar de posicao, oferecer novo espaco, inverter papeis e reorganizar a jogada. Isso impede reduzir a leitura do jogo a uma equivalencia rigida entre lugar ocupado, papel assumido e funcao exercida.
+
+Terceiro, o artigo insiste em que o sentido da acao motriz depende da leitura situacional. Acoes tecnicas, gestos, deslocamentos e sinais so ganham valor tatico dentro das relacoes de cooperacao e oposicao. Por isso, regras de jogo, posicoes, funcoes e interacoes aparecem no texto como elementos articulados, mas nao confundidos: as regras delimitam o permitido; a posicao indica a disposicao espacial; o papel tatico emerge da organizacao comunicativa da jogada; e a funcao situacional se explicita no que cada participante faz em determinada configuracao concreta do jogo.
+
+## Sintese final
+
+Com base estrita no texto, a contribuicao central da Praxiologia Motriz para o handebol de areia e revelar que a inteligibilidade do jogo nao reside apenas na execucao tecnica, mas na logica interna que organiza regras, espaco, sinais, leituras e decisoes. O artigo define diretamente a logica interna e a comunicacao praxica; ja "posicao", "papel" e "funcao" nao recebem definicoes conceituais autonomas, sendo empregados de modo descritivo no exame das jogadas. A exigencia teorica mais clara do texto e manter separadas, embora articuladas, as dimensoes estruturais-regulamentares do jogo e as dimensoes dinamicas-situacionais da acao motriz.

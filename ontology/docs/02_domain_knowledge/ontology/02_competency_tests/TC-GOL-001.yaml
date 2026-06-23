@@ -1,0 +1,18 @@
+teste_de_competencia:
+  id: TC-GOL-001
+  conceito_testado: Goleiro
+  escopo: CONCEPT-GOLEIRO-001
+  fonte: DH-ESP-001
+  origem: prompt.md (HANDOFF-UPDATE-001 / CONCEPT-GOLEIRO-001)
+  status: REGISTRADO_AGUARDANDO_EXECUCAO
+
+  entrada:
+    papel: Goleiro
+    posicao_espacial: Fora_Da_Area_De_Gol
+    acao: Cobrar_Falta
+    evento: Atuar_No_Ataque
+
+  esperado:
+    papel_final: Goleiro
+    inferencia_proibida:
+      - Reclassificar como Especialista

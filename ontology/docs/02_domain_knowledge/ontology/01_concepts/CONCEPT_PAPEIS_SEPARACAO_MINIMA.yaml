@@ -1,0 +1,71 @@
+separacao_minima:
+  id: CONCEPT-PAPEIS-001
+  escopo: preparacao_minima
+  status: CONCEPT_PAPEIS_001_PREPARADA_COM_PENDENCIAS_LITERALMENTE_DECLARADAS
+  nao_e_decisao_humana_literal_nova: true
+  nao_e_definicao_completa: true
+  fonte_de_autoridade: DH-ESP-001
+
+  motivacao:
+    - "Especialista e Goleiro só permanecem corretamente classificados se Papel_Tático não for confundido com Função_Situacional, Posição_Espacial ou Papel_Regulamentar."
+    - "Sem esta separação estrutural, há risco de reclassificar Especialista como Goleiro (ou vice-versa) a partir de posição espacial ou de função situacional momentânea — exatamente o erro que DH-ESP-001 proíbe."
+
+  dimensoes_declaradas:
+    - nome: Papel_Tático
+      tipo: dimensao_conceitual
+      status: DECLARADO_LITERAL (instanciação)
+      nota: "DH-ESP-001 classifica Especialista como Papel_Tático e afirma que essa condição vem do desenvolvimento tático, não da regra oficial. Definição extensional completa de Papel_Tático não é fornecida e não é objeto desta tarefa (ver VOCABULARIO_CANONICO_MINIMO.md)."
+    - nome: Papel_Regulamentar
+      tipo: dimensao_conceitual
+      status: PENDENTE_DEFINICAO_LITERAL
+      nota: "Sem decisão humana literal própria. DH-ESP-001 sustenta apenas, especificamente sobre Especialista, que 'o papel de especialista não é criado pela regra oficial' — isso não é uma separação genérica Papel_Tático≠Papel_Regulamentar declarada para todo o domínio, apenas uma exclusão pontual válida para o caso Especialista."
+    - nome: Função_Situacional
+      tipo: dimensao_conceitual
+      status: PENDENTE_DEFINICAO_LITERAL
+      nota: "Sem definição literal própria. DH-ESP-001 declara apenas a separação 'Papel_Tático é diferente de Função_Situacional' (separacoes_obrigatorias), sem definir o que Função_Situacional é."
+    - nome: Posição_Espacial
+      tipo: dimensao_conceitual
+      status: PENDENTE_DEFINICAO_LITERAL
+      nota: "Sem definição literal própria. DH-ESP-001 declara apenas a separação 'Papel_Tático é diferente de Posição_Espacial' (separacoes_obrigatorias) e usa Area_De_Gol como valor de exemplo, sem definir Posição_Espacial de forma geral."
+
+  separacoes:
+    - id: SEP-PAPEIS-001
+      afirmacao: Papel_Tático é diferente de Função_Situacional
+      status: DECLARADO_LITERAL
+      fonte: DH-ESP-001 (separacoes_obrigatorias)
+    - id: SEP-PAPEIS-002
+      afirmacao: Papel_Tático é diferente de Posição_Espacial
+      status: DECLARADO_LITERAL
+      fonte: DH-ESP-001 (separacoes_obrigatorias)
+    - id: SEP-PAPEIS-003
+      afirmacao: Papel_Tático é diferente de Papel_Regulamentar
+      status: SUSTENTADO_INDIRETAMENTE_PENDENTE_DECLARACAO_GENERICA
+      fonte: DH-ESP-001 (resposta_literal, restrita ao caso Especialista)
+      nota: "Esta separação genérica ainda não está declarada literalmente para o domínio inteiro; apenas o caso pontual Especialista está coberto. Não foi promovida a DECLARADO_LITERAL para evitar inferência além da fonte."
+    - id: SEP-PAPEIS-004
+      afirmacao: Função_Situacional é diferente de Posição_Espacial
+      status: PENDENTE_DEFINICAO_LITERAL
+      fonte: nenhuma fonte literal localizada
+      nota: "DH-ESP-001 não declara esta separação diretamente. Não incluída como afirmação aprovada; registrada apenas como lacuna conhecida."
+
+  inferencias_proibidas:
+    - id: INF-PROIB-PAPEIS-001
+      regra: "Não inferir o papel tático a partir da posição espacial."
+      fonte: DH-ESP-001 (inferencias_proibidas: "Não inferir que posição espacial altera o papel tático.")
+    - id: INF-PROIB-PAPEIS-002
+      regra: "Não inferir o papel tático a partir da função situacional."
+      fonte: extensao_estrutural_desta_tarefa (prompt.md), consistente com o princípio de DH-ESP-001 de que o papel tático deriva do desenvolvimento tático, não de cargo, situação momentânea ou posição.
+      nota: "DH-ESP-001 não lista esta inferência proibida literalmente entre as suas inferencias_proibidas; é registrada aqui por instrução explícita da tarefa CONCEPT-PAPEIS-001, não por inferência própria do agente."
+
+  gates_pendentes:
+    - decisão humana literal para Papel_Regulamentar
+    - decisão humana literal para Função_Situacional
+    - decisão humana literal para Posição_Espacial
+    - decisão humana literal sobre separação genérica Papel_Tático ≠ Papel_Regulamentar
+    - validação humana desta estrutura
+    - validação lógica ou estrutural
+
+  observacoes:
+    - "Este arquivo é uma estrutura mínima de preparação, não uma ontologia, não uma decisão humana literal nova e não uma definição completa de nenhum dos quatro termos."
+    - "Não altera Regras 1-18, Apêndices, DH-ESP-001 ou a ontologia principal."
+    - "Não reinterpreta DH-ESP-001; distingue explicitamente o que é declarado literalmente do que é apenas estrutura de trabalho proposta por esta tarefa."

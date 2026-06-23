@@ -1,0 +1,82 @@
+ficha_conceitual:
+  conceito: Especialista
+  escopo: VOCAB-MIN-001
+  status: REGISTRADA_LITERALMENTE_AGUARDANDO_GATES_RESTANTES
+  nao_herda_validacao_anterior: true
+  fonte_de_autoridade: DH-ESP-001
+
+  afirmacoes:
+    - id: FC-ESP-001-01
+      sujeito: Especialista
+      predicado: é_subclasse_de
+      objeto: Papel_Tático
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-02
+      sujeito: Especialista
+      predicado: não_é
+      objeto: Goleiro
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-03
+      sujeito: Papel_Tático
+      predicado: não_é
+      objeto: Função_Situacional
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-04
+      sujeito: Papel_Tático
+      predicado: não_é
+      objeto: Posição_Espacial
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-05
+      sujeito: Especialista
+      predicado: permanece_como
+      objeto: Especialista
+      condicao: dentro_da_area_de_gol
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-06
+      sujeito: Especialista
+      predicado: permanece_como
+      objeto: Especialista
+      condicao: fora_da_area_de_gol
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-07
+      sujeito: Especialista_Atuando_Como_Goleiro
+      predicado: não_se_transforma_em
+      objeto: Goleiro
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-08
+      sujeito: Gol_De_Especialista
+      predicado: vale_pontos
+      objeto: 2
+      quantificador: todo
+      fonte: DH-ESP-001
+
+    - id: FC-ESP-001-09
+      sujeito: Gol_De_Especialista
+      predicado: nunca_vale_pontos
+      objeto: 1
+      fonte: DH-ESP-001
+
+  inferencias_proibidas:
+    - Não inferir que posição espacial altera o papel tático.
+    - Não inferir que entrar na área transforma Especialista em Goleiro.
+    - Não inferir que sair da área transforma Goleiro em Especialista.
+    - Não inferir que Especialista pode marcar gol de 1 ponto.
+    - Não substituir o conceito de Especialista por Goleiro.
+    - Não modelar Especialista apenas como papel regulamentar oficial.
+
+  gates_pendentes:
+    - validação humana da transformação desta ficha
+    - teste de competência (ver TC-ESP-001.yaml)
+    - validação lógica ou estrutural
+
+  observacoes:
+    - Esta ficha cobre exclusivamente o conceito Especialista, conforme escopo de VOCAB-MIN-001.
+    - Não altera Regras 1-18, Apêndices ou a ontologia principal.
+    - Não reinterpreta DH-ESP-001; reproduz literalmente as decisões e separações nele registradas.

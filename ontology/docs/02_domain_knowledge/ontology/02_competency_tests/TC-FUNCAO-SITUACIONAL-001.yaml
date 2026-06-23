@@ -1,0 +1,67 @@
+teste_de_competencia:
+  id: TC-FUNCAO-SITUACIONAL-001
+  conceito_testado: Função_Situacional
+  escopo: CONCEPT-DIMENSOES-001-TESTS
+  fonte_de_autoridade: FICHA_CONCEITUAL_FUNCAO_SITUACIONAL.yaml
+  fontes_complementares:
+    - DH-PAPEIS-001 (respostas 3, 6, 7)
+  status: TESTE_DE_COMPETENCIA_CRIADO_AGUARDANDO_EXECUCAO_E_VALIDACAO
+
+  casos:
+    - id: TC-FUNSIT-001-C1
+      descricao: "Função_Situacional é microação momentânea baseada em leitura de resultado factual e não altera Papel_Tático."
+      entrada:
+        papel_tatico_definido_pelo_treinador: Jogadora_Comum
+        funcao_situacional_anterior: Defensora_Cobertura
+        evento_factual: erro_de_passe_do_ataque_adversario
+        funcao_situacional_nova: Gatilho_De_Transicao_Ofensiva
+      esperado:
+        papel_tatico_final: Jogadora_Comum
+        inferencia_proibida:
+          - Inferir Papel_Tático a partir da Função_Situacional
+          - Alterar Papel_Tático por mudança de Função_Situacional
+      fonte: DH-PAPEIS-001 (resposta 6)
+
+    - id: TC-FUNSIT-001-C2
+      descricao: "Função_Situacional momentânea, mesmo em execução espetacular, não altera Papel_Tático nem Papel_Regulamentar."
+      entrada:
+        papel_tatico_definido_pelo_treinador: Jogadora_Comum
+        papel_regulamentar_de_base: Jogador_De_Linha
+        funcao_situacional_momentanea: Finalizacao_Espetacular
+        evento: Gol
+      esperado:
+        papel_tatico_final: Jogadora_Comum
+        papel_regulamentar_final: Jogador_De_Linha
+        valor_do_gol: NAO_TESTADO_NESTA_ETAPA
+        inferencia_proibida:
+          - Alterar Papel_Tático ou Papel_Regulamentar pela execução de Função_Situacional espetacular
+          - Atribuir valor de pontuação a este caso (Gol de giro / Gol aéreo bloqueados)
+      fonte: DH-PAPEIS-001 (resposta 7)
+
+    - id: TC-FUNSIT-001-C3
+      descricao: "Função_Situacional é sempre distinta de Posição_Espacial, mesmo quando ocorrem no mesmo instante."
+      entrada:
+        posicao_espacial: Defensora_Cobertura_zona
+        funcao_situacional_simultanea: Gatilho_De_Transicao_Ofensiva
+      esperado:
+        posicao_espacial_e_funcao_situacional_distintas: true
+        inferencia_proibida:
+          - Confundir Função_Situacional com Posição_Espacial
+      fonte: DH-PAPEIS-001 (resposta 6)
+
+  bloqueios_obrigatorios:
+    - "Gol de giro (360º) e Gol aéreo não são resolvidos por este teste; nenhum caso atribui valor de pontuação a esses eventos."
+    - "O cruzamento com R09-CAT-2026-06-18 permanece bloqueado; não avaliado por este teste."
+    - "Nenhuma categoria de pontuação é alterada por este teste."
+    - "Antecipadora_de_Saída, Gatilho_de_Entrada, Defensora_Base, Defensora_Solta, Defensora_Cobertura e Gatilho_De_Transicao_Ofensiva são usados apenas como valores de exemplo; não constituem ficha conceitual própria."
+
+  gates_pendentes:
+    - execução efetiva dos 3 casos de teste
+    - validação humana dos resultados
+    - validação lógica ou estrutural
+
+  observacoes:
+    - Este teste cobre exclusivamente Função_Situacional, conforme escopo de CONCEPT-DIMENSOES-001-TESTS.
+    - Não altera FICHA_CONCEITUAL_FUNCAO_SITUACIONAL.yaml, DH-PAPEIS-001.md ou DH-PAPEIS-001_CLARIFICACAO_Q8.md.
+    - Não altera Regras 1-18, Apêndices, DH-ESP-001 ou a ontologia principal.
+    - Os casos descrevem entrada/esperado; a execução efetiva (rodar o teste contra uma implementação) não é realizada por este registro.

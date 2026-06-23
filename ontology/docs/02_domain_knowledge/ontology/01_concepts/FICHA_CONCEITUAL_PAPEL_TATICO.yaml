@@ -1,0 +1,117 @@
+ficha_conceitual:
+  id: FC-PAPEL-TATICO-001
+  conceito: Papel_Tático
+  nome_canonico: Papel_Tático
+  escopo: CONCEPT-DIMENSOES-001
+  status: FICHA_MINIMA_REGISTRADA_AGUARDANDO_TESTE_E_VALIDACAO
+  nao_herda_validacao_anterior: true
+  fonte_de_autoridade: DH-PAPEIS-001
+  fontes_complementares:
+    - DH-PAPEIS-001_CLARIFICACAO_Q8
+    - DH-ESP-001
+
+  definicao_literal: >
+    É a missão estratégica temporária ou estrutural dada pelo treinador. O
+    maior exemplo é o Especialista, que possui elevada flexibilidade tática:
+    o técnico pode alternar o colete de cor distinta entre qualquer jogadora
+    de ataque a cada posse de bola (uma atleta joga de especialista em um
+    ataque e como jogadora comum no próximo). Também inclui os papéis de
+    posicionamento estrutural (Central, Lateral Esquerda, Lateral Direita,
+    Pivô) e estratégias coletivas deliberadas, como a Transição Híbrida
+    (manter uma atacante na retaguarda para conter o contra-ataque
+    adversário).
+  fonte_da_definicao: DH-PAPEIS-001 (resposta 1)
+
+  afirmacoes:
+    - id: FC-PAPTAT-001-01
+      sujeito: Papel_Tático
+      predicado: pode_ser
+      objeto: temporário_ou_estrutural
+      fonte: DH-PAPEIS-001 (resposta 1)
+    - id: FC-PAPTAT-001-02
+      sujeito: Papel_Tático
+      predicado: não_é
+      objeto: Função_Situacional
+      fonte: DH-ESP-001 (separacoes_obrigatorias)
+    - id: FC-PAPTAT-001-03
+      sujeito: Papel_Tático
+      predicado: não_é
+      objeto: Posição_Espacial
+      fonte: DH-ESP-001 (separacoes_obrigatorias); DH-PAPEIS-001_CLARIFICACAO_Q8
+    - id: FC-PAPTAT-001-04
+      sujeito: Papel_Tático
+      predicado: distinto_mas_se_articula_com
+      objeto: Papel_Regulamentar
+      fonte: DH-PAPEIS-001 (resposta 5)
+    - id: FC-PAPTAT-001-05
+      sujeito: Especialista
+      predicado: é_exemplo_de
+      objeto: Papel_Tático
+      fonte: DH-PAPEIS-001 (resposta 1); DH-ESP-001
+
+  escopo_da_definicao: >
+    Cobre exclusivamente o que está literalmente declarado em DH-PAPEIS-001
+    (resposta 1, 5, 7, 9) e DH-PAPEIS-001_CLARIFICACAO_Q8. Não constitui
+    definição extensional completa de todos os papéis táticos possíveis do
+    domínio — apenas Especialista e os exemplos citados estão cobertos.
+
+  relacoes_declaradas:
+    - "Papel_Tático e Papel_Regulamentar são distintos, mas se articulam (DH-PAPEIS-001, resposta 5: no ataque, o Especialista funde os dois — o treinador escolhe o papel tático e isso ativa o direito regulamentar de 2 pontos)."
+    - "Papel_Tático é diferente de Função_Situacional (DH-ESP-001, separacoes_obrigatorias; reforçado por DH-PAPEIS-001 resposta 7: a função exercida não altera o papel tático)."
+    - "Papel_Tático é diferente de Posição_Espacial (DH-ESP-001, separacoes_obrigatorias; reforçado por DH-PAPEIS-001_CLARIFICACAO_Q8: a posição espacial isolada não altera o papel tático)."
+    - "Papel_Tático pode ser estrutural (posicionamento) ou temporário (estratégia coletiva pontual) (DH-PAPEIS-001, resposta 1)."
+
+  nao_equivalencias:
+    - Papel_Tático não é Função_Situacional.
+    - Papel_Tático não é Posição_Espacial.
+    - Papel_Tático não é Papel_Regulamentar, mesmo quando os dois se articulam no caso do Especialista.
+
+  inferencias_proibidas:
+    - "Não inferir Papel_Tático a partir da Posição_Espacial (DH-ESP-001; DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não inferir que ocupar momentaneamente outra região da quadra altera o Papel_Tático (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não inferir Papel_Tático a partir da Função_Situacional (CONCEPT_PAPEIS_SEPARACAO_MINIMA.yaml, INF-PROIB-PAPEIS-002; reforçado por DH-PAPEIS-001 resposta 7)."
+    - "Não inferir que cruzar a Linha_Lateral cria Papel_Tático (DH-PAPEIS-001_CLARIFICACAO_Q8)."
+    - "Não permitir mais de uma jogadora com Papel_Tático de Especialista ativa em quadra simultaneamente (DH-PAPEIS-001, resposta 9)."
+
+  exemplos:
+    - "Especialista: maior exemplo de Papel_Tático, com flexibilidade dada pelo treinador via troca do colete a cada posse de bola (DH-PAPEIS-001, resposta 1; DH-ESP-001)."
+    - "Central, Lateral Esquerda, Lateral Direita, Pivô: citados como papéis de posicionamento estrutural (DH-PAPEIS-001, resposta 1) — registrados apenas como exemplo citado nesta ficha, sem ficha conceitual própria criada nesta etapa."
+    - "Transição Híbrida: citada como estratégia coletiva deliberada de manter uma atacante na retaguarda (DH-PAPEIS-001, resposta 1) — registrada como conceito candidato, não como ficha (ver bloco abaixo)."
+
+  contraexemplos:
+    - "Uma jogadora com Papel_Tático de Jogadora Comum que realiza uma ação espetacular (ex.: gol de giro ou gol aéreo) não passa a ter outro Papel_Tático por causa dessa execução (DH-PAPEIS-001, resposta 7). O valor de pontuação associado a esse tipo de gol permanece bloqueado nesta ficha — ver 'Bloqueio obrigatório'."
+
+  conceitos_relacionados:
+    - Papel_Regulamentar
+    - Função_Situacional
+    - Posição_Espacial
+    - Especialista
+    - Goleiro
+
+  conceitos_candidatos_nao_promovidos:
+    - Transição_Híbrida
+    - Retarda-Ataque
+    - Contentora_de_Linha
+    - Central
+    - Lateral_Esquerda
+    - Lateral_Direita
+    - Pivô (posição de ataque)
+
+  pendencias_controladas:
+    - Definição extensional completa de Papel_Tático para todos os papéis táticos possíveis do domínio (apenas Especialista e os exemplos citados estão cobertos nesta ficha).
+    - Separação genérica Papel_Tático ≠ Papel_Regulamentar para todo o domínio é sustentada apenas pela resposta 5 desta rodada; CONCEPT_PAPEIS_SEPARACAO_MINIMA.yaml ainda registra SEP-PAPEIS-003 como SUSTENTADO_INDIRETAMENTE_PENDENTE_DECLARACAO_GENERICA — este arquivo não altera esse YAML.
+    - validação humana desta ficha
+    - teste de competência (a ser criado em etapa futura)
+    - validação lógica ou estrutural
+
+  bloqueio_obrigatorio:
+    - Gol de giro (360º) e Gol aéreo permanecem bloqueados; não resolvidos nesta ficha.
+    - O cruzamento com R09-CAT-2026-06-18 (Gol criativo, Gol espetacular, Gol em aérea) não foi resolvido nesta etapa.
+    - Nenhuma categoria de pontuação foi alterada por esta ficha.
+
+  observacoes:
+    - Esta ficha cobre exclusivamente Papel_Tático, conforme escopo de CONCEPT-DIMENSOES-001.
+    - Não altera Regras 1-18, Apêndices, DH-ESP-001, DH-PAPEIS-001.md ou DH-PAPEIS-001_CLARIFICACAO_Q8.md.
+    - Não cria ficha para Status_Operacional, Linha_Lateral ou Transição_Híbrida.
+    - Não reinterpreta DH-PAPEIS-001; reproduz literalmente as decisões nele registradas.
+    - Não constitui taxonomia ou ontologia.

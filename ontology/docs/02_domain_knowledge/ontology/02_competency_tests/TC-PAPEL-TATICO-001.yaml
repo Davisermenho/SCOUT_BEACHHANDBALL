@@ -1,0 +1,79 @@
+teste_de_competencia:
+  id: TC-PAPEL-TATICO-001
+  conceito_testado: Papel_Tático
+  escopo: CONCEPT-DIMENSOES-001-TESTS
+  fonte_de_autoridade: FICHA_CONCEITUAL_PAPEL_TATICO.yaml
+  fontes_complementares:
+    - DH-PAPEIS-001 (respostas 1, 5, 7, 9)
+    - DH-PAPEIS-001_CLARIFICACAO_Q8
+  status: TESTE_DE_COMPETENCIA_CRIADO_AGUARDANDO_EXECUCAO_E_VALIDACAO
+
+  casos:
+    - id: TC-PAPTAT-001-C1
+      descricao: "Papel_Tático é definido pelo treinador e não é inferido pela Posição_Espacial."
+      entrada:
+        papel_tatico_definido_pelo_treinador: Atacante_Normal
+        atleta: Lateral_Esquerda
+        evento: ocupa_momentaneamente_posicao_espacial_Central_no_contra_ataque
+      esperado:
+        papel_tatico_final: Atacante_Normal
+        inferencia_proibida:
+          - Reclassificar a atleta como Especialista por ocupar a posição de Central
+          - Inferir Papel_Tático a partir da Posição_Espacial
+      fonte: DH-PAPEIS-001_CLARIFICACAO_Q8
+
+    - id: TC-PAPTAT-001-C2
+      descricao: "Papel_Tático não é alterado por Função_Situacional, mesmo em execução espetacular."
+      entrada:
+        papel_tatico_definido_pelo_treinador: Jogadora_Comum
+        funcao_situacional_momentanea: Finalizacao_Espetacular
+        evento: Gol
+      esperado:
+        papel_tatico_final: Jogadora_Comum
+        papel_regulamentar_final: Jogador_De_Linha
+        valor_do_gol: NAO_TESTADO_NESTA_ETAPA
+        inferencia_proibida:
+          - Inferir Papel_Tático a partir da Função_Situacional
+          - Reclassificar como Especialista por causa da função situacional executada
+          - Atribuir valor de pontuação a este caso (Gol de giro / Gol aéreo bloqueados)
+      fonte: DH-PAPEIS-001 (resposta 7)
+
+    - id: TC-PAPTAT-001-C3
+      descricao: "Especialista permanece Especialista independentemente de variação de Posição_Espacial."
+      entrada:
+        papel_tatico_definido_pelo_treinador: Especialista
+        atleta: Central_Especialista
+        evento: recebe_bola_na_posicao_espacial_Lateral_Esquerda
+      esperado:
+        papel_tatico_final: Especialista
+        inferencia_proibida:
+          - Reclassificar Especialista por variação de Posição_Espacial
+      fonte: DH-PAPEIS-001_CLARIFICACAO_Q8
+
+    - id: TC-PAPTAT-001-C4
+      descricao: "Não é permitida mais de uma Especialista ativa em quadra simultaneamente."
+      entrada:
+        atletas_com_papel_tatico_Especialista_ativas_em_quadra: 2
+      esperado:
+        estado_valido: false
+        inferencia_proibida:
+          - Permitir mais de uma jogadora com Papel_Tático de Especialista ativa em quadra simultaneamente
+      fonte: DH-PAPEIS-001 (resposta 9)
+
+  bloqueios_obrigatorios:
+    - "Gol de giro (360º) e Gol aéreo não são resolvidos por este teste; nenhum caso atribui valor de pontuação a esses eventos."
+    - "O cruzamento com R09-CAT-2026-06-18 permanece bloqueado; não avaliado por este teste."
+    - "Nenhuma categoria de pontuação é alterada por este teste."
+    - "Transição_Híbrida, Central, Lateral_Esquerda, Lateral_Direita e Pivô são usados apenas como valores de exemplo nos casos acima; não constituem ficha conceitual própria."
+    - "Linha_Lateral, Status_Operacional e Transição_Híbrida permanecem conceitos candidatos não promovidos."
+
+  gates_pendentes:
+    - execução efetiva dos 4 casos de teste
+    - validação humana dos resultados
+    - validação lógica ou estrutural
+
+  observacoes:
+    - Este teste cobre exclusivamente Papel_Tático, conforme escopo de CONCEPT-DIMENSOES-001-TESTS.
+    - Não altera FICHA_CONCEITUAL_PAPEL_TATICO.yaml, DH-PAPEIS-001.md ou DH-PAPEIS-001_CLARIFICACAO_Q8.md.
+    - Não altera Regras 1-18, Apêndices, DH-ESP-001 ou a ontologia principal.
+    - Os casos descrevem entrada/esperado; a execução efetiva (rodar o teste contra uma implementação) não é realizada por este registro.
