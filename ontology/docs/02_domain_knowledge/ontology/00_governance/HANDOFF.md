@@ -22,19 +22,24 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: MVP-TTL-001-CURRENT-STATE-VALIDATION
-  status: MVP_TTL_001_BASELINE_VALIDADO_COM_LIMITES
+  id: RATIFICACAO-HUMANA-FREEZE-FASE-0
+  status: FASE_0_RATIFICADA_HUMANAMENTE_LIBERADA_PARA_FASE_1
   arquivos_criados:
-    - /docs/02_domain_knowledge/ontology/03_validation/MVP-TTL-001_CURRENT_STATE_VALIDATION_REPORT.md
+    - /APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md
 
 proximo_ponto_exato:
-  id: RECONCILIAR-HISTORICO-OWL-001-COM-BASELINE-TTL
-  tarefa: "Reconhecer explicitamente, na governança ativa, que o diretório ontology/owl já contém baseline técnico `.ttl` validado por rdflib e SHACL, mantendo ONTOLOGY-OWL-001 apenas como histórico de scoping."
+  id: FASE-1-EXECUCAO-RESTRITA
+  tarefa: "Iniciar a Fase 1 exclusivamente dentro do escopo permitido por ORDEM_EXECUCAO_FASE_1.md, preservando o baseline ontologico ratificado e sem inferir artefatos de fases posteriores."
 ```
 
 ## Histórico de etapas concluídas
 
 ```yaml
+- id: RATIFICACAO-HUMANA-FREEZE-FASE-0
+  status: FASE_0_RATIFICADA_HUMANAMENTE_LIBERADA_PARA_FASE_1
+  arquivos_criados:
+    - /APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md
+
 - id: MVP-TTL-001-CURRENT-STATE-VALIDATION
   status: MVP_TTL_001_BASELINE_VALIDADO_COM_LIMITES
   arquivos_criados:

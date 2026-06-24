@@ -2,11 +2,11 @@
 
 ## Status atual
 
-- status: `aguardando_revalidacao_humana`
-- Fase 0 concluida: `nao`
-- liberado para iniciar Fase 1: `nao`
+- status: `ratificada_humanamente`
+- Fase 0 concluida: `sim`
+- liberado para iniciar Fase 1: `sim`
 - bloqueios semanticos remanescentes: `nenhum`
-- bloqueios documentais remanescentes: `ratificacao humana do baseline reconciliado`
+- bloqueios documentais remanescentes: `nenhum`
 
 ## Responsabilidade humana
 
@@ -14,13 +14,14 @@
 - papel: `treinador responsavel pelo scout`
 - data da ultima aprovacao invalida por hash: `2026-06-18`
 - data da reconciliacao documental deste baseline: `2026-06-23`
+- data da ratificacao humana vigente: `2026-06-23`
 
 ## Estado deste artefato
 
 - a aprovacao registrada anteriormente foi invalidada por divergencia de hash em documentos congelados;
 - este artefato registra o novo conjunto reconciliado, com hashes atuais e ordem operacional da Fase 1 incluida;
 - o baseline reconciliado atual reconhece que a ontologia ja possui baseline tecnico minimo validado em `ontology/owl/`;
-- a execucao por IA permanece bloqueada ate ratificacao humana explicita deste baseline reconciliado.
+- a ratificacao humana explicita do baseline reconciliado foi registrada em `2026-06-23`.
 
 ## Documentos congelados para a decisao
 
@@ -153,11 +154,13 @@ Limites objetivos iniciais de aprovacao:
 
 - artefato de aprovacao anterior invalidado por hash drift: `validacao humana direta em 2026-06-18`
 - reconciliacao documental concluida: `2026-06-23`
+- ratificacao humana vigente do baseline reconciliado: `RATIFICACAO-HUMANA-FREEZE-FASE-0` em `2026-06-23`
 - observacoes do baseline reconciliado: `set_decision_type no payload; event_category fora da UX inicial; restore com rollback; consumo de reopen_to_draft; Fase 1 restrita e congelada; baseline tecnico minimo da ontologia ja validado por rdflib e SHACL; bloqueio remanescente e ratificacao humana do freeze`
-- bloqueios remanescentes: `ratificacao humana explicita deste baseline reconciliado`
+- bloqueios remanescentes: `nenhum`
 
 ## Decisao
 
-O baseline documental reconciliado esta pronto para ratificacao humana.
+O baseline documental reconciliado foi ratificado humanamente.
 
-A execucao por IA permanece bloqueada ate que o aprovador humano confirme este conjunto congelado.
+A Fase 0 esta concluida e a execucao da Fase 1 fica liberada, respeitando
+`ORDEM_EXECUCAO_FASE_1.md` e os limites ainda vigentes de escopo.
