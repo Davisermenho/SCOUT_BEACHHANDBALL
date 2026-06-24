@@ -24,8 +24,8 @@ Conclusao:
 
 - a especificacao esta coerente o bastante para servir de base tecnica;
 - o bloqueio restante deixou de ser conflito normativo entre `MVP.md` e especificacao;
-- a Fase 0 documental fica apta a encerramento humano;
-- o bloqueio restante deixa de ser documental e passa a ser de implementacao, teste e piloto real.
+- a Fase 0 documental permanece em `aguardando_revalidacao_humana` do baseline reconciliado;
+- o bloqueio restante deixa de ser ausencia de ontologia e passa a ser de ratificacao humana, implementacao, teste e piloto real.
 
 ## Pontos auditados
 

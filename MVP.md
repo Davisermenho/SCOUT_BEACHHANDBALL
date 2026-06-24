@@ -756,11 +756,12 @@ Regra de metodo:
 - a implementacao nao deve seguir uma leitura rigida de `100% banco -> 100% backend -> 100% frontend`;
 - a ordem correta com menor risco e `dominio -> modelo de dados -> backend -> frontend -> validacao ponta a ponta`;
 - o banco vem antes como fundacao estrutural, mas cada entrega deve atravessar banco, backend, frontend e teste em fatias pequenas;
-- a ontologia do handebol de areia deve ser tratada como prerequisito da modelagem de dados.
+- a ontologia do handebol de areia deve ser tratada como prerequisito da modelagem de dados, com baseline tecnico validado e gate humano explicitado separadamente.
 
 ### Fase 0. Dominio e Ontologia
 
-- consolidar a ontologia do handebol de areia;
+- consolidar e congelar a ontologia do handebol de areia no nivel documental;
+- manter baseline tecnico minimo rastreavel para a ontologia do scout;
 - congelar o significado de `jogo`, `set`, `golden_goal`, `shoot-out`, `evento de scout`, `presenca`, `participacao` e `resultado do jogo`;
 - validar o vocabulario controlado inicial com o treinador.
 
@@ -770,6 +771,7 @@ Entrega validada quando:
 - o modelo de dados deixa de depender de interpretacao livre de handebol de quadra;
 - a implementacao futura passa a ter referencia semantica unica.
 - existe artefato humano de aprovacao do vocabulario e da ontologia;
+- existe baseline tecnico validado para o artefato ontologico minimo;
 - existe definicao congelada do estado do jogo e das regras de resultado coerente;
 - existe regra explicita para `event_category` no MVP inicial.
 
@@ -1025,7 +1027,8 @@ Este documento so deve ser considerado pronto para orientar implementacao quando
 - nao ampliar indevidamente o escopo obrigatorio;
 - tiver criterios de aceitacao com prova executavel;
 - tiver historico coletivo, carga operacional e preservacao de dados descritos de forma verificavel;
-- tiver a ontologia fechada como bloqueador de fase antes da implementacao estrutural.
+- tiver a ontologia consolidada como baseline tecnico e documental antes da implementacao estrutural;
+- tiver o gate humano vigente de Fase 0 explicitado sem ambiguidade.
 
 ## 20. Riscos a Evitar
 

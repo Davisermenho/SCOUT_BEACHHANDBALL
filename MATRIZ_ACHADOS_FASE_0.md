@@ -22,7 +22,7 @@ Formato:
 | Resultado de jogo ambiguo para handebol de areia | Parcialmente corrigido | Resultado canonico + sets + shoot-out | Fechar invariantes de coerencia | ONTOLOGIA, ESPECIFICACAO_IMPLEMENTACAO_MVP.md, ADR-003 |
 | Cadastros pareciam escopo extra | Corrigido | Cadastros sao suporte estrutural | Nao vender como funcionalidade separada | MVP.md, ADR-005 |
 | Falta de prova executavel por fase | Corrigido no plano | Toda fase exige evidencia real | Seguir como gate | ESPECIFICACAO_IMPLEMENTACAO_MVP.md, ADR-006 |
-| Ontologia nao auditada | Em aberto | Ontologia e bloqueador de fase | Aprovar ontologia antes de codar scout | ONTOLOGIA, ADR-004 |
+| Baseline tecnico da ontologia ja auditado; freeze humano ainda pendente | Parcialmente corrigido | Ontologia segue gate de fase, mas o bloqueio remanescente e ratificacao humana do baseline congelado | Reconciliar aprovacao formal antes de codar scout | ONTOLOGIA, ADR-004, APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md |
 | Reducao de carga operacional estava subjetiva | Parcialmente corrigido | Medir jogo piloto | Registrar tempo e retrabalho | MVP.md, ESPECIFICACAO_IMPLEMENTACAO_MVP.md |
 | Scout individual podia aceitar atleta ausente ou `did_not_play` | Corrigido no papel | Scout individual exige atleta `played` | Implementar trigger e testar | ONTOLOGIA, MVP.md, ESPECIFICACAO_IMPLEMENTACAO_MVP.md, ADR-001 |
 | Resultado de jogo nao tinha invariantes executaveis suficientes | Parcialmente corrigido | Proteger `draft/finalized`, sets e shoot-out por trigger e checks | Implementar e testar coerencia completa | MVP.md, ESPECIFICACAO_IMPLEMENTACAO_MVP.md, ADR-003 |

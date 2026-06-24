@@ -4,7 +4,11 @@
 
 Este documento restringe a execucao assistida por IA ao escopo permitido da Fase 1.
 
-Ele nao reabre a ontologia aprovada, mas impede que a implementacao avance por inferencia para Fases 2 e 3.
+Ele nao reabre a ontologia consolidada, mas impede que a implementacao avance por inferencia para Fases 2 e 3.
+
+Ele tambem nao substitui o artefato vigente de aprovacao da Fase 0: se o
+baseline congelado ainda estiver em `aguardando_revalidacao_humana`, a Fase 1
+permanece bloqueada mesmo com baseline tecnico `.ttl` ja validado.
 
 ## Regra de autoridade para esta execucao
 
@@ -69,3 +73,6 @@ Se houver tentativa de implementar artefato que pertença a fase posterior, a ex
 
 - estes refinamentos nao reabrem a aprovacao semantica da Fase 0;
 - se qualquer documento congelado da aprovacao formal for alterado e precisar virar novo baseline congelado, os hashes devem ser recalculados em novo registro de congelamento antes da execucao assistida por IA ser tratada como novo freeze documental.
+- baseline tecnico de ontologia validado em `ontology/owl/` nao libera a Fase 1
+  sozinho; a liberacao depende do status atual em
+  `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md`.

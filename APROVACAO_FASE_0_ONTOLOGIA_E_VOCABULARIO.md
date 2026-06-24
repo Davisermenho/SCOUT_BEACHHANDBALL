@@ -13,12 +13,13 @@
 - aprovador principal: `Davi Costa Sermenho do Nascimento`
 - papel: `treinador responsavel pelo scout`
 - data da ultima aprovacao invalida por hash: `2026-06-18`
-- data da reconciliacao documental deste baseline: `2026-06-18`
+- data da reconciliacao documental deste baseline: `2026-06-23`
 
 ## Estado deste artefato
 
 - a aprovacao registrada anteriormente foi invalidada por divergencia de hash em documentos congelados;
 - este artefato registra o novo conjunto reconciliado, com hashes atuais e ordem operacional da Fase 1 incluida;
+- o baseline reconciliado atual reconhece que a ontologia ja possui baseline tecnico minimo validado em `ontology/owl/`;
 - a execucao por IA permanece bloqueada ate ratificacao humana explicita deste baseline reconciliado.
 
 ## Documentos congelados para a decisao
@@ -50,18 +51,18 @@ Qualquer alteracao posterior em hash invalida a aprovacao anterior e reabre a Fa
 
 Registros atuais:
 
-- data da leitura deste conjunto congelado: `2026-06-18`
+- data da leitura deste conjunto congelado: `2026-06-23`
 
 - `PROBLEMA_FINAL.md`: `aa0cdd7157c8114969fe72a5c84e4c6f7a6ab9ddbf616fa992a37f9440fd54ca`
-- `MVP.md`: `f855d8c2154d76833a2908714e9c668615c90214097045cbd934c2c0ac7d36b4`
+- `MVP.md`: `fa42bcc60582416e258a84f2898bbfc2576a55c3681966e7432c64cf334df006`
 - `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`: `df83b3ec09699acbfac7351ef84594958484e93df13a579eb71f26f62cba81ec`
 - `ESPECIFICACAO_IMPLEMENTACAO_MVP.md`: `355a44189ea93ef8d89065094c81c563793f1fd8a5d1c803c976493df0d59d93`
-- `PLANO_EXECUCAO_IA_POR_FASES.md`: `5548ddf0abea19bba055024ff715ba2caab7a2024a94a7db5ea5cd7763c9fe01`
-- `ORDEM_EXECUCAO_FASE_1.md`: `53aa1b83a53b2a6f86698745872d9420dbd6e76f230973fad934d6dbf9337f85`
+- `PLANO_EXECUCAO_IA_POR_FASES.md`: `6178677c4db4cba7453b12d0629bb028160613b7e6ce1ed7911e0e004728ce37`
+- `ORDEM_EXECUCAO_FASE_1.md`: `a932ffad00a159767caf80425c86d09c3c8ed77ccf1f4bf7c694f730cade2397`
 - `ADR-001-scout-roster-validation.md`: `c6fcc666e724ce8fcee1c250d7aa3650030495779d95ffdd50ad472af04c063d`
 - `ADR-002-backup-sqlite-wal.md`: `91ffe68ede17314c5e250464fafdb5c673440baae341d7d0afe4eaa4d7e85da5`
 - `ADR-003-resultado-sets-shootout.md`: `ce5804774f5b10a41af06a10cb9dac4ecdfaf7d0a033509b16cbff194620b61d`
-- `ADR-004-video-opcional-e-ontologia-bloqueadora.md`: `99715ada3fe701d58ed70b51d1efb94a5a7fa6e19a8c8c34e4ce0be83f1e8592`
+- `ADR-004-video-opcional-e-ontologia-bloqueadora.md`: `d03b8172f7f012dead33696ab8670d53e7df8f1ea1b1b0634e16557671f4547a`
 - `ADR-005-cadastros-como-suporte-estrutural.md`: `d2cc4c0aca0f034d656f49568c8bfc193e1799e8064f201f96f4370f17b1b1bd`
 - `ADR-006-definition-of-done-por-fase.md`: `301f43b3029d22ec04317448d64a548a348a78f04bd33839f376cebd64c3d293`
 
@@ -151,8 +152,8 @@ Limites objetivos iniciais de aprovacao:
 ## Evidencias anexadas
 
 - artefato de aprovacao anterior invalidado por hash drift: `validacao humana direta em 2026-06-18`
-- reconciliacao documental concluida: `2026-06-18`
-- observacoes do baseline reconciliado: `set_decision_type no payload; event_category fora da UX inicial; restore com rollback; consumo de reopen_to_draft; Fase 1 restrita e congelada`
+- reconciliacao documental concluida: `2026-06-23`
+- observacoes do baseline reconciliado: `set_decision_type no payload; event_category fora da UX inicial; restore com rollback; consumo de reopen_to_draft; Fase 1 restrita e congelada; baseline tecnico minimo da ontologia ja validado por rdflib e SHACL; bloqueio remanescente e ratificacao humana do freeze`
 - bloqueios remanescentes: `ratificacao humana explicita deste baseline reconciliado`
 
 ## Decisao

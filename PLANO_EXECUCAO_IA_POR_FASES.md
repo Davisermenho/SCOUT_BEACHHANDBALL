@@ -8,7 +8,8 @@ Ele existe para impedir que a implementacao por IA:
 
 - comece pelo frontend;
 - amplie escopo sem autorizacao;
-- implemente scout sem ontologia aprovada;
+- implemente scout sem baseline ontologico validado ou sem gate humano
+  obrigatorio quando ele existir;
 - trate backup como detalhe tardio;
 - avance de fase sem prova executavel.
 
@@ -27,6 +28,8 @@ Regra:
 - em conflito de escopo, prevalece `PROBLEMA_FINAL.md`;
 - em conflito semantico de scout, prevalece a ontologia;
 - em conflito tecnico entre especificacao e ADR, a execucao fica bloqueada ate reconciliacao explicita;
+- baseline tecnico de ontologia nao substitui aprovacao humana de freeze quando
+  ela estiver pendente;
 - a IA nao pode inventar regra fora dessa cadeia.
 
 ## Regras globais para a IA
@@ -66,6 +69,7 @@ Entrada:
 Tarefas:
 
 - consolidar a ontologia do dominio;
+- registrar baseline tecnico minimo validado para o artefato ontologico;
 - congelar nomes canonicos de jogo, set, Golden Goal, shoot-out, resultado e evento;
 - revisar vocabulario controlado inicial;
 - fechar invariantes minimos de scout e resultado.
@@ -91,7 +95,9 @@ Criterio de parada:
 
 Criterio de avanco:
 
-- ontologia aprovada como autoridade semantica do scout;
+- baseline tecnico da ontologia validado como autoridade semantica executavel
+  minima do scout;
+- aprovacao humana vigente registrada no artefato de Fase 0 quando exigida;
 - Fase 0 marcada como concluida por evidencia documental.
 
 Evidencia obrigatoria:
@@ -226,7 +232,8 @@ Evidencia obrigatoria:
 Entrada:
 
 - Fase 2 concluida;
-- ontologia aprovada;
+- baseline tecnico de ontologia validado;
+- gate humano de Fase 0 sem bloqueio vigente;
 - vocabulario controlado inicial definido.
 
 Tarefas:

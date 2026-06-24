@@ -413,14 +413,14 @@ Status atual:
 - `cobertura de restricoes`: forte
 - `cobertura de escopo funcional`: forte
 - `provas operacionais`: forte no papel
-- `dependencia semantica da ontologia`: explicita, mas bloqueante
-- `aprovacao humana da Fase 0`: concluida documentalmente em 18/06/2026
+- `dependencia semantica da ontologia`: explicita, com baseline tecnico minimo validado
+- `aprovacao humana da Fase 0`: em `aguardando_revalidacao_humana`
 
 Conclusao:
 
 - a auditoria antiga nao deve mais ser usada como gate final sem consulta a esta v2;
 - o `MVP.md` atual corrige varios problemas antes apontados;
-- os gaps remanescentes saem do nivel semantico documental e passam a ser exclusivamente de implementacao e prova executavel.
+- os gaps remanescentes deixam de ser "ausencia de ontologia" e passam a se concentrar em ratificacao humana do freeze, implementacao e prova executavel.
 
 ## Itens da auditoria anterior que estao superados
 
@@ -620,11 +620,13 @@ O ponto mais critico antes desta revisao estava fora do `MVP.md` isolado.
 Status atual:
 
 - a ontologia do scout foi tratada como documento obrigatorio da cadeia de auditoria;
-- a Fase 0 recebeu aprovacao humana documental.
+- o baseline tecnico minimo da ontologia ja existe e foi validado;
+- a Fase 0 continua em `aguardando_revalidacao_humana`.
 
 Ressalva:
 
 - isso nao substitui implementacao, piloto real nem teste.
+- isso tambem nao substitui a ratificacao humana do baseline congelado vigente.
 
 ## Decisao
 
