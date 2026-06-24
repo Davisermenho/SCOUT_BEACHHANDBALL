@@ -22,20 +22,24 @@ ser herdado sem passar pelos gates listados em `00_ESTADO_REAL_AUDITADO.md`.
 
 ```yaml
 ultima_etapa_concluida:
-  id: CHECKPOINT-ONTOLOGY-OWL-001-SCOPING
-  status: CHECKPOINT_ONTOLOGY_OWL_001_SCOPING_VALIDADO_COM_LIMITES
+  id: MVP-TTL-001-CURRENT-STATE-VALIDATION
+  status: MVP_TTL_001_BASELINE_VALIDADO_COM_LIMITES
   arquivos_criados:
-    - /docs/02_domain_knowledge/ontology/03_validation/ONTOLOGY-OWL-001_SCOPING_VALIDATION_REPORT.md
-    - /docs/02_domain_knowledge/ontology/03_validation/CHECKPOINT-ONTOLOGY-OWL-001_SCOPING_REPORT.md
+    - /docs/02_domain_knowledge/ontology/03_validation/MVP-TTL-001_CURRENT_STATE_VALIDATION_REPORT.md
 
 proximo_ponto_exato:
-  id: AUDITORIA-PYTHON-002-ACTIVE-SCOPE
-  tarefa: "Auditar o escopo ativo validado antes de criar especificação MVP OWL ou gerar qualquer artefato .owl/.ttl/.rdf."
+  id: RECONCILIAR-HISTORICO-OWL-001-COM-BASELINE-TTL
+  tarefa: "Reconhecer explicitamente, na governança ativa, que o diretório ontology/owl já contém baseline técnico `.ttl` validado por rdflib e SHACL, mantendo ONTOLOGY-OWL-001 apenas como histórico de scoping."
 ```
 
 ## Histórico de etapas concluídas
 
 ```yaml
+- id: MVP-TTL-001-CURRENT-STATE-VALIDATION
+  status: MVP_TTL_001_BASELINE_VALIDADO_COM_LIMITES
+  arquivos_criados:
+    - /docs/02_domain_knowledge/ontology/03_validation/MVP-TTL-001_CURRENT_STATE_VALIDATION_REPORT.md
+
 - id: CHECKPOINT-ONTOLOGY-OWL-001-SCOPING
   status: CHECKPOINT_ONTOLOGY_OWL_001_SCOPING_VALIDADO_COM_LIMITES
   arquivos_criados:
@@ -230,5 +234,7 @@ proximo_ponto_exato:
 ## Regra de continuidade
 
 A próxima ação autorizada é exatamente `proximo_ponto_exato.id` acima. Não
-avançar para regras 1–18, apêndices ou geração de ontologia a partir deste
-handoff.
+avançar para regras 1–18, apêndices ou reasoner de domínio completo a partir
+deste handoff. O baseline técnico mínimo existente em `ontology/owl/` deve ser
+tratado como estado real atual, validado separadamente dos relatórios
+históricos de scoping.

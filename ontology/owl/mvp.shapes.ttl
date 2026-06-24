@@ -1,0 +1,156 @@
+@prefix hbp: <https://github.com/Davisermenho/SCOUT_BEACHHANDBALL/ontology/mvp#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+hbp:OntologyShape
+  a sh:NodeShape ;
+  sh:targetNode hbp: ;
+  sh:property [
+    sh:path rdf:type ;
+    sh:hasValue owl:Ontology ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path rdfs:label ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path rdfs:comment ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path dcterms:created ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+    sh:datatype xsd:date ;
+  ] ;
+  sh:property [
+    sh:path dcterms:source ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path owl:versionInfo ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .
+
+hbp:AuthorizedClassShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:Papel_Tatico ;
+  sh:targetNode hbp:Papel_Regulamentar ;
+  sh:targetNode hbp:Funcao_Situacional ;
+  sh:targetNode hbp:Posicao_Espacial ;
+  sh:targetNode hbp:Especialista ;
+  sh:targetNode hbp:Goleiro ;
+  sh:property [
+    sh:path rdf:type ;
+    sh:hasValue owl:Class ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path rdfs:label ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path rdfs:comment ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path dcterms:source ;
+    sh:minCount 1 ;
+  ] .
+
+hbp:EspecialistaShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:Especialista ;
+  sh:property [
+    sh:path rdfs:subClassOf ;
+    sh:hasValue hbp:Papel_Tatico ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] ;
+  sh:property [
+    sh:path owl:disjointWith ;
+    sh:hasValue hbp:Goleiro ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .
+
+hbp:GoleiroShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:Goleiro ;
+  sh:property [
+    sh:path rdfs:subClassOf ;
+    sh:hasValue hbp:Papel_Regulamentar ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .
+
+hbp:AuthorizedObjectPropertyShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:tem_papel_tatico ;
+  sh:targetNode hbp:tem_papel_regulamentar ;
+  sh:targetNode hbp:executa_funcao_situacional ;
+  sh:targetNode hbp:ocupa_posicao_espacial ;
+  sh:property [
+    sh:path rdf:type ;
+    sh:hasValue owl:ObjectProperty ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path rdfs:label ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path rdfs:comment ;
+    sh:minCount 1 ;
+  ] ;
+  sh:property [
+    sh:path dcterms:source ;
+    sh:minCount 1 ;
+  ] .
+
+hbp:TemPapelTaticoShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:tem_papel_tatico ;
+  sh:property [
+    sh:path rdfs:range ;
+    sh:hasValue hbp:Papel_Tatico ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .
+
+hbp:TemPapelRegulamentarShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:tem_papel_regulamentar ;
+  sh:property [
+    sh:path rdfs:range ;
+    sh:hasValue hbp:Papel_Regulamentar ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .
+
+hbp:ExecutaFuncaoSituacionalShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:executa_funcao_situacional ;
+  sh:property [
+    sh:path rdfs:range ;
+    sh:hasValue hbp:Funcao_Situacional ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .
+
+hbp:OcupaPosicaoEspacialShape
+  a sh:NodeShape ;
+  sh:targetNode hbp:ocupa_posicao_espacial ;
+  sh:property [
+    sh:path rdfs:range ;
+    sh:hasValue hbp:Posicao_Espacial ;
+    sh:minCount 1 ;
+    sh:maxCount 1 ;
+  ] .

@@ -47,6 +47,33 @@ Antes de rodar oficialmente, execute os testes sintéticos:
 python auditoria_python_ontologia/test_audit_ontology_pipeline.py
 ```
 
+## 3.1 Validação RDF/OWL do MVP Turtle
+
+O pipeline acima audita a camada documental em Markdown. A validação do artefato
+OWL/Turtle do MVP fica separada em `owl/`.
+
+Para validar o arquivo `owl/scout_beachhandball_mvp.ttl` no WSL:
+
+```bash
+bash owl/validate.sh
+```
+
+Esse comando executa:
+
+- parse e checagens estruturais do MVP via `owl/validate_mvp_ttl.py`
+- validação SHACL via `pyshacl` **somente** se existir um arquivo
+  `owl/mvp.shapes.ttl`
+
+A validação Turtle atual verifica, no mínimo:
+
+- presença de uma única declaração `owl:Ontology`
+- anotações obrigatórias do escopo (`rdfs:label`, `rdfs:comment`,
+  `dcterms:source`, `dcterms:created`, `owl:versionInfo`)
+- presença das classes e object properties autorizadas
+- ausência das classes bloqueadas de pontuação
+- relações mínimas como `Especialista subClassOf Papel_Tatico`,
+  `Goleiro subClassOf Papel_Regulamentar` e as disjunções estruturais
+
 ## 4. Estrutura de Entrada
 
 Sete arquivos Markdown em `files/`, todos fonte primária (não derivados):

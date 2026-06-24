@@ -1,0 +1,88 @@
+@prefix hbp: <https://github.com/Davisermenho/SCOUT_BEACHHANDBALL/ontology/mvp#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+hbp: a owl:Ontology ;
+  rdfs:label "SCOUT Beach Handball MVP Ontology"@en ,
+             "Ontologia MVP do SCOUT Beach Handball"@pt-BR ;
+  rdfs:comment "MVP Turtle ontology limited to the validated structural dimensions and the minimally authorized role classes. This file intentionally excludes scoring classes, Gol_Criativo, and all blocked candidate concepts."@en ,
+               "Ontologia MVP em Turtle limitada as dimensoes estruturais validadas e as classes de papel minimamente autorizadas. Este arquivo exclui intencionalmente as classes de pontuacao, Gol_Criativo e todos os conceitos candidatos bloqueados."@pt-BR ;
+  dcterms:created "2026-06-23"^^xsd:date ;
+  dcterms:source "ontology/docs/02_domain_knowledge/ontology/00_governance/ONTOLOGY-OWL-001_SCOPE.md" ;
+  dcterms:source "ontology/docs/02_domain_knowledge/ontology/01_concepts/FICHA_CONCEITUAL_ESPECIALISTA.yaml" ;
+  dcterms:source "ontology/docs/02_domain_knowledge/ontology/01_concepts/FICHA_CONCEITUAL_GOLEIRO.yaml" ;
+  dcterms:source "ontology/docs/02_domain_knowledge/ontology/01_concepts/FICHA_CONCEITUAL_PAPEL_TATICO.yaml" ;
+  dcterms:source "ontology/docs/02_domain_knowledge/ontology/01_concepts/FICHA_CONCEITUAL_PAPEL_REGULAMENTAR.yaml" ;
+  dcterms:source "ontology/docs/02_domain_knowledge/ontology/01_concepts/FICHA_CONCEITUAL_FUNCAO_SITUACIONAL.yaml" ;
+  dcterms:source "ontology/docs/02_domain_knowledge/ontology/01_concepts/FICHA_CONCEITUAL_POSICAO_ESPACIAL.yaml" ;
+  owl:versionInfo "MVP 0.1.0" .
+
+hbp:Papel_Tatico a owl:Class ;
+  rdfs:label "Papel_Tatico"@pt-BR ;
+  rdfs:comment "Missao estrategica temporaria ou estrutural dada pelo treinador."@pt-BR ;
+  dcterms:source "FICHA_CONCEITUAL_PAPEL_TATICO.yaml" .
+
+hbp:Papel_Regulamentar a owl:Class ;
+  rdfs:label "Papel_Regulamentar"@pt-BR ;
+  rdfs:comment "Estatuto juridico fixo determinado pelo livro de regras da IHF."@pt-BR ;
+  dcterms:source "FICHA_CONCEITUAL_PAPEL_REGULAMENTAR.yaml" .
+
+hbp:Funcao_Situacional a owl:Class ;
+  rdfs:label "Funcao_Situacional"@pt-BR ;
+  rdfs:comment "Microacao baseada na leitura de resultados factuais do milissegundo."@pt-BR ;
+  dcterms:source "FICHA_CONCEITUAL_FUNCAO_SITUACIONAL.yaml" .
+
+hbp:Posicao_Espacial a owl:Class ;
+  rdfs:label "Posicao_Espacial"@pt-BR ;
+  rdfs:comment "Coordenadas de organizacao estrutural e geografica na quadra."@pt-BR ;
+  dcterms:source "FICHA_CONCEITUAL_POSICAO_ESPACIAL.yaml" .
+
+hbp:Especialista a owl:Class ;
+  rdfs:subClassOf hbp:Papel_Tatico ;
+  owl:disjointWith hbp:Goleiro ;
+  rdfs:label "Especialista"@pt-BR ;
+  rdfs:comment "Maior exemplo de Papel_Tatico. Nao se transforma em Goleiro por posicao espacial ou atuacao momentanea."@pt-BR ;
+  dcterms:source "FICHA_CONCEITUAL_ESPECIALISTA.yaml" .
+
+hbp:Goleiro a owl:Class ;
+  rdfs:subClassOf hbp:Papel_Regulamentar ;
+  rdfs:label "Goleiro"@pt-BR ;
+  rdfs:comment "Classe regulamentar minima sustentada documentalmente. Nao se transforma em Especialista por atuar fora da area ou no ataque."@pt-BR ;
+  dcterms:source "FICHA_CONCEITUAL_GOLEIRO.yaml" .
+
+[
+  a owl:AllDisjointClasses ;
+  owl:members (
+    hbp:Papel_Tatico
+    hbp:Papel_Regulamentar
+    hbp:Funcao_Situacional
+    hbp:Posicao_Espacial
+  )
+] .
+
+hbp:tem_papel_tatico a owl:ObjectProperty ;
+  rdfs:label "tem_papel_tatico"@pt-BR ;
+  rdfs:range hbp:Papel_Tatico ;
+  rdfs:comment "Relaciona uma entidade do dominio ao seu Papel_Tatico. Seu uso nao autoriza inferir Papel_Regulamentar, Funcao_Situacional ou Posicao_Espacial."@pt-BR ;
+  dcterms:source "ONTOLOGY-OWL-001_SCOPE.md" .
+
+hbp:tem_papel_regulamentar a owl:ObjectProperty ;
+  rdfs:label "tem_papel_regulamentar"@pt-BR ;
+  rdfs:range hbp:Papel_Regulamentar ;
+  rdfs:comment "Relaciona uma entidade do dominio ao seu Papel_Regulamentar. Seu uso nao autoriza fundir papel regulamentar com papel tatico."@pt-BR ;
+  dcterms:source "ONTOLOGY-OWL-001_SCOPE.md" .
+
+hbp:executa_funcao_situacional a owl:ObjectProperty ;
+  rdfs:label "executa_funcao_situacional"@pt-BR ;
+  rdfs:range hbp:Funcao_Situacional ;
+  rdfs:comment "Relaciona uma entidade do dominio a uma Funcao_Situacional momentanea. Seu uso nao autoriza reclassificar papel."@pt-BR ;
+  dcterms:source "ONTOLOGY-OWL-001_SCOPE.md" .
+
+hbp:ocupa_posicao_espacial a owl:ObjectProperty ;
+  rdfs:label "ocupa_posicao_espacial"@pt-BR ;
+  rdfs:range hbp:Posicao_Espacial ;
+  rdfs:comment "Relaciona uma entidade do dominio a uma Posicao_Espacial. Seu uso nao autoriza inferir Papel_Tatico ou Papel_Regulamentar."@pt-BR ;
+  dcterms:source "ONTOLOGY-OWL-001_SCOPE.md" .

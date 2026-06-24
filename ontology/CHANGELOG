@@ -22,6 +22,43 @@ Futuras entradas devem copiar a seção "Rastreabilidade desta execução" de
 
 # CHANGELOG
 
+## 2026-06-23 — MVP-TTL-001 baseline OWL/Turtle validado por rdflib e SHACL
+
+Motivo: o repositório passou a conter um baseline técnico mínimo em
+`ontology/owl/`, com artefato `.ttl` real, validador estrutural por CLI e
+shapes SHACL mínimos. Isso exigiu registrar explicitamente a diferença entre:
+
+- o histórico de scoping `ONTOLOGY-OWL-001`, que era documental e proibia
+  gerar artefatos RDF/OWL naquela fase;
+- o estado técnico atual do diretório `ontology/owl/`, que agora já existe e
+  foi validado no WSL.
+
+Artefatos adicionados/atualizados:
+- `owl/scout_beachhandball_mvp.ttl`
+- `owl/validate_mvp_ttl.py`
+- `owl/validate.sh`
+- `owl/mvp.shapes.ttl`
+- `README.md`
+- `docs/02_domain_knowledge/ontology/00_governance/HANDOFF.md`
+- `docs/02_domain_knowledge/ontology/03_validation/MVP-TTL-001_CURRENT_STATE_VALIDATION_REPORT.md`
+
+Validações executadas:
+- `python3 owl/validate_mvp_ttl.py`
+- `bash owl/validate.sh`
+- `python3 -m pyshacl -s owl/mvp.shapes.ttl -m -f human owl/scout_beachhandball_mvp.ttl`
+
+Resultado observado:
+- parse Turtle: `OK`
+- triplas: `71`
+- classes esperadas presentes: `6`
+- object properties esperadas presentes: `4`
+- `pyshacl`: `Conforms: True`
+
+Limites preservados:
+- não houve reasoner de domínio completo;
+- não houve abertura no Protégé Desktop como gate oficial;
+- a validação humana da Fase 0 continua separada e pendente de ratificação.
+
 ## 2026-06-22 — audit_ontology_pipeline.py v2.0.0 — correção do script de auditoria
 
 Motivo: o script em `auditoria_python_ontologia/audit_ontology_pipeline.py` não
