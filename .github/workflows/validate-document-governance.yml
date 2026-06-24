@@ -5,14 +5,18 @@ name: Validate Document Governance
     paths:
       - "docs/**"
       - "scripts/validate_document_governance.py"
+      - "scripts/verify_phase0_freeze_hashes.py"
       - "tests/test_validate_document_governance.py"
+      - "tests/test_phase0_contract.py"
       - ".github/workflows/validate-document-governance.yml"
       - ".gitattributes"
   pull_request:
     paths:
       - "docs/**"
       - "scripts/validate_document_governance.py"
+      - "scripts/verify_phase0_freeze_hashes.py"
       - "tests/test_validate_document_governance.py"
+      - "tests/test_phase0_contract.py"
       - ".github/workflows/validate-document-governance.yml"
       - ".gitattributes"
 
@@ -35,5 +39,8 @@ jobs:
       - name: Run document governance validator
         run: python scripts/validate_document_governance.py
 
+      - name: Verify Phase 0 frozen hashes
+        run: python scripts/verify_phase0_freeze_hashes.py
+
       - name: Run document governance test suite
-        run: pytest -q tests/test_validate_document_governance.py
+        run: pytest -q tests

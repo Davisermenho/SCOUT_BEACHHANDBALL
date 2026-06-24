@@ -404,7 +404,7 @@ Status de execucao verificado em `2026-06-24`:
 - Etapa 2: concluida
 - Etapa 3: concluida
 - Etapa 4: concluida
-- Etapa 5: pendente
+- Etapa 5: concluida
 - Etapa 6: pendente
 - Etapa 7: pendente
 
@@ -661,13 +661,18 @@ Checklist formal da Etapa 5:
 
 Status verificado em `2026-06-24`:
 
-- [ ] Pendente
+- [x] Concluida
 
-Evidencias verificaveis do pendente:
+Evidencias verificaveis:
 
-- `docs/05_fases/` ainda nao existe no HEAD atual;
-- `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` ainda nao existe no HEAD atual;
-- portanto, o criterio de aceite desta etapa ainda nao foi atingido.
+- `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` foi criado no caminho canonico previsto;
+- o contrato unico foi criado com frontmatter valido e entrou no conjunto governado principal;
+- `MAPA_DOCUMENTAL.md` foi atualizado no mesmo changeset para incluir o contrato unico e reclassificar os artefatos absorvidos da Fase 0;
+- `scripts/verify_phase0_freeze_hashes.py` foi criado para verificar os hashes congelados declarados na secao de anexos do contrato unico;
+- `tests/test_phase0_contract.py` foi criado para validar estrutura, unicidade e freeze do contrato unico;
+- `python3 scripts/validate_document_governance.py` passou com `5` documentos governados;
+- `python3 scripts/verify_phase0_freeze_hashes.py` passou verificando `20` hashes congelados;
+- `pytest -q tests` passou com `21` testes aprovados.
 
 ### Etapa 6. Migracao fisica dos arquivos
 
@@ -771,7 +776,7 @@ Status agregado verificado em `2026-06-24`:
 - [x] Item 2 atendido
 - [x] Item 3 atendido
 - [x] Item 4 atendido
-- [ ] Item 5 pendente
+- [x] Item 5 atendido
 - [ ] Item 6 pendente
 - [ ] Item 7 pendente
 - [ ] Item 8 pendente
@@ -790,12 +795,12 @@ Este arquivo deve seguir esta regra:
 
 A proxima acao recomendada, considerando o estado verificado do repo em `2026-06-24`, e:
 
-1. executar a Etapa 5 criando `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md`;
-2. consolidar nele o conteudo normativo hoje espalhado pela Fase 0;
-3. so depois abrir a Etapa 6 para migracao fisica dos arquivos e retirada dos contratos ativos da raiz.
+1. executar a Etapa 6 movendo fisicamente os contratos e anexos ativos para `docs/**`;
+2. atualizar links internos e rastreabilidade no mesmo changeset;
+3. retirar da raiz os contratos ativos ainda inventariados como pendentes de migracao.
 
 Evidencia para esta prioridade:
 
-- as Etapas 1 a 4 ja possuem artefatos criados e verificaveis no repo;
-- `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` ainda nao existe;
-- sem a Etapa 5, a Fase 0 ainda nao possui contrato unico operacional no novo modelo.
+- as Etapas 1 a 5 ja possuem artefatos criados e verificaveis no repo;
+- a raiz ainda contem contratos ativos inventariados para migracao, incluindo `PROBLEMA_FINAL.md`, `MVP.md`, `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`, `ESPECIFICACAO_IMPLEMENTACAO_MVP.md` e `PLANO_EXECUCAO_IA_POR_FASES.md`;
+- sem a Etapa 6, a organizacao documental alvo ainda nao foi fisicamente materializada no repositorio.

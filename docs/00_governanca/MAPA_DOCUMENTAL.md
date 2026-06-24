@@ -74,17 +74,18 @@ Colunas usadas neste mapa:
 | `docs/00_governanca/ESQUEMA_METADADOS_DOCUMENTAIS.md` | `contract` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/ESQUEMA_METADADOS_DOCUMENTAIS.md` | manter e promover apos aprovacao humana | schema canonico bootstrap dos metadados documentais |
 | `docs/00_governanca/CONTRATO_GOVERNANCA_DOCUMENTAL.md` | `contract` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/CONTRATO_GOVERNANCA_DOCUMENTAL.md` | manter e promover apos aprovacao humana | contrato canonico proposto para a governanca documental |
 
-### 5.2 Contratos, aprovacoes e documentos de fase hoje na raiz
+### 5.2 Contratos, aprovacoes e documentos de fase na arvore imediata e na raiz
 
 | arquivo_atual | doc_type_proposto | phase_scope_proposto | authority_level_proposto | status_proposto | destino_canonico_planejado | acao_planejada | observacoes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` | `contract` | `phase_0` | `operational` | `current` | `/docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` | manter como contrato unico vigente | consolidacao da Etapa 5; ponto operacional unico da Fase 0 |
 | `PROBLEMA_FINAL.md` | `contract` | `cross_phase` | `ssot` | `current` | `/docs/01_contexto/PROBLEMA_FINAL.md` | mover | fonte principal da definicao do problema |
 | `MVP.md` | `contract` | `cross_phase` | `canonical` | `current` | `/docs/02_produto/MVP.md` | mover | contrato do MVP |
-| `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | `contract` | `phase_0` | `canonical` | `current` | `/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | mover | autoridade semantica do MVP |
+| `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | `review` | `phase_0` | `supporting` | `current` | `/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | consolidar no contrato unico e mover | anexo semantico principal subordinado ao contrato unico da Fase 0 |
 | `ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | `contract` | `cross_phase` | `operational` | `current` | `/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | mover | especificacao executavel |
 | `PLANO_EXECUCAO_IA_POR_FASES.md` | `contract` | `cross_phase` | `operational` | `current` | `/docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md` | mover | contrato de execucao por fases |
-| `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | `approval` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | mover | gate humano vigente da Fase 0 |
-| `MATRIZ_ACHADOS_FASE_0.md` | `review` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md` | mover | matriz de destino dos achados da Fase 0 |
+| `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | `approval` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | consolidar como anexo de freeze e mover | gate humano congelado da Fase 0, subordinado ao contrato unico |
+| `MATRIZ_ACHADOS_FASE_0.md` | `review` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md` | consolidar como rastreabilidade e mover | matriz de destino dos achados, subordinada ao contrato unico |
 | `ORDEM_EXECUCAO_FASE_1.md` | `contract` | `phase_1` | `operational` | `current` | `/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md` | mover | restricao operacional da Fase 1 |
 | `FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md` | mover | fechamento tecnico de suporte a Fase 1 |
 | `MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/05_fases/fase_1/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md` | mover | matriz de testes obrigatorios da Fase 1 |

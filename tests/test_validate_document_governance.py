@@ -362,4 +362,5 @@ def test_workflow_runs_validator_on_push_and_pull_request():
     steps = workflow["jobs"]["validate-document-governance"]["steps"]
     run_steps = [step.get("run", "") for step in steps]
     assert any("python scripts/validate_document_governance.py" in step for step in run_steps)
-    assert any("pytest -q tests/test_validate_document_governance.py" in step for step in run_steps)
+    assert any("python scripts/verify_phase0_freeze_hashes.py" in step for step in run_steps)
+    assert any("pytest -q tests" in step for step in run_steps)
