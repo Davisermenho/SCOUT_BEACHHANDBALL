@@ -581,6 +581,84 @@ Criterio de aceite:
 
 - a IA consegue executar a Fase 0 lendo um unico contrato sem ambiguidade.
 
+Checklist formal da Etapa 5:
+
+### 5.1 Acoes necessarias
+
+- [ ] criar a arvore `docs/05_fases/fase_0/`;
+- [ ] criar `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md`;
+- [ ] abrir o arquivo com frontmatter canonico completo, conforme `ESQUEMA_METADADOS_DOCUMENTAIS.md`;
+- [ ] definir `doc_type`, `status`, `phase_scope`, `authority_level`, `must_read_before_implementation` e `implementation_ready` de forma coerente com o schema e com o bloqueio bootstrap vigente;
+- [ ] registrar `canonical_path` final do contrato unico como `/docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md`;
+- [ ] preencher as 12 secoes minimas obrigatorias do contrato unico:
+  - objetivo da Fase 0;
+  - cadeia de autoridade interna;
+  - escopo incluido;
+  - escopo proibido;
+  - vocabulario canonico aprovado;
+  - invariantes semanticos obrigatorios;
+  - gates humanos e documentais;
+  - evidencias exigidas;
+  - criterio de conclusao;
+  - criterio de liberacao para Fase 1;
+  - anexos obrigatorios e hashes congelados;
+  - lista explicita dos documentos depreciados pela consolidacao;
+- [ ] consolidar no contrato o conteudo normativo hoje espalhado em `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`;
+- [ ] consolidar no contrato o conteudo normativo hoje espalhado em `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md`;
+- [ ] consolidar no contrato o conteudo normativo hoje espalhado em `MATRIZ_ACHADOS_FASE_0.md`;
+- [ ] consolidar no contrato as referencias ativas do subsistema `ontology/docs/02_domain_knowledge/ontology/00_governance/`;
+- [ ] consolidar no contrato as decisoes humanas relevantes em `ontology/docs/02_domain_knowledge/ontology/04_human_decisions/`;
+- [ ] referenciar explicitamente, como insumos cross-phase, `PROBLEMA_FINAL.md`, `MVP.md`, `ESPECIFICACAO_IMPLEMENTACAO_MVP.md` e `PLANO_EXECUCAO_IA_POR_FASES.md` quando condicionarem a Fase 0;
+- [ ] criar tabela de anexos obrigatorios com caminho, papel, hash `sha256` e motivo de preservacao;
+- [ ] garantir que os anexos obrigatorios usem normalizacao `LF` antes do freeze documental;
+- [ ] atualizar `MAPA_DOCUMENTAL.md` no mesmo changeset para incluir `CONTRATO_UNICO_FASE_0.md`;
+- [ ] atualizar `MAPA_DOCUMENTAL.md` no mesmo changeset para reclassificar os demais artefatos da Fase 0 como anexo, suporte ou historico;
+- [ ] garantir a regra central do plano: apos a publicacao do contrato unico, nenhum outro documento da Fase 0 pode continuar com `authority_level: canonical` ou `operational`;
+- [ ] preservar rastreabilidade de consolidacao com `supersedes` e `superseded_by` quando a substituicao formal ocorrer;
+- [ ] se o freeze por hash fizer parte do fechamento da etapa, criar tambem verificador versionado no repo para conferir os hashes congelados.
+
+### 5.2 Criterios de aceite
+
+- [ ] `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` existe no caminho canonico esperado;
+- [ ] o frontmatter do contrato unico e valido segundo `ESQUEMA_METADADOS_DOCUMENTAIS.md`;
+- [ ] o contrato contem explicitamente as 12 secoes minimas obrigatorias do plano;
+- [ ] um agente consegue determinar lendo apenas o contrato:
+  - objetivo da Fase 0;
+  - escopo incluido;
+  - escopo proibido;
+  - gates pendentes;
+  - evidencias de conclusao;
+  - criterio de liberacao para Fase 1;
+- [ ] o contrato unico passa a ser o unico ponto de autoridade `canonical` ou `operational` da Fase 0;
+- [ ] os demais documentos da Fase 0 ficam reclassificados como `supporting` ou `historical`, conforme o caso;
+- [ ] `MAPA_DOCUMENTAL.md` reflete a criacao do contrato unico e a nova classificacao dos artefatos absorvidos;
+- [ ] todos os links locais do contrato e dos anexos obrigatorios resolvem para arquivos existentes;
+- [ ] a lista de anexos obrigatorios e hashes congelados esta presente e verificavel;
+- [ ] o contrato nao libera implementacao por acidente; se ainda nao houver gate humano final fechado, `implementation_ready` permanece `false`;
+- [ ] a validacao documental mecanica do repo continua passando apos a criacao do contrato unico;
+- [ ] a IA consegue executar a Fase 0 lendo um unico contrato sem ambiguidade.
+
+### 5.3 Testes de verificacao e validacao
+
+- [ ] verificar que `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` existe no caminho esperado;
+- [ ] verificar por busca estrutural que o contrato contem as 12 secoes minimas obrigatorias;
+- [ ] executar `python3 scripts/validate_document_governance.py` e confirmar sucesso com o novo contrato e o mapa atualizado;
+- [ ] executar `pytest -q tests/test_validate_document_governance.py` e confirmar que a suite permanece verde;
+- [ ] adicionar teste automatizado que falhe se `CONTRATO_UNICO_FASE_0.md` nao estiver refletido em `MAPA_DOCUMENTAL.md`;
+- [ ] adicionar teste automatizado que falhe se algum outro documento da Fase 0 permanecer com `authority_level: canonical` ou `operational` apos a consolidacao;
+- [ ] adicionar teste automatizado que valide a unicidade do contrato ativo da Fase 0;
+- [ ] verificar que a tabela de anexos obrigatorios aponta apenas para arquivos existentes;
+- [ ] verificar que os hashes `sha256` declarados para os anexos obrigatorios batem com o conteudo atual dos arquivos congelados;
+- [ ] verificar que todos os links locais do contrato resolvem sem erro;
+- [ ] executar uma leitura cega do contrato unico, sem abrir outros documentos, para responder:
+  - qual e o objetivo da Fase 0;
+  - qual e o escopo incluido;
+  - qual e o escopo proibido;
+  - quais gates ainda faltam;
+  - qual e o criterio de conclusao;
+- [ ] considerar a leitura cega reprovada se o agente precisar abrir outro documento para responder essas perguntas;
+- [ ] verificar explicitamente que `implementation_ready` nao esta `true` sem todos os gates e aprovacoes exigidos.
+
 Status verificado em `2026-06-24`:
 
 - [ ] Pendente
