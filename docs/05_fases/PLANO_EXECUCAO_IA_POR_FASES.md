@@ -1,3 +1,19 @@
+---
+doc_id: plano-execucao-ia-por-fases
+doc_type: plan
+status: current
+phase_scope:
+  - cross_phase
+authority_level: supporting
+owned_by: cross_phase_execution_sequence
+canonical_path: /docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: true
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Plano de Execucao para IA por Fases
 
 ## Finalidade
@@ -17,11 +33,11 @@ Ele existe para impedir que a implementacao por IA:
 
 Ordem obrigatoria de leitura e obediencia:
 
-1. [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1)
-2. [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1)
-3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
-4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
-5. ADRs em [adr/](/home/davis/SCOUT_BEACHHANDBALL/adr/)
+1. [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1)
+2. [MVP.md](/docs/02_produto/MVP.md:1)
+3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
+4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
+5. ADRs em [docs/06_adrs/](/docs/06_adrs/)
 
 Regra:
 
@@ -102,10 +118,10 @@ Criterio de avanco:
 
 Evidencia obrigatoria:
 
-- [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
-- [MATRIZ_ACHADOS_FASE_0.md](/home/davis/SCOUT_BEACHHANDBALL/MATRIZ_ACHADOS_FASE_0.md:1)
-- [APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md](/home/davis/SCOUT_BEACHHANDBALL/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md:1)
-- ADR-001 a ADR-006 em [adr/](/home/davis/SCOUT_BEACHHANDBALL/adr/)
+- [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
+- [MATRIZ_ACHADOS_FASE_0.md](/docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md:1)
+- [APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md](/docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md:1)
+- ADR-001 a ADR-006 em [adr/](/docs/06_adrs/)
 
 ## Fase 1
 

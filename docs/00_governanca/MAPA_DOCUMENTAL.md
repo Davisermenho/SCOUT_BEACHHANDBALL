@@ -74,52 +74,45 @@ Colunas usadas neste mapa:
 | `docs/00_governanca/ESQUEMA_METADADOS_DOCUMENTAIS.md` | `contract` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/ESQUEMA_METADADOS_DOCUMENTAIS.md` | manter e promover apos aprovacao humana | schema canonico bootstrap dos metadados documentais |
 | `docs/00_governanca/CONTRATO_GOVERNANCA_DOCUMENTAL.md` | `contract` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/CONTRATO_GOVERNANCA_DOCUMENTAL.md` | manter e promover apos aprovacao humana | contrato canonico proposto para a governanca documental |
 
-### 5.2 Contratos, aprovacoes e documentos de fase na arvore imediata e na raiz
+### 5.2 Contratos, aprovacoes e documentos de fase na arvore canonica atual
 
 | arquivo_atual | doc_type_proposto | phase_scope_proposto | authority_level_proposto | status_proposto | destino_canonico_planejado | acao_planejada | observacoes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` | `contract` | `phase_0` | `operational` | `current` | `/docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` | manter como contrato unico vigente | consolidacao da Etapa 5; ponto operacional unico da Fase 0 |
-| `PROBLEMA_FINAL.md` | `contract` | `cross_phase` | `ssot` | `current` | `/docs/01_contexto/PROBLEMA_FINAL.md` | mover | fonte principal da definicao do problema |
-| `MVP.md` | `contract` | `cross_phase` | `canonical` | `current` | `/docs/02_produto/MVP.md` | mover | contrato do MVP |
-| `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | `review` | `phase_0` | `supporting` | `current` | `/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | consolidar no contrato unico e mover | anexo semantico principal subordinado ao contrato unico da Fase 0 |
-| `ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | `contract` | `cross_phase` | `operational` | `current` | `/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | mover | especificacao executavel |
-| `PLANO_EXECUCAO_IA_POR_FASES.md` | `contract` | `cross_phase` | `operational` | `current` | `/docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md` | mover | contrato de execucao por fases |
-| `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | `approval` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | consolidar como anexo de freeze e mover | gate humano congelado da Fase 0, subordinado ao contrato unico |
-| `MATRIZ_ACHADOS_FASE_0.md` | `review` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md` | consolidar como rastreabilidade e mover | matriz de destino dos achados, subordinada ao contrato unico |
-| `ORDEM_EXECUCAO_FASE_1.md` | `contract` | `phase_1` | `operational` | `current` | `/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md` | mover | restricao operacional da Fase 1 |
-| `FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md` | mover | fechamento tecnico de suporte a Fase 1 |
-| `MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/05_fases/fase_1/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md` | mover | matriz de testes obrigatorios da Fase 1 |
+| `docs/01_contexto/PROBLEMA_FINAL.md` | `contract` | `cross_phase` | `ssot` | `current` | `/docs/01_contexto/PROBLEMA_FINAL.md` | manter apos migracao | fonte principal da definicao do problema |
+| `docs/02_produto/MVP.md` | `contract` | `cross_phase` | `canonical` | `current` | `/docs/02_produto/MVP.md` | manter apos migracao | contrato do MVP |
+| `docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | `review` | `phase_0` | `supporting` | `current` | `/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | manter apos migracao | anexo semantico principal subordinado ao contrato unico da Fase 0 |
+| `docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | `contract` | `cross_phase` | `operational` | `current` | `/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | manter apos migracao | especificacao executavel |
+| `docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md` | `plan` | `cross_phase` | `supporting` | `current` | `/docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md` | manter apos migracao | sequenciamento cross-phase subordinado aos contratos vigentes |
+| `docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | `approval` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | manter como gate em revalidacao humana | gate humano da Fase 0 em re-freeze pos-migracao |
+| `docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md` | `review` | `phase_0` | `supporting` | `current` | `/docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md` | manter apos migracao | matriz de destino dos achados, subordinada ao contrato unico |
+| `docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md` | `contract` | `phase_1` | `operational` | `current` | `/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md` | manter apos migracao | restricao operacional da Fase 1, temporariamente bloqueada pelo gate da Fase 0 |
+| `docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md` | manter apos migracao | fechamento tecnico de suporte a Fase 1 |
+| `docs/05_fases/fase_1/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/05_fases/fase_1/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md` | manter apos migracao | matriz de testes obrigatorios da Fase 1 |
 
-### 5.3 Revisoes, historicos e rascunhos hoje na raiz
+### 5.3 Revisoes, historicos e snapshots apos a migracao
 
 | arquivo_atual | doc_type_proposto | phase_scope_proposto | authority_level_proposto | status_proposto | destino_canonico_planejado | acao_planejada | observacoes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| `REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md` | `review` | `cross_phase` | `historical` | `deprecated` | `/docs/07_revisoes_e_auditorias/REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md` | mover e manter como historico | o proprio arquivo indica substituicao operacional |
-| `REVISAO_MODELAGEM_BANCO_X_FASE_1.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/07_revisoes_e_auditorias/REVISAO_MODELAGEM_BANCO_X_FASE_1.md` | mover | revisao de aderencia da modelagem legada |
-| `REVISAO_MVP_X_ESPECIFICACAO_IMPLEMENTACAO.md` | `review` | `cross_phase` | `supporting` | `current` | `/docs/07_revisoes_e_auditorias/REVISAO_MVP_X_ESPECIFICACAO_IMPLEMENTACAO.md` | mover | auditoria entre MVP e especificacao |
-| `REVISAO_PROBLEMA_FINAL_X_MVP_v2.md` | `review` | `cross_phase` | `supporting` | `current` | `/docs/07_revisoes_e_auditorias/REVISAO_PROBLEMA_FINAL_X_MVP_v2.md` | mover | revisao operacional mais recente do par problema/MVP |
-| `MODELAGEM DO BANCO DE DADOS.md` | `archive` | `phase_1` | `historical` | `archived` | `/docs/08_historico_deprecado/MODELAGEM_DO_BANCO_DE_DADOS.md` | mover para historico | documento legado explicitamente sujeito a revisao |
-| `tetes.md` | `archive` | `cross_phase` | `historical` | `archived` | `/docs/08_historico_deprecado/tetes.md` | mover para historico | analise solta sem papel normativo atual |
+| `docs/07_revisoes_e_auditorias/REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md` | `review` | `cross_phase` | `historical` | `deprecated` | `/docs/07_revisoes_e_auditorias/REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md` | manter como historico | o proprio arquivo indica substituicao operacional |
+| `docs/07_revisoes_e_auditorias/REVISAO_MODELAGEM_BANCO_X_FASE_1.md` | `review` | `phase_1` | `supporting` | `current` | `/docs/07_revisoes_e_auditorias/REVISAO_MODELAGEM_BANCO_X_FASE_1.md` | manter apos migracao | revisao de aderencia da modelagem legada |
+| `docs/07_revisoes_e_auditorias/REVISAO_MVP_X_ESPECIFICACAO_IMPLEMENTACAO.md` | `review` | `cross_phase` | `supporting` | `current` | `/docs/07_revisoes_e_auditorias/REVISAO_MVP_X_ESPECIFICACAO_IMPLEMENTACAO.md` | manter apos migracao | auditoria entre MVP e especificacao |
+| `docs/07_revisoes_e_auditorias/REVISAO_PROBLEMA_FINAL_X_MVP_v2.md` | `review` | `cross_phase` | `supporting` | `current` | `/docs/07_revisoes_e_auditorias/REVISAO_PROBLEMA_FINAL_X_MVP_v2.md` | manter apos migracao | revisao operacional mais recente do par problema/MVP |
+| `docs/08_historico_deprecado/MODELAGEM_DO_BANCO_DE_DADOS.md` | `archive` | `phase_1` | `historical` | `archived` | `/docs/08_historico_deprecado/MODELAGEM_DO_BANCO_DE_DADOS.md` | manter como historico | documento legado explicitamente sujeito a revisao |
+| `docs/08_historico_deprecado/tetes.md` | `archive` | `cross_phase` | `historical` | `archived` | `/docs/08_historico_deprecado/tetes.md` | manter como historico | analise solta sem papel normativo atual |
+| `docs/08_historico_deprecado/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO__RATIFICADA_2026_06_23.md` | `archive` | `phase_0` | `historical` | `archived` | `/docs/08_historico_deprecado/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO__RATIFICADA_2026_06_23.md` | manter como snapshot historico | preserva a ratificacao humana anterior ao re-freeze da Etapa 6 |
+| `docs/08_historico_deprecado/CONTRATO_UNICO_FASE_0__FREEZE_2026_06_24_PRE_MIGRACAO.md` | `archive` | `phase_0` | `historical` | `archived` | `/docs/08_historico_deprecado/CONTRATO_UNICO_FASE_0__FREEZE_2026_06_24_PRE_MIGRACAO.md` | manter como snapshot historico | preserva o contrato unico antes da migracao fisica dos anexos congelados |
 
-### 5.4 ADRs atuais em `adr/`
+### 5.4 ADRs atuais em `docs/06_adrs/`
 
-Classificacao bootstrap comum deste bloco:
-
-- `doc_type_proposto`: `adr`
-- `phase_scope_proposto`: `cross_phase`
-- `authority_level_proposto`: `supporting`
-- `status_proposto`: `current`
-- `destino_canonico_planejado`: `/docs/06_adrs/`
-- `acao_planejada`: mover
-
-Arquivos cobertos:
-
-- `adr/ADR-001-scout-roster-validation.md`
-- `adr/ADR-002-backup-sqlite-wal.md`
-- `adr/ADR-003-resultado-sets-shootout.md`
-- `adr/ADR-004-video-opcional-e-ontologia-bloqueadora.md`
-- `adr/ADR-005-cadastros-como-suporte-estrutural.md`
-- `adr/ADR-006-definition-of-done-por-fase.md`
+| arquivo_atual | doc_type_proposto | phase_scope_proposto | authority_level_proposto | status_proposto | destino_canonico_planejado | acao_planejada | observacoes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `docs/06_adrs/ADR-001-scout-roster-validation.md` | `adr` | `cross_phase` | `supporting` | `current` | `/docs/06_adrs/ADR-001-scout-roster-validation.md` | manter apos migracao | ADR normativa de validacao de elenco e scout |
+| `docs/06_adrs/ADR-002-backup-sqlite-wal.md` | `adr` | `cross_phase` | `supporting` | `current` | `/docs/06_adrs/ADR-002-backup-sqlite-wal.md` | manter apos migracao | ADR normativa de backup e restauracao |
+| `docs/06_adrs/ADR-003-resultado-sets-shootout.md` | `adr` | `cross_phase` | `supporting` | `current` | `/docs/06_adrs/ADR-003-resultado-sets-shootout.md` | manter apos migracao | ADR normativa de resultado, sets e shoot-out |
+| `docs/06_adrs/ADR-004-video-opcional-e-ontologia-bloqueadora.md` | `adr` | `cross_phase` | `supporting` | `current` | `/docs/06_adrs/ADR-004-video-opcional-e-ontologia-bloqueadora.md` | manter apos migracao | ADR normativa de video opcional e gate ontologico |
+| `docs/06_adrs/ADR-005-cadastros-como-suporte-estrutural.md` | `adr` | `cross_phase` | `supporting` | `current` | `/docs/06_adrs/ADR-005-cadastros-como-suporte-estrutural.md` | manter apos migracao | ADR normativa de suporte estrutural |
+| `docs/06_adrs/ADR-006-definition-of-done-por-fase.md` | `adr` | `cross_phase` | `supporting` | `current` | `/docs/06_adrs/ADR-006-definition-of-done-por-fase.md` | manter apos migracao | ADR normativa de definition of done e freeze por hash |
 
 ### 5.5 Fontes e derivados textuais
 

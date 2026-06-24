@@ -1,3 +1,19 @@
+---
+doc_id: ontologia-scout-handebol-areia-mvp
+doc_type: review
+status: current
+phase_scope:
+  - phase_0
+authority_level: supporting
+owned_by: fase_0_documentary_baseline
+canonical_path: /docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Ontologia do Scout de Handebol de Areia para o MVP
 
 ## 1. Finalidade
@@ -14,10 +30,10 @@ Seu objetivo e impedir que a implementacao gere:
 
 Quando houver conflito entre documentos:
 
-1. [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1)
-2. [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1)
+1. [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1)
+2. [MVP.md](/docs/02_produto/MVP.md:1)
 3. este documento
-4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
+4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
 
 Observacao:
 
@@ -339,7 +355,7 @@ Regra:
 Observacao:
 
 - a simples existencia desta lista no documento nao equivale a aprovacao operacional;
-- a aprovacao da lista ativa do MVP exige registro humano explicito em [APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md](/home/davis/SCOUT_BEACHHANDBALL/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md:1).
+- a aprovacao da lista ativa do MVP exige registro humano explicito em [APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md](/docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md:1).
 
 ## 6.2 Convencao de classificacao primaria
 

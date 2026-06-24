@@ -1,3 +1,19 @@
+---
+doc_id: modelagem-do-banco-de-dados-legado
+doc_type: archive
+status: archived
+phase_scope:
+  - phase_1
+authority_level: historical
+owned_by: repo_documentary_history
+canonical_path: /docs/08_historico_deprecado/MODELAGEM_DO_BANCO_DE_DADOS.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # **Modelagem dos Dados**
 
 A modelagem foi pensada no primeiro momento com foco em attendance. Nesse primeiro momento foi

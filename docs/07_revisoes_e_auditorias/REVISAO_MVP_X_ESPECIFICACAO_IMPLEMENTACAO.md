@@ -1,10 +1,26 @@
+---
+doc_id: revisao-mvp-x-especificacao-implementacao
+doc_type: review
+status: current
+phase_scope:
+  - cross_phase
+authority_level: supporting
+owned_by: mvp_implementation_contract
+canonical_path: /docs/07_revisoes_e_auditorias/REVISAO_MVP_X_ESPECIFICACAO_IMPLEMENTACAO.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Revisao: MVP x Especificacao de Implementacao
 
 ## Finalidade
 
 Esta e a auditoria mais importante para implementacao assistida por IA.
 
-Ela verifica se a [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1) respeita o [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1) sem criar divergencias que possam contaminar codigo.
+Ela verifica se a [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1) respeita o [MVP.md](/docs/02_produto/MVP.md:1) sem criar divergencias que possam contaminar codigo.
 
 ## Veredito
 
@@ -37,8 +53,8 @@ Status:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:34)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:19)
+- [MVP.md](/docs/02_produto/MVP.md:34)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:19)
 
 ### 2. Presenca de treino vs presenca de jogo
 
@@ -53,8 +69,8 @@ Decisao efetiva:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:476)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:997)
+- [MVP.md](/docs/02_produto/MVP.md:476)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:997)
 
 ### 3. Scout individual vinculado ao elenco
 
@@ -68,8 +84,8 @@ Decisao efetiva:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:513)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:631)
+- [MVP.md](/docs/02_produto/MVP.md:513)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:631)
 
 ### 4. Video como apoio opcional
 
@@ -79,8 +95,8 @@ Status:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:125)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:44)
+- [MVP.md](/docs/02_produto/MVP.md:125)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:44)
 
 Ressalva:
 
@@ -94,8 +110,8 @@ Status:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:400)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:448)
+- [MVP.md](/docs/02_produto/MVP.md:400)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:448)
 
 ### 5.1 Golden Goal
 
@@ -111,8 +127,8 @@ Decisao efetiva:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:447)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:549)
+- [MVP.md](/docs/02_produto/MVP.md:447)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:549)
 
 ### 6. Frontend nao pode anteceder fundacao
 
@@ -122,8 +138,8 @@ Status:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:673)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:84)
+- [MVP.md](/docs/02_produto/MVP.md:673)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:84)
 
 ### 7. Prova executavel por fase
 
@@ -133,8 +149,8 @@ Status:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:911)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1237)
+- [MVP.md](/docs/02_produto/MVP.md:911)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1237)
 
 ## Pontos de atencao remanescentes
 

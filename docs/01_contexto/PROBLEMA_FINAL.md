@@ -1,3 +1,19 @@
+---
+doc_id: problema-final
+doc_type: contract
+status: current
+phase_scope:
+  - cross_phase
+authority_level: ssot
+owned_by: scout_problem_definition
+canonical_path: /docs/01_contexto/PROBLEMA_FINAL.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: true
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 ## Nota de Consolidação
 
 Este documento consolida as conclusões extraídas das bases anteriores para formar a fonte oficial da definição do problema do Scout de Handebol de Areia.
@@ -184,4 +200,3 @@ Este documento está pronto para ser usado como descrição principal do problem
 8. A pergunta final orienta a IA para uma solução incremental, validável e de menor risco.
 
 Status atual: `pronto_para_uso_com_ia`.
-

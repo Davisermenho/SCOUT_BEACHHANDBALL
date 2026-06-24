@@ -1,8 +1,24 @@
+---
+doc_id: especificacao-implementacao-mvp
+doc_type: contract
+status: current
+phase_scope:
+  - cross_phase
+authority_level: operational
+owned_by: mvp_implementation_contract
+canonical_path: /docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: true
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Especificacao de Implementacao do MVP
 
 ## 1. Finalidade
 
-Este documento transforma o [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1) em especificacao de implementacao.
+Este documento transforma o [MVP.md](/docs/02_produto/MVP.md:1) em especificacao de implementacao.
 
 Ele define:
 
@@ -16,14 +32,14 @@ Ele define:
 - testes;
 - criterios tecnicos de entrega por fase.
 
-Este documento nao substitui o [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1). Quando houver conflito, a ordem de autoridade e:
+Este documento nao substitui o [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1). Quando houver conflito, a ordem de autoridade e:
 
 1. `PROBLEMA_FINAL.md`
 2. `MVP.md`
 3. `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`
 4. este documento
 
-Para termos de dominio do scout, o documento [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1) e a autoridade semantica dentro do escopo do MVP.
+Para termos de dominio do scout, o documento [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1) e a autoridade semantica dentro do escopo do MVP.
 
 Regra adicional:
 

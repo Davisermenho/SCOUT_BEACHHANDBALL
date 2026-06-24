@@ -1,3 +1,19 @@
+---
+doc_id: adr-006-definition-of-done-por-fase
+doc_type: adr
+status: current
+phase_scope:
+  - cross_phase
+authority_level: supporting
+owned_by: cross_phase_execution_sequence
+canonical_path: /docs/06_adrs/ADR-006-definition-of-done-por-fase.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # ADR-006: Definition of Done por fase
 
 ## Status

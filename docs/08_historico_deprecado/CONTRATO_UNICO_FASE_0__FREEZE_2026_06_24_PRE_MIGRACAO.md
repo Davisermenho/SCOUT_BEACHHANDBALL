@@ -1,4 +1,20 @@
 ---
+doc_id: contrato-unico-fase-0-freeze-2026-06-24-pre-migracao
+doc_type: archive
+status: archived
+phase_scope:
+  - phase_0
+authority_level: historical
+owned_by: fase_0_documentary_history
+canonical_path: /docs/08_historico_deprecado/CONTRATO_UNICO_FASE_0__FREEZE_2026_06_24_PRE_MIGRACAO.md
+supersedes: []
+superseded_by: /docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
+---
 doc_id: contrato-unico-fase-0
 doc_type: contract
 status: current
@@ -7,8 +23,7 @@ phase_scope:
 authority_level: operational
 owned_by: fase_0_documentary_baseline
 canonical_path: /docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md
-supersedes:
-  - /docs/08_historico_deprecado/CONTRATO_UNICO_FASE_0__FREEZE_2026_06_24_PRE_MIGRACAO.md
+supersedes: []
 superseded_by: null
 must_read_before_implementation: true
 implementation_ready: false
@@ -46,7 +61,7 @@ Ordem de autoridade obrigatoria para o escopo da Fase 0:
 4. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
 5. [APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md](/docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md:1)
 6. [MATRIZ_ACHADOS_FASE_0.md](/docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md:1)
-7. ADRs `001` a `006` em [docs/06_adrs/](/docs/06_adrs/)
+7. ADRs `001` a `006` em [adr/](/docs/06_adrs/)
 8. anexos de governanca ontologica referenciados na secao 11
 
 Regras:
@@ -184,18 +199,17 @@ Invariantes de pontuacao:
 
 | gate | estado atual | evidencia |
 | --- | --- | --- |
-| baseline tecnico minimo da ontologia validado | fechado | `ontology/owl/` continua reconhecido como baseline tecnico minimo |
-| freeze documental da Fase 0 ratificado humanamente | reaberto | migracao canonica da Etapa 6 para `docs/**` alterou o conjunto de hashes e exige nova ratificacao humana |
-| ADRs normativos da fase lidos e congelados | reaberto | ADR-001 a ADR-006 foram migradas para `docs/06_adrs/` no mesmo changeset do novo freeze candidato |
-| bloqueios semanticos remanescentes | fechado | a migracao documental nao reabriu ambiguidades semanticas do dominio |
-| bloqueios documentais remanescentes | aberto | `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` esta em `aguardando_revalidacao_humana` |
+| baseline tecnico minimo da ontologia validado | fechado | `ontology/owl/` reconhecido como baseline tecnico minimo no artefato de aprovacao |
+| freeze documental da Fase 0 ratificado humanamente | fechado | `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` com status `ratificada_humanamente` |
+| ADRs normativos da fase lidos e congelados | fechado | ADR-001 a ADR-006 listados no freeze |
+| bloqueios semanticos remanescentes | fechado | artefato de aprovacao declara `nenhum` |
+| bloqueios documentais remanescentes | fechado | artefato de aprovacao declara `nenhum` |
 | obediencia a `ORDEM_EXECUCAO_FASE_1.md` para avancar de fase | obrigatorio | gate ativo apos o fechamento documental da Fase 0 |
 
 Regra operacional:
 
 - se qualquer anexo congelado sofrer hash drift, este contrato continua existindo, mas a ratificacao humana da Fase 0 deve ser considerada reaberta ate nova reconciliacao;
 - a existencia tecnica do baseline ontologico nao substitui a ratificacao humana do freeze documental.
-- a migracao fisica controlada da Etapa 6 exige um novo freeze candidato antes de a Fase 1 voltar a ser tratada como liberada.
 
 ## 8. Evidencias exigidas
 
@@ -242,24 +256,22 @@ Algoritmo: `sha256`
 
 Ferramenta de verificacao: `scripts/verify_phase0_freeze_hashes.py`
 
-Estado deste freeze: `candidato_pos_migracao_aguardando_revalidacao_humana`
-
 | arquivo | papel_no_gate | sha256 | observacao |
 | --- | --- | --- | --- |
-| `docs/01_contexto/PROBLEMA_FINAL.md` | `ssot_contexto` | `27884c2dd87a7811612e9da11c9f95184d8459d32cdd7c07189a5744e747eb77` | problema central e restricoes do treinador solo |
-| `docs/02_produto/MVP.md` | `escopo_produto` | `0ce4d4ddd9dd0384d7575f8e39ccd3b41e5642f481c25b7f57f9296a0debe4bc` | escopo minimo do MVP |
-| `docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | `anexo_semantico_principal` | `c32fb25a717e7f90cd761657d3c9697ac5083f5b73c8c6e304af227321d14402` | definicoes canonicas do dominio |
-| `docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | `implementacao_cross_phase` | `f89209d98cccf788dcba91dbe06f08058d97086c01fe60bc51dde8c29bef0382` | referencia tecnica subordinada ao MVP e a ontologia |
-| `docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md` | `sequenciamento_cross_phase` | `4edf8ebd85ff66bcc8ee6db3862a95253f2ff37d952e849b8e75bafc41520e7a` | sequenciamento documental por fases |
-| `docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | `gate_humano_vigente` | `877c7b6513cb38c12e23593a41d02d5c9c16c711edd1c60d3ea923183f5df5a0` | gate humano em revalidacao do freeze pos-migracao |
-| `docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md` | `rastreabilidade_de_achados` | `c74d409ad582fbd53fef0682e4d0878aebb9961d5d9413b29d8e051105dc4702` | destino dos achados consolidados |
-| `docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md` | `gate_de_saida_para_fase_1` | `0d604ca9a0aa7b88ed3afc2bfcf91a48028c15f228be25e92bcbcbf260cf5af8` | restricao operacional da fase seguinte |
-| `docs/06_adrs/ADR-001-scout-roster-validation.md` | `adr_normativa_fase_0` | `0f39dd3403bf70042366d1fb122808e46278b29ab45c0fe39e5cc4d02b0f11a1` | validacao de elenco e scout individual |
-| `docs/06_adrs/ADR-002-backup-sqlite-wal.md` | `adr_normativa_fase_0` | `8e893f30ff2da850e0c95859e708e915f0dc1fe4604d8f451cd3b3c9335407ad` | backup e restauracao compativeis com WAL |
-| `docs/06_adrs/ADR-003-resultado-sets-shootout.md` | `adr_normativa_fase_0` | `e7ebc0b58bca5d64e5ee07e1b556fd34f8f5b7dd6e0c38950f3df827ed0ff49f` | invariantes de resultado, sets e shoot-out |
-| `docs/06_adrs/ADR-004-video-opcional-e-ontologia-bloqueadora.md` | `adr_normativa_fase_0` | `311b7789bd521ca2c80adde6175f0075b3f556040a9f8706c3141663dc7c60ff` | video opcional e ontologia bloqueadora |
-| `docs/06_adrs/ADR-005-cadastros-como-suporte-estrutural.md` | `adr_normativa_fase_0` | `cf885013362fe158c0bd6b9bab3c4e4a84441bbea6a48169f4d3e94f080b8484` | cadastros como suporte estrutural |
-| `docs/06_adrs/ADR-006-definition-of-done-por-fase.md` | `adr_normativa_fase_0` | `60fe719856c4feb7b64796284e0417446bbbf0f7084466e95e1ae8415b37beee` | definition of done e freeze por hash |
+| `PROBLEMA_FINAL.md` | `ssot_contexto` | `aa0cdd7157c8114969fe72a5c84e4c6f7a6ab9ddbf616fa992a37f9440fd54ca` | problema central e restricoes do treinador solo |
+| `MVP.md` | `escopo_produto` | `fa42bcc60582416e258a84f2898bbfc2576a55c3681966e7432c64cf334df006` | escopo minimo do MVP |
+| `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md` | `anexo_semantico_principal` | `df83b3ec09699acbfac7351ef84594958484e93df13a579eb71f26f62cba81ec` | definicoes canonicas do dominio |
+| `ESPECIFICACAO_IMPLEMENTACAO_MVP.md` | `implementacao_cross_phase` | `355a44189ea93ef8d89065094c81c563793f1fd8a5d1c803c976493df0d59d93` | referencia tecnica subordinada ao MVP e a ontologia |
+| `PLANO_EXECUCAO_IA_POR_FASES.md` | `sequenciamento_cross_phase` | `6178677c4db4cba7453b12d0629bb028160613b7e6ce1ed7911e0e004728ce37` | contrato de sequenciamento por fases |
+| `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` | `gate_humano_vigente` | `449fb1cb299180147fb0429c1699d2dd81b6f0ebc3527150b33c9de1c48f8a1a` | ratificacao humana vigente da Fase 0 |
+| `MATRIZ_ACHADOS_FASE_0.md` | `rastreabilidade_de_achados` | `54e2dcb3353067cea44644c050144502f2ad3b6c1fd1bf92da1c4bfffc42d407` | destino dos achados consolidados |
+| `ORDEM_EXECUCAO_FASE_1.md` | `gate_de_saida_para_fase_1` | `a932ffad00a159767caf80425c86d09c3c8ed77ccf1f4bf7c694f730cade2397` | restricao operacional da fase seguinte |
+| `adr/ADR-001-scout-roster-validation.md` | `adr_normativa_fase_0` | `c6fcc666e724ce8fcee1c250d7aa3650030495779d95ffdd50ad472af04c063d` | validacao de elenco e scout individual |
+| `adr/ADR-002-backup-sqlite-wal.md` | `adr_normativa_fase_0` | `91ffe68ede17314c5e250464fafdb5c673440baae341d7d0afe4eaa4d7e85da5` | backup e restauracao compativeis com WAL |
+| `adr/ADR-003-resultado-sets-shootout.md` | `adr_normativa_fase_0` | `ce5804774f5b10a41af06a10cb9dac4ecdfaf7d0a033509b16cbff194620b61d` | invariantes de resultado, sets e shoot-out |
+| `adr/ADR-004-video-opcional-e-ontologia-bloqueadora.md` | `adr_normativa_fase_0` | `d03b8172f7f012dead33696ab8670d53e7df8f1ea1b1b0634e16557671f4547a` | video opcional e ontologia bloqueadora |
+| `adr/ADR-005-cadastros-como-suporte-estrutural.md` | `adr_normativa_fase_0` | `d2cc4c0aca0f034d656f49568c8bfc193e1799e8064f201f96f4370f17b1b1bd` | cadastros como suporte estrutural |
+| `adr/ADR-006-definition-of-done-por-fase.md` | `adr_normativa_fase_0` | `301f43b3029d22ec04317448d64a548a348a78f04bd33839f376cebd64c3d293` | definition of done e freeze por hash |
 | `ontology/docs/02_domain_knowledge/ontology/00_governance/HANDOFF.md` | `anexo_governanca_ontologica` | `677d9e2e484776eeae1711d8328e42d2e2f1ff10b3c6397eab561ae6f1126a93` | continuidade operacional da governanca ontologica |
 | `ontology/docs/02_domain_knowledge/ontology/00_governance/ONTOLOGY-OWL-001_SCOPE.md` | `anexo_governanca_ontologica` | `95712609dbc8f5111751b1aaf7513b388446b1375256734081174f9f28d7f0cc` | escopo do baseline OWL minimo |
 | `ontology/docs/02_domain_knowledge/ontology/00_governance/PONTUACAO-001_MODELO_MINIMO.md` | `anexo_governanca_ontologica` | `653c17331b5169396998e524d098731ec0560470b8dc777b90b7272bebce8d5d` | modelagem minima da pontuacao |
@@ -286,7 +298,7 @@ Passam a perder o papel de ponto primario de leitura para a Fase 0:
 - `ontology/docs/02_domain_knowledge/ontology/00_governance/VOCABULARIO_CANONICO_MINIMO.md`: reclassificado semanticamente como anexo auxiliar de vocabulario;
 - `ontology/docs/02_domain_knowledge/ontology/04_human_decisions/DH-PONTUACAO-001.md`: reclassificado semanticamente como decisao humana literal anexada ao contrato.
 
-Lista explicita de documentos cuja reclassificacao semantica foi materializada em `docs/**`, mas cuja cadeia ampla de depreciacao historica continua dependente da Etapa 7:
+Lista explicita de documentos cuja depreciacao formal fica preparada por esta consolidacao, mas continua dependente das Etapas 6 e 7:
 
 - `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`
 - `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md`

@@ -1,3 +1,19 @@
+---
+doc_id: analise-solta-tetes
+doc_type: archive
+status: archived
+phase_scope:
+  - cross_phase
+authority_level: historical
+owned_by: repo_documentary_history
+canonical_path: /docs/08_historico_deprecado/tetes.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 Estratégia e Governaça
 
 Análise Técnica do Projeto: SCOUT_BEACHHANDBALL
@@ -76,12 +92,12 @@ Documentação do Projeto Scout de Handebol de Areia
 1. Architecture Decision Records (ADRs)
 *Histórico de decisões técnicas aprovadas:*
 
-- **[ADR-001](adr/ADR-001-scout-roster-validation.md)** - Validação de `scout_events` via Trigger SQLite contra o elenco oficial.
-- **[ADR-002](adr/ADR-002-backup-sqlite-wal.md)** - Backup consistente de banco com suporte ao modo WAL.
-- [ADR-003](adr/ADR-003-resultado-sets-shootout.md) - Representação de sets, Golden Goal e Shoot-out; invariantes de estado do jogo.
-- [ADR-004](adr/ADR-004-video-opcional-e-ontologia-bloqueadora.md) - Vídeo como apoio opcional e ontologia como pré-requisito formal.
-- [ADR-005](adr/ADR-005-cadastros-como-suporte-estrutural.md) - Cadastros base (atletas, competições) como suporte estrutural obrigatório.
-- [ADR-006](adr/ADR-006-definition-of-done-por-fase.md) - Definição de "Feito" (DoD) com evidências executáveis obrigatórias por fase.
+- **[ADR-001](/docs/06_adrs/ADR-001-scout-roster-validation.md)** - Validação de `scout_events` via Trigger SQLite contra o elenco oficial.
+- **[ADR-002](/docs/06_adrs/ADR-002-backup-sqlite-wal.md)** - Backup consistente de banco com suporte ao modo WAL.
+- [ADR-003](/docs/06_adrs/ADR-003-resultado-sets-shootout.md) - Representação de sets, Golden Goal e Shoot-out; invariantes de estado do jogo.
+- [ADR-004](/docs/06_adrs/ADR-004-video-opcional-e-ontologia-bloqueadora.md) - Vídeo como apoio opcional e ontologia como pré-requisito formal.
+- [ADR-005](/docs/06_adrs/ADR-005-cadastros-como-suporte-estrutural.md) - Cadastros base (atletas, competições) como suporte estrutural obrigatório.
+- [ADR-006](/docs/06_adrs/ADR-006-definition-of-done-por-fase.md) - Definição de "Feito" (DoD) com evidências executáveis obrigatórias por fase.
 
 1. Auditoria e Revisões
 

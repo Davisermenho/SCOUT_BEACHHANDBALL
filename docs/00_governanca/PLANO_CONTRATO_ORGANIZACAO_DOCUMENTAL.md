@@ -733,13 +733,55 @@ Criterio de aceite:
 
 Status verificado em `2026-06-24`:
 
-- [ ] Pendente
+- [x] Concluida com gate humano da Fase 0 reaberto para revalidacao do freeze pos-migracao
 
-Evidencias verificaveis do pendente:
+Evidencias verificaveis da conclusao:
 
-- documentos normativos ainda permanecem fora de `docs/`, incluindo arquivos hoje mapeados no bootstrap como `PROBLEMA_FINAL.md`, `MVP.md`, `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`, `ESPECIFICACAO_IMPLEMENTACAO_MVP.md` e `PLANO_EXECUCAO_IA_POR_FASES.md`;
-- o proprio `MAPA_DOCUMENTAL.md` ainda registra acao planejada `mover` para esse conjunto;
-- portanto, a raiz ainda nao atende ao criterio de nao conter contratos ativos.
+- os contratos e anexos ativos inventariados foram movidos para `docs/**`, incluindo `docs/01_contexto/PROBLEMA_FINAL.md`, `docs/02_produto/MVP.md`, `docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`, `docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md` e `docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md`;
+- os ADRs normativos foram migrados de `adr/` para `docs/06_adrs/`;
+- `python3 scripts/validate_document_governance.py` valida `29` documentos governados com sucesso no estado pos-migracao;
+- `python3 scripts/verify_phase0_freeze_hashes.py` valida com sucesso os `20` hashes do novo freeze candidato;
+- `pytest -q tests` passa com `25` testes no baseline migrado;
+- a aprovacao da Fase 0 foi explicitamente reaberta em `docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` com estado `aguardando_revalidacao_humana`.
+
+Checklist formal do efeito colateral documental critico:
+
+- [x] registrar explicitamente a reabertura do gate documental da Fase 0 antes de alterar qualquer arquivo congelado por hash;
+- [x] preservar o freeze ratificado em `2026-06-23` como evidencia historica auditavel, sem sobrescrever silenciosamente o baseline anterior;
+- [x] criar os sucessores canonicos em `docs/**` com frontmatter completo e `canonical_path` final antes de depreciar ou arquivar os predecessores;
+- [x] mover os arquivos ativos inventariados na raiz para seus destinos canonicos em `docs/**`;
+- [x] atualizar links internos repo-wide no mesmo changeset da migracao fisica;
+- [x] atualizar `MAPA_DOCUMENTAL.md` no mesmo changeset para refletir os caminhos reais pos-migracao;
+- [ ] preencher `supersedes` e `superseded_by` de forma completa entre predecessores na raiz e sucessores em `docs/**`;
+- [x] recalcular os `sha256` do novo baseline ativo depois da migracao e registrar o novo freeze no contrato unico e no artefato de aprovacao;
+- [ ] revalidar humanamente o novo baseline migrado antes de tratar a Fase 1 como liberada novamente;
+- [ ] reclassificar os predecessores como `deprecated` ou `archived` sem deixar nenhum parecer ativo por acidente;
+- [x] garantir que os validadores distinguam o freeze historico preservado do freeze ativo pos-migracao.
+
+Criterios de aceite do tratamento deste efeito colateral:
+
+- [x] nenhum arquivo congelado e alterado sob a ratificacao antiga sem reabertura explicita do gate humano;
+- [x] o freeze ratificado em `2026-06-23` continua auditavel como baseline historico completo;
+- [x] existe um novo baseline ativo em `docs/**`, com frontmatter, caminhos canonicos e hashes consistentes entre contrato, aprovacao e mapa;
+- [x] `CONTRATO_UNICO_FASE_0.md` e `APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md` apontam para o mesmo conjunto ativo de arquivos e hashes;
+- [x] `MAPA_DOCUMENTAL.md`, frontmatter e caminhos reais do repo nao divergem;
+- [x] a raiz deixa de conter contratos ativos que ja possuam destino canonico definido no plano;
+- [ ] predecessores e sucessores ficam ligados sem lacunas por `supersedes` e `superseded_by`;
+- [x] se o baseline estiver em `aguardando_revalidacao_humana`, a Fase 1 permanece bloqueada;
+- [ ] apos a nova ratificacao humana, o gate volta a estado fechado e o novo freeze passa a ser o unico baseline ativo.
+
+Testes que verificam e validam este tratamento:
+
+- [x] teste de reabertura do gate ao detectar hash drift em arquivo congelado;
+- [x] teste de preservacao do snapshot historico ratificado em `2026-06-23`;
+- [x] teste de frontmatter e `canonical_path` dos sucessores migrados para `docs/**`;
+- [x] teste de consistencia entre contrato unico, artefato de aprovacao e hashes do baseline ativo;
+- [ ] teste de rastreabilidade completa entre predecessores e sucessores;
+- [x] teste de links internos para garantir ausencia de referencias quebradas apos a migracao;
+- [x] teste de consistencia derivada do `MAPA_DOCUMENTAL.md` contra caminhos e metadados reais;
+- [x] teste de bloqueio da Fase 1 quando a aprovacao estiver em revalidacao humana;
+- [ ] teste de reativacao controlada apos nova ratificacao humana do baseline migrado;
+- [x] teste de ausencia de documentos antigos ainda aparentando estar ativos.
 
 ### Etapa 7. Depreciacao controlada e arquivamento
 

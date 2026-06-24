@@ -1,3 +1,19 @@
+---
+doc_id: adr-002-backup-sqlite-wal
+doc_type: adr
+status: current
+phase_scope:
+  - cross_phase
+authority_level: supporting
+owned_by: fase_1_execution_gate
+canonical_path: /docs/06_adrs/ADR-002-backup-sqlite-wal.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # ADR-002: Backup seguro com SQLite em modo WAL
 
 ## Status

@@ -1,3 +1,19 @@
+---
+doc_id: matriz-achados-fase-0
+doc_type: review
+status: current
+phase_scope:
+  - phase_0
+authority_level: supporting
+owned_by: fase_0_documentary_baseline
+canonical_path: /docs/05_fases/fase_0/MATRIZ_ACHADOS_FASE_0.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Matriz de Achados da Fase 0
 
 ## Finalidade

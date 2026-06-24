@@ -1,3 +1,19 @@
+---
+doc_id: aprovacao-fase-0-ratificada-2026-06-23
+doc_type: archive
+status: archived
+phase_scope:
+  - phase_0
+authority_level: historical
+owned_by: fase_0_documentary_history
+canonical_path: /docs/08_historico_deprecado/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO__RATIFICADA_2026_06_23.md
+supersedes: []
+superseded_by: /docs/05_fases/fase_0/APROVACAO_FASE_0_ONTOLOGIA_E_VOCABULARIO.md
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Aprovacao da Fase 0: Ontologia e Vocabulario
 
 ## Status atual
@@ -25,18 +41,18 @@
 
 ## Documentos congelados para a decisao
 
-- [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1)
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1)
-- [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
-- [PLANO_EXECUCAO_IA_POR_FASES.md](/home/davis/SCOUT_BEACHHANDBALL/PLANO_EXECUCAO_IA_POR_FASES.md:1)
-- [ORDEM_EXECUCAO_FASE_1.md](/home/davis/SCOUT_BEACHHANDBALL/ORDEM_EXECUCAO_FASE_1.md:1)
-- [ADR-001-scout-roster-validation.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-001-scout-roster-validation.md:1)
-- [ADR-002-backup-sqlite-wal.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-002-backup-sqlite-wal.md:1)
-- [ADR-003-resultado-sets-shootout.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-003-resultado-sets-shootout.md:1)
-- [ADR-004-video-opcional-e-ontologia-bloqueadora.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-004-video-opcional-e-ontologia-bloqueadora.md:1)
-- [ADR-005-cadastros-como-suporte-estrutural.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-005-cadastros-como-suporte-estrutural.md:1)
-- [ADR-006-definition-of-done-por-fase.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-006-definition-of-done-por-fase.md:1)
+- [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1)
+- [MVP.md](/docs/02_produto/MVP.md:1)
+- [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
+- [PLANO_EXECUCAO_IA_POR_FASES.md](/docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md:1)
+- [ORDEM_EXECUCAO_FASE_1.md](/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md:1)
+- [ADR-001-scout-roster-validation.md](/docs/06_adrs/ADR-001-scout-roster-validation.md:1)
+- [ADR-002-backup-sqlite-wal.md](/docs/06_adrs/ADR-002-backup-sqlite-wal.md:1)
+- [ADR-003-resultado-sets-shootout.md](/docs/06_adrs/ADR-003-resultado-sets-shootout.md:1)
+- [ADR-004-video-opcional-e-ontologia-bloqueadora.md](/docs/06_adrs/ADR-004-video-opcional-e-ontologia-bloqueadora.md:1)
+- [ADR-005-cadastros-como-suporte-estrutural.md](/docs/06_adrs/ADR-005-cadastros-como-suporte-estrutural.md:1)
+- [ADR-006-definition-of-done-por-fase.md](/docs/06_adrs/ADR-006-definition-of-done-por-fase.md:1)
 
 ## Revisoes congeladas
 

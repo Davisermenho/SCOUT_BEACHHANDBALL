@@ -1,3 +1,19 @@
+---
+doc_id: adr-003-resultado-sets-shootout
+doc_type: adr
+status: current
+phase_scope:
+  - cross_phase
+authority_level: supporting
+owned_by: fase_0_documentary_baseline
+canonical_path: /docs/06_adrs/ADR-003-resultado-sets-shootout.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # ADR-003: Representacao do resultado do jogo
 
 ## Status

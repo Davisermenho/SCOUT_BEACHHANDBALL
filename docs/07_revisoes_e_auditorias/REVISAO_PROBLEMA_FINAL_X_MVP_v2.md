@@ -1,3 +1,20 @@
+---
+doc_id: revisao-problema-final-x-mvp-v2
+doc_type: review
+status: current
+phase_scope:
+  - cross_phase
+authority_level: supporting
+owned_by: scout_mvp_scope
+canonical_path: /docs/07_revisoes_e_auditorias/REVISAO_PROBLEMA_FINAL_X_MVP_v2.md
+supersedes:
+  - /docs/07_revisoes_e_auditorias/REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 ```yaml
 CONTRATO FUNCIONAL — PLANILHA CEPRAEA
 
@@ -381,11 +398,11 @@ Link obrigatório
 
 ## Finalidade
 
-Este documento substitui operacionalmente a leitura da auditoria anterior [REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md:1), que ficou parcialmente desatualizada apos as revisoes do `MVP.md`.
+Este documento substitui operacionalmente a leitura da auditoria anterior [REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md](/docs/07_revisoes_e_auditorias/REVISAO_COMPLETA_PROBLEMA_FINAL_X_MVP.md:1), que ficou parcialmente desatualizada apos as revisoes do `MVP.md`.
 
 Objetivo:
 
-- recalcular os achados contra a versao atual do [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1);
+- recalcular os achados contra a versao atual do [MVP.md](/docs/02_produto/MVP.md:1);
 - separar o que foi corrigido, o que permanece parcial e o que saiu do escopo da auditoria;
 - preparar o terreno para implementacao assistida por IA.
 
@@ -393,8 +410,8 @@ Objetivo:
 
 Documentos auditados:
 
-- [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1)
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1)
+- [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1)
+- [MVP.md](/docs/02_produto/MVP.md:1)
 
 Fora desta revisao:
 
@@ -436,7 +453,7 @@ Status atual:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:125) declara video como apoio opcional, nao modulo obrigatorio.
+- [MVP.md](/docs/02_produto/MVP.md:125) declara video como apoio opcional, nao modulo obrigatorio.
 
 ### 2. Falta de governanca de alinhamento com o SSOT
 
@@ -450,7 +467,7 @@ Status atual:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:16) define regra de alinhamento com o `PROBLEMA_FINAL.md`.
+- [MVP.md](/docs/02_produto/MVP.md:16) define regra de alinhamento com o `PROBLEMA_FINAL.md`.
 
 ### 3. Fontes legadas mal tratadas
 
@@ -464,7 +481,7 @@ Status atual:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:153) define regra de conversao das fontes legadas.
+- [MVP.md](/docs/02_produto/MVP.md:153) define regra de conversao das fontes legadas.
 
 Ressalva:
 
@@ -483,7 +500,7 @@ Status atual:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:332) e [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:867) ampliam a definicao e a prova de historico coletivo.
+- [MVP.md](/docs/02_produto/MVP.md:332) e [MVP.md](/docs/02_produto/MVP.md:867) ampliam a definicao e a prova de historico coletivo.
 
 ## Itens atualmente alinhados
 
@@ -493,7 +510,7 @@ Alinhado.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:57)
+- [MVP.md](/docs/02_produto/MVP.md:57)
 
 ### 2. Dominio exclusivo de handebol de areia
 
@@ -501,8 +518,8 @@ Alinhado.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:58)
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:34)
+- [MVP.md](/docs/02_produto/MVP.md:58)
+- [MVP.md](/docs/02_produto/MVP.md:34)
 
 ### 3. MVP simples e de baixa manutencao
 
@@ -510,8 +527,8 @@ Alinhado.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:55)
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:83)
+- [MVP.md](/docs/02_produto/MVP.md:55)
+- [MVP.md](/docs/02_produto/MVP.md:83)
 
 ### 4. Proibicao de IA de video e visao computacional
 
@@ -519,8 +536,8 @@ Alinhado.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:68)
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:130)
+- [MVP.md](/docs/02_produto/MVP.md:68)
+- [MVP.md](/docs/02_produto/MVP.md:130)
 
 ### 5. Centralizacao dos dados em fonte unica
 
@@ -528,7 +545,7 @@ Alinhado.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:86)
+- [MVP.md](/docs/02_produto/MVP.md:86)
 
 ### 6. Scout pos-jogo e nao em tempo real
 
@@ -536,7 +553,7 @@ Alinhado.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:287)
+- [MVP.md](/docs/02_produto/MVP.md:287)
 
 ### 7. Integridade de elenco do jogo
 
@@ -544,8 +561,8 @@ Alinhado no nivel de MVP.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:412)
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:515)
+- [MVP.md](/docs/02_produto/MVP.md:412)
+- [MVP.md](/docs/02_produto/MVP.md:515)
 
 ### 8. Preservacao de dados desde o inicio
 
@@ -553,7 +570,7 @@ Alinhado no plano.
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:698)
+- [MVP.md](/docs/02_produto/MVP.md:698)
 
 ## Itens ainda parciais
 
@@ -569,7 +586,7 @@ Motivo:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:891)
+- [MVP.md](/docs/02_produto/MVP.md:891)
 
 ### 2. Verificabilidade do historico coletivo
 
@@ -583,7 +600,7 @@ Motivo:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:867)
+- [MVP.md](/docs/02_produto/MVP.md:867)
 
 ### 3. Semantica do resultado do jogo
 
@@ -597,7 +614,7 @@ Motivo:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:417)
+- [MVP.md](/docs/02_produto/MVP.md:417)
 
 ### 4. Golden Goal
 
@@ -611,7 +628,7 @@ Motivo:
 
 Evidencia:
 
-- [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:447)
+- [MVP.md](/docs/02_produto/MVP.md:447)
 
 ## Estado atual do gate documental
 
@@ -636,7 +653,7 @@ Ela nao libera implementacao sozinha, mas deixa de ser bloqueio documental da Fa
 
 Liberacao documental exige leitura conjunta de:
 
-1. [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1)
-2. [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1)
-3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
-4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
+1. [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1)
+2. [MVP.md](/docs/02_produto/MVP.md:1)
+3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
+4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)

@@ -1,3 +1,19 @@
+---
+doc_id: fechamento-tecnico-fase-1-base-estrutural
+doc_type: review
+status: current
+phase_scope:
+  - phase_1
+authority_level: supporting
+owned_by: fase_1_execution_gate
+canonical_path: /docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Fechamento Tecnico da Fase 1 Base Estrutural
 
 ## Finalidade
@@ -22,14 +38,14 @@ Ele consolida:
 
 Ordem de leitura obrigatoria:
 
-1. [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1)
-2. [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1)
-3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
-4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
-5. [PLANO_EXECUCAO_IA_POR_FASES.md](/home/davis/SCOUT_BEACHHANDBALL/PLANO_EXECUCAO_IA_POR_FASES.md:1)
-6. [ORDEM_EXECUCAO_FASE_1.md](/home/davis/SCOUT_BEACHHANDBALL/ORDEM_EXECUCAO_FASE_1.md:1)
-7. [ADR-002-backup-sqlite-wal.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-002-backup-sqlite-wal.md:1)
-8. [ADR-005-cadastros-como-suporte-estrutural.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-005-cadastros-como-suporte-estrutural.md:1)
+1. [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1)
+2. [MVP.md](/docs/02_produto/MVP.md:1)
+3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
+4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
+5. [PLANO_EXECUCAO_IA_POR_FASES.md](/docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md:1)
+6. [ORDEM_EXECUCAO_FASE_1.md](/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md:1)
+7. [ADR-002-backup-sqlite-wal.md](/docs/06_adrs/ADR-002-backup-sqlite-wal.md:1)
+8. [ADR-005-cadastros-como-suporte-estrutural.md](/docs/06_adrs/ADR-005-cadastros-como-suporte-estrutural.md:1)
 
 ## Stack oficial
 

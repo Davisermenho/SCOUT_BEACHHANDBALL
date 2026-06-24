@@ -1,8 +1,24 @@
+---
+doc_id: revisao-modelagem-banco-x-fase-1
+doc_type: review
+status: current
+phase_scope:
+  - phase_1
+authority_level: supporting
+owned_by: fase_1_execution_gate
+canonical_path: /docs/07_revisoes_e_auditorias/REVISAO_MODELAGEM_BANCO_X_FASE_1.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Revisao: MODELAGEM DO BANCO DE DADOS x Fase 1 Atual
 
 ## Finalidade
 
-Este documento compara [MODELAGEM DO BANCO DE DADOS.md](/home/davis/SCOUT_BEACHHANDBALL/MODELAGEM%20DO%20BANCO%20DE%20DADOS.md:1)
+Este documento compara [MODELAGEM DO BANCO DE DADOS.md](/docs/08_historico_deprecado/MODELAGEM_DO_BANCO_DE_DADOS.md:1)
 com os contratos ativos da Fase 1, para separar:
 
 - o que pode ser reaproveitado;
@@ -25,9 +41,9 @@ Conclusao:
 - o repositorio atual ja ratificou outro trilho de execucao, com Fase 1
   restrita a base estrutural comum em SQLite;
 - a modelagem historica pode servir como referencia secundaria, mas nao pode
-  substituir [ORDEM_EXECUCAO_FASE_1.md](/home/davis/SCOUT_BEACHHANDBALL/ORDEM_EXECUCAO_FASE_1.md:1),
-  [PLANO_EXECUCAO_IA_POR_FASES.md](/home/davis/SCOUT_BEACHHANDBALL/PLANO_EXECUCAO_IA_POR_FASES.md:110)
-  e [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:118).
+  substituir [ORDEM_EXECUCAO_FASE_1.md](/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md:1),
+  [PLANO_EXECUCAO_IA_POR_FASES.md](/docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md:110)
+  e [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:118).
 
 ## Compatibilidade
 
@@ -56,8 +72,8 @@ Veredito:
 
 Fontes:
 
-- [MODELAGEM DO BANCO DE DADOS.md](/home/davis/SCOUT_BEACHHANDBALL/MODELAGEM%20DO%20BANCO%20DE%20DADOS.md:121)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:118)
+- [MODELAGEM DO BANCO DE DADOS.md](/docs/08_historico_deprecado/MODELAGEM_DO_BANCO_DE_DADOS.md:121)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:118)
 
 ### 2. Estrutura de pastas
 
@@ -81,7 +97,7 @@ Veredito:
 
 Fonte:
 
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:159)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:159)
 
 ### 3. Modelagem correta do banco
 
@@ -120,9 +136,9 @@ Veredito:
 
 Fontes:
 
-- [MODELAGEM DO BANCO DE DADOS.md](/home/davis/SCOUT_BEACHHANDBALL/MODELAGEM%20DO%20BANCO%20DE%20DADOS.md:140)
-- [ORDEM_EXECUCAO_FASE_1.md](/home/davis/SCOUT_BEACHHANDBALL/ORDEM_EXECUCAO_FASE_1.md:25)
-- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1460)
+- [MODELAGEM DO BANCO DE DADOS.md](/docs/08_historico_deprecado/MODELAGEM_DO_BANCO_DE_DADOS.md:140)
+- [ORDEM_EXECUCAO_FASE_1.md](/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md:25)
+- [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1460)
 
 ### 4. SQL pronto do schema
 
@@ -141,7 +157,7 @@ Veredito:
 
 Fontes:
 
-- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/home/davis/SCOUT_BEACHHANDBALL/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:89)
+- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:89)
 - [migrations/001_base_structural.sql](/home/davis/SCOUT_BEACHHANDBALL/migrations/001_base_structural.sql:1)
 
 ### 5. Mecanismo de migracao
@@ -162,7 +178,7 @@ Veredito:
 
 Fontes:
 
-- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/home/davis/SCOUT_BEACHHANDBALL/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:97)
+- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:97)
 - [migrations/001_base_structural.sql](/home/davis/SCOUT_BEACHHANDBALL/migrations/001_base_structural.sql:3)
 
 ### 6. Tabelas base permitidas
@@ -188,8 +204,8 @@ Veredito:
 
 Fontes:
 
-- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/home/davis/SCOUT_BEACHHANDBALL/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:60)
-- [ORDEM_EXECUCAO_FASE_1.md](/home/davis/SCOUT_BEACHHANDBALL/ORDEM_EXECUCAO_FASE_1.md:36)
+- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:60)
+- [ORDEM_EXECUCAO_FASE_1.md](/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md:36)
 
 ### 7. Rotina segura de backup/restauracao
 
@@ -209,8 +225,8 @@ Veredito:
 
 Fontes:
 
-- [ADR-002-backup-sqlite-wal.md](/home/davis/SCOUT_BEACHHANDBALL/adr/ADR-002-backup-sqlite-wal.md:13)
-- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/home/davis/SCOUT_BEACHHANDBALL/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:226)
+- [ADR-002-backup-sqlite-wal.md](/docs/06_adrs/ADR-002-backup-sqlite-wal.md:13)
+- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:226)
 
 ### 8. Testes automatizados de schema/persistencia
 
@@ -228,8 +244,8 @@ Veredito:
 
 Fontes:
 
-- [MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md](/home/davis/SCOUT_BEACHHANDBALL/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md:1)
-- [ORDEM_EXECUCAO_FASE_1.md](/home/davis/SCOUT_BEACHHANDBALL/ORDEM_EXECUCAO_FASE_1.md:52)
+- [MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md](/docs/05_fases/fase_1/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md:1)
+- [ORDEM_EXECUCAO_FASE_1.md](/docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md:52)
 
 ## O que mais e necessario para implementacao correta
 
@@ -284,7 +300,7 @@ operacionais de baixo nivel:
 O proximo passo correto nao e implementar a partir dele. O proximo passo
 correto e implementar a Fase 1 a partir dos contratos ativos ja fechados:
 
-- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/home/davis/SCOUT_BEACHHANDBALL/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:1)
+- [FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md](/docs/05_fases/fase_1/FECHAMENTO_TECNICO_FASE_1_BASE_ESTRUTURAL.md:1)
 - [migrations/001_base_structural.sql](/home/davis/SCOUT_BEACHHANDBALL/migrations/001_base_structural.sql:1)
-- [MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md](/home/davis/SCOUT_BEACHHANDBALL/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md:1)
+- [MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md](/docs/05_fases/fase_1/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md:1)
 - [pyproject.toml](/home/davis/SCOUT_BEACHHANDBALL/pyproject.toml:1)

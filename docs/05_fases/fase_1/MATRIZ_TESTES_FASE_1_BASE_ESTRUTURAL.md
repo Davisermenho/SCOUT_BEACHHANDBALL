@@ -1,3 +1,19 @@
+---
+doc_id: matriz-testes-fase-1-base-estrutural
+doc_type: review
+status: current
+phase_scope:
+  - phase_1
+authority_level: supporting
+owned_by: fase_1_execution_gate
+canonical_path: /docs/05_fases/fase_1/MATRIZ_TESTES_FASE_1_BASE_ESTRUTURAL.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Matriz de Testes da Fase 1 Base Estrutural
 
 ## Finalidade

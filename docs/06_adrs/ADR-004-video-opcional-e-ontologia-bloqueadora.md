@@ -1,3 +1,19 @@
+---
+doc_id: adr-004-video-opcional-e-ontologia-bloqueadora
+doc_type: adr
+status: current
+phase_scope:
+  - cross_phase
+authority_level: supporting
+owned_by: fase_0_documentary_baseline
+canonical_path: /docs/06_adrs/ADR-004-video-opcional-e-ontologia-bloqueadora.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: false
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # ADR-004: Video opcional e ontologia bloqueadora
 
 ## Status

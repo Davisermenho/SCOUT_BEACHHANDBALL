@@ -1,8 +1,24 @@
+---
+doc_id: mvp-scout-beachhandball
+doc_type: contract
+status: current
+phase_scope:
+  - cross_phase
+authority_level: canonical
+owned_by: scout_mvp_scope
+canonical_path: /docs/02_produto/MVP.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: true
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # MVP do Scout de Handebol de Areia
 
 ## 1. Finalidade
 
-Este documento define o MVP do sistema Scout de Handebol de Areia com base no SSOT descrito em [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1).
+Este documento define o MVP do sistema Scout de Handebol de Areia com base no SSOT descrito em [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1).
 
 O objetivo do MVP e:
 
@@ -33,7 +49,7 @@ Se a nova informacao nao alterar o entendimento do problema, ela deve ir para do
 
 ## 1.2 Autoridade Semantica do Dominio
 
-Os termos de scout e handebol de areia usados neste MVP devem seguir o documento [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1).
+Os termos de scout e handebol de areia usados neste MVP devem seguir o documento [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1).
 
 Regra:
 
@@ -1054,7 +1070,7 @@ O MVP sera bem-sucedido se:
 
 ## 22. Proxima Etapa Apos Este Documento
 
-Este MVP ja foi desdobrado em especificacao de implementacao no arquivo [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1).
+Este MVP ja foi desdobrado em especificacao de implementacao no arquivo [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1).
 
 O proximo passo recomendado passa a ser a criacao de um plano de execucao contendo:
 

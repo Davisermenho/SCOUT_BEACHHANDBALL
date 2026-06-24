@@ -1,3 +1,19 @@
+---
+doc_id: ordem-execucao-fase-1
+doc_type: contract
+status: current
+phase_scope:
+  - phase_1
+authority_level: operational
+owned_by: fase_1_execution_gate
+canonical_path: /docs/05_fases/fase_1/ORDEM_EXECUCAO_FASE_1.md
+supersedes: []
+superseded_by: null
+must_read_before_implementation: true
+implementation_ready: false
+last_reviewed: "2026-06-24"
+---
+
 # Ordem de Execucao da Fase 1
 
 ## Finalidade
@@ -14,11 +30,11 @@ permanece bloqueada mesmo com baseline tecnico `.ttl` ja validado.
 
 Para iniciar a implementacao da Fase 1, usar esta ordem junto com:
 
-1. [PROBLEMA_FINAL.md](/home/davis/SCOUT_BEACHHANDBALL/PROBLEMA_FINAL.md:1)
-2. [MVP.md](/home/davis/SCOUT_BEACHHANDBALL/MVP.md:1)
-3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
-4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/home/davis/SCOUT_BEACHHANDBALL/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
-5. [PLANO_EXECUCAO_IA_POR_FASES.md](/home/davis/SCOUT_BEACHHANDBALL/PLANO_EXECUCAO_IA_POR_FASES.md:1)
+1. [PROBLEMA_FINAL.md](/docs/01_contexto/PROBLEMA_FINAL.md:1)
+2. [MVP.md](/docs/02_produto/MVP.md:1)
+3. [ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md](/docs/03_ontologia/ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md:1)
+4. [ESPECIFICACAO_IMPLEMENTACAO_MVP.md](/docs/04_implementacao/ESPECIFICACAO_IMPLEMENTACAO_MVP.md:1)
+5. [PLANO_EXECUCAO_IA_POR_FASES.md](/docs/05_fases/PLANO_EXECUCAO_IA_POR_FASES.md:1)
 
 Se houver tentativa de implementar artefato que pertença a fase posterior, a execucao deve parar.
 
