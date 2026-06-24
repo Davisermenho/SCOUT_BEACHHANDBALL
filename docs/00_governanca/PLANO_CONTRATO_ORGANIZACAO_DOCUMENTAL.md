@@ -398,6 +398,16 @@ Definicao de SLA para este backlog:
 - uma etapa so pode depender da anterior se a anterior ja estiver concluida e validada;
 - quando o SLA mencionar `changeset` ou `PR`, os dois devem ser tratados como equivalentes operacionais para este plano.
 
+Status de execucao verificado em `2026-06-24`:
+
+- Etapa 1: concluida
+- Etapa 2: concluida
+- Etapa 3: concluida
+- Etapa 4: concluida
+- Etapa 5: pendente
+- Etapa 6: pendente
+- Etapa 7: pendente
+
 ### Etapa 1. Inventario e classificacao
 
 Executa:
@@ -422,6 +432,17 @@ Tarefas:
 Criterio de aceite:
 
 - nenhum `.md` relevante fica sem classificacao.
+
+Status verificado em `2026-06-24`:
+
+- [x] Concluida
+
+Evidencias verificaveis:
+
+- artefato criado em `docs/00_governanca/MAPA_DOCUMENTAL.md`;
+- criacao registrada no commit `493b2c5` (`docs: add documentary map bootstrap inventory`);
+- o arquivo segue presente no HEAD atual e dentro do caminho canonico esperado;
+- a validacao automatica do mapa ja esta conectada ao enforcement mecanico da Etapa 4 em `scripts/validate_document_governance.py`.
 
 ### Etapa 2. Definicao do schema de metadados
 
@@ -449,6 +470,17 @@ Criterio de aceite:
 
 - qualquer agente consegue diferenciar documento ativo, historico e depreciado sem inferencia.
 
+Status verificado em `2026-06-24`:
+
+- [x] Concluida
+
+Evidencias verificaveis:
+
+- artefato criado em `docs/00_governanca/ESQUEMA_METADADOS_DOCUMENTAIS.md`;
+- criacao registrada no commit `bb661d2` (`docs: add documentary metadata schema`);
+- o schema esta no conjunto governado validado pelo script `scripts/validate_document_governance.py`;
+- o arquivo segue presente no HEAD atual e dentro do caminho canonico esperado.
+
 ### Etapa 3. Criacao do contrato de governanca documental
 
 Executa:
@@ -473,6 +505,17 @@ Tarefas:
 Criterio de aceite:
 
 - existe uma regra canonica unica para organizar toda a documentacao do repo.
+
+Status verificado em `2026-06-24`:
+
+- [x] Concluida
+
+Evidencias verificaveis:
+
+- artefato criado em `docs/00_governanca/CONTRATO_GOVERNANCA_DOCUMENTAL.md`;
+- criacao registrada no commit `5f10dfb` (`docs: add documentary governance contract`);
+- o contrato permanece no conjunto governado principal e e validado mecanicamente pelo script da Etapa 4;
+- o arquivo segue presente no HEAD atual e dentro do caminho canonico esperado.
 
 ### Etapa 4. Enforcement mecanico
 
@@ -499,6 +542,20 @@ Criterio de aceite:
 
 - uma mudanca documental invalida falha mecanicamente.
 
+Status verificado em `2026-06-24`:
+
+- [x] Concluida
+
+Evidencias verificaveis:
+
+- validador criado em `scripts/validate_document_governance.py`;
+- workflow CI criado em `.github/workflows/validate-document-governance.yml`;
+- normalizacao LF criada em `.gitattributes`;
+- suite automatizada criada em `tests/test_validate_document_governance.py`;
+- entrega registrada no commit `2da2935` (`Add document governance validation enforcement`);
+- validacao local verificada com `python3 scripts/validate_document_governance.py` retornando sucesso no HEAD atual;
+- suite local verificada com `pytest -q tests/test_validate_document_governance.py` retornando `16 passed` no HEAD atual.
+
 ### Etapa 5. Consolidacao do contrato unico da Fase 0
 
 Executa:
@@ -523,6 +580,16 @@ Tarefas:
 Criterio de aceite:
 
 - a IA consegue executar a Fase 0 lendo um unico contrato sem ambiguidade.
+
+Status verificado em `2026-06-24`:
+
+- [ ] Pendente
+
+Evidencias verificaveis do pendente:
+
+- `docs/05_fases/` ainda nao existe no HEAD atual;
+- `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` ainda nao existe no HEAD atual;
+- portanto, o criterio de aceite desta etapa ainda nao foi atingido.
 
 ### Etapa 6. Migracao fisica dos arquivos
 
@@ -550,6 +617,16 @@ Criterio de aceite:
 - a raiz nao contem mais contratos ativos;
 - nao restam links internos quebrados no conjunto governado.
 
+Status verificado em `2026-06-24`:
+
+- [ ] Pendente
+
+Evidencias verificaveis do pendente:
+
+- documentos normativos ainda permanecem fora de `docs/`, incluindo arquivos hoje mapeados no bootstrap como `PROBLEMA_FINAL.md`, `MVP.md`, `ONTOLOGIA_SCOUT_HANDEBOL_AREIA_MVP.md`, `ESPECIFICACAO_IMPLEMENTACAO_MVP.md` e `PLANO_EXECUCAO_IA_POR_FASES.md`;
+- o proprio `MAPA_DOCUMENTAL.md` ainda registra acao planejada `mover` para esse conjunto;
+- portanto, a raiz ainda nao atende ao criterio de nao conter contratos ativos.
+
 ### Etapa 7. Depreciacao controlada e arquivamento
 
 Executa:
@@ -576,6 +653,16 @@ Criterio de aceite:
 - nenhum documento antigo parece ativo por acidente;
 - este plano tem destino explicito no ciclo de vida.
 
+Status verificado em `2026-06-24`:
+
+- [ ] Pendente
+
+Evidencias verificaveis do pendente:
+
+- este plano ainda permanece com `status: proposed` no frontmatter;
+- `CONTRATO_GOVERNANCA_DOCUMENTAL.md` ainda nao esta `current` no novo modelo;
+- ainda nao houve changeset de substituicao fisica amplo que permita preencher toda a cadeia `supersedes`/`superseded_by` dos documentos raiz e historicos.
+
 ## 14. Riscos que este plano reduz
 
 - risco de o agente ler o contrato errado;
@@ -600,6 +687,18 @@ O trabalho so estara concluido quando:
 8. documentos depreciados estiverem claramente sinalizados;
 9. o agente puder descobrir o contrato correto sem inferencia livre.
 
+Status agregado verificado em `2026-06-24`:
+
+- [x] Item 1 atendido
+- [x] Item 2 atendido
+- [x] Item 3 atendido
+- [x] Item 4 atendido
+- [ ] Item 5 pendente
+- [ ] Item 6 pendente
+- [ ] Item 7 pendente
+- [ ] Item 8 pendente
+- [ ] Item 9 pendente
+
 ## 16. Ciclo de vida deste proprio plano
 
 Este arquivo deve seguir esta regra:
@@ -611,10 +710,14 @@ Este arquivo deve seguir esta regra:
 
 ## 17. Proxima acao recomendada
 
-A proxima sequencia correta e:
+A proxima acao recomendada, considerando o estado verificado do repo em `2026-06-24`, e:
 
-1. executar a Etapa 1 criando `MAPA_DOCUMENTAL.md`;
-2. executar a Etapa 2 criando `ESQUEMA_METADADOS_DOCUMENTAIS.md`;
-3. so entao redigir `CONTRATO_GOVERNANCA_DOCUMENTAL.md` com base nas decisoes fechadas.
+1. executar a Etapa 5 criando `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md`;
+2. consolidar nele o conteudo normativo hoje espalhado pela Fase 0;
+3. so depois abrir a Etapa 6 para migracao fisica dos arquivos e retirada dos contratos ativos da raiz.
 
-Nao e correto pular direto para o contrato definitivo sem fechar inventario e schema.
+Evidencia para esta prioridade:
+
+- as Etapas 1 a 4 ja possuem artefatos criados e verificaveis no repo;
+- `docs/05_fases/fase_0/CONTRATO_UNICO_FASE_0.md` ainda nao existe;
+- sem a Etapa 5, a Fase 0 ainda nao possui contrato unico operacional no novo modelo.
