@@ -44,13 +44,13 @@ Fonte primaria de verdade nesta etapa:
 
 ## 3. Checklist Formal de Aceite da Etapa 1
 
-- [x] Todos os 75 arquivos Markdown preexistentes encontrados no repo foram inventariados neste mapa.
-- [x] O proprio `MAPA_DOCUMENTAL.md` foi incluido no inventario do changeset, totalizando 76 entradas documentais mapeadas.
+- [x] Todos os arquivos Markdown relevantes identificados no bootstrap inicial foram inventariados neste mapa.
+- [x] Os documentos de governanca criados nas Etapas 2 e 3 foram incorporados ao inventario de `docs/00_governanca/`.
 - [x] Cada entrada possui classificacao bootstrap para `doc_type`, `phase_scope`, `authority_level`, `status`, `destino_canonico_planejado` e `acao_planejada`.
 - [x] O mapa cobre os conjuntos prioritarios da raiz, ADRs, fontes, `docs/00_governanca/` e o subsistema `ontology/`.
 - [x] O mapa declara explicitamente que e derivado do estado real do repo e nao a fonte primaria de verdade.
 - [x] Cada item listado possui destino canonico planejado ou decisao explicita de manutencao no local atual.
-- [x] Nenhum arquivo Markdown relevante identificado nesta etapa ficou sem classificacao bootstrap.
+- [x] Nenhum arquivo Markdown governado em `docs/00_governanca/` ficou sem classificacao bootstrap.
 
 ## 4. Legenda de classificacao bootstrap
 
@@ -71,6 +71,8 @@ Colunas usadas neste mapa:
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `docs/00_governanca/PLANO_CONTRATO_ORGANIZACAO_DOCUMENTAL.md` | `plan` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/PLANO_CONTRATO_ORGANIZACAO_DOCUMENTAL.md` | manter e posteriormente arquivar | plano bootstrap; sera sucedido pelo contrato definitivo |
 | `docs/00_governanca/MAPA_DOCUMENTAL.md` | `inventory` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/MAPA_DOCUMENTAL.md` | manter e atualizar | inventario bootstrap da Etapa 1 |
+| `docs/00_governanca/ESQUEMA_METADADOS_DOCUMENTAIS.md` | `contract` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/ESQUEMA_METADADOS_DOCUMENTAIS.md` | manter e promover apos aprovacao humana | schema canonico bootstrap dos metadados documentais |
+| `docs/00_governanca/CONTRATO_GOVERNANCA_DOCUMENTAL.md` | `contract` | `cross_phase` | `proposed` | `proposed` | `/docs/00_governanca/CONTRATO_GOVERNANCA_DOCUMENTAL.md` | manter e promover apos aprovacao humana | contrato canonico proposto para a governanca documental |
 
 ### 5.2 Contratos, aprovacoes e documentos de fase hoje na raiz
 
